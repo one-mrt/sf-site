@@ -1,0 +1,1844 @@
+<!DOCTYPE>
+<html style="font-size:16px">
+    <head>
+        <title>Главная</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./asset/css/sf-full.min.css">
+        <link rel="stylesheet" href="./asset/fonts/fontawesome-5.7.1/css/all.min.css">
+        <link rel="stylesheet" href="./asset/css/sf-nav.min.css">
+        <link rel="stylesheet" href="./asset/swiper/css/swiper.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <style>
+            .bg-primary{background-color:#FF6568!important}
+            .bg-secondary{background-color:#F2F4F6}
+            .b-secondary{border-color:#F2F4F6}
+            .btn-primary{background-color:#FF6568;border-color:#FF6568}
+            .btn-primary:hover{background-color:#FF6568;border-color:#FF6568}
+            .c-primary{color:#FF6568!important}
+            .b-primary{border-color:#FF6568!important}
+            .navigation-container{background-color:#F2F4F6}
+            .h-auto{height:auto}
+            .b-DBDFE3{border-color:#DBDFE3}
+            .btnSimaiSolution {
+                position:absolute;
+                top:calc(50% - 10px);
+            }
+
+            .btnSimaiSolutionNext {
+                display:none
+            }
+            .btnSimaiSolutionPrev {
+                display:none
+            }
+
+            @media(min-width:576px) {
+                .btnSimaiSolutionNext {
+                    right:-50px
+                }
+                .btnSimaiSolutionPrev {
+                    left:-50px
+                }
+            }
+
+            @media(min-width:768px) {
+                .aspect-ratio-md-4x1 {
+                    padding-top: 25%;
+                }
+            }
+
+            @media(min-width:992px) {
+
+            }
+
+            @media(min-width:1200px) {
+
+            }
+
+            .fill-6778D3{fill:#6778D3}
+            .fill-DBDFE3{fill:#DBDFE3}
+            .c-6778D3{color:#6778D3}
+            .c-DBDFE3{color:#DBDFE3}
+
+
+            .bulletsSimaiMainSlider .swiper-pagination-bullet {
+                width:.875rem;
+                height:.875rem;
+                margin-right:.75rem;
+            }
+            .bulletsSimaiMainSlider .swiper-pagination-bullet {
+                background-color:#fff;
+                opacity:1;
+            }
+            .bulletsSimaiMainSlider .swiper-pagination-bullet-active {
+                background-color:#228DDA;
+            }
+
+            .simaiSolutionTab .active .linkTab {
+                background-color:#DBDFE3!important
+            }
+            a:hover{text-decoration:none}
+            a{color:inherit}
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100 bg-secondary">
+
+        <!-- Фиксированный Header -->
+            <header class="simaiHeaderFixed">
+
+                <!-- Меню -->
+                <div class="navigation-container sf-nav-fixed4UV97x no-fixed sf-nav-fixed theme-light horizontal-submenu">
+                    <div class="container-wrap w-100">
+                        <div class="container nav-container">
+                            <nav class="sf-nav w-100 m-0 p-0 d-flex align-items-streach justify-content-between flex-row flex-wrap theme-light">
+                                <section class="left-section d-flex align-items-streach justify-content-between flex-row flex-wrap"></section>
+                                    <a class="nav-brand mr-4 d-flex align-items-center" href="/">
+                                        <svg width="87" height="26" viewBox="0 0 87 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M42.7954 25.1906V25.1869H40.2766L35.2508 13.5015V25.1869H30.2144V0.816398H35.2505V0.817373L42.7994 18.3707L50.3475 0.820786L50.3571 0.824687V0.817373H55.3929V25.1879H50.3571V13.4829L45.322 25.1903H42.7956L42.7954 25.1906ZM73.314 25.1882L68.495 9.65913L63.6765 25.1869H58.419L65.9822 0.815179L71.008 0.816398L78.5715 25.1884H73.314V25.1882ZM9.06527 25.1882L0.000344911 25.1869L2.01463 20.3084L9.06527 20.3148C9.66148 20.314 10.2516 20.0593 10.6491 19.5702C11.3362 18.7237 11.1841 17.4972 10.3096 16.8323C10.2076 16.7543 10.1005 16.688 9.98892 16.6324L3.88585 13.7345C3.47151 13.5332 3.07228 13.2891 2.69446 13.0014C-0.366393 10.6733 -0.898869 6.37998 1.50609 3.41777C2.88841 1.71506 4.94476 0.820542 7.02277 0.810303L16.1157 0.816398L14.1016 5.69099L7.00363 5.6849C6.4233 5.69782 5.85355 5.95308 5.46666 6.42972C4.77953 7.2762 4.93166 8.50277 5.80619 9.16762C5.9082 9.24564 6.01576 9.31195 6.12684 9.36754L12.2304 12.2654C12.6442 12.467 13.0435 12.7111 13.4218 12.9987C16.4819 15.3263 17.0144 19.6197 14.6094 22.5819C13.2203 24.2934 11.1536 25.1869 9.06553 25.1882H9.06527ZM81.5847 25.1882V0.817617H86.6208V25.1882H81.5847ZM20.1447 25.1869V0.816398H25.1798V25.1869H20.1447Z" fill="#FF6568"/></svg>
+                                    </a>
+                                </section>
+                                <section class="center-section align-items-streach justify-content-start mobile-level sf-scroll">
+                                    <button class="mobile-close sf-close" style="display:none"></button>
+                                    <ul class="nav-items d-inline-flex align-items-streach justify-content-start m-0 p-0">
+                                        <li class="nav-item">
+                                            <a class="p-3 t--1 blackout item-link" href="/">
+                                                <span class="item-text py-1">
+                                                    Купить
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="p-3 t--1 blackout item-link" href="/">
+                                                <span class="item-text py-1">
+                                                    Решения
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    Услуги
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    Портфолио
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    Обучение
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    Поддержка
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    Партнерам
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="item-link p-3 t--1 blackout" href="/">
+                                                <span class="item-text py-1">
+                                                    О компании
+                                                </span>
+                                                <div class="item-icon submenu-indicator">
+                                                    <i class="fas fa-caret-down"></i>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                                <section class="right-section d-inline-flex align-items-streach justify-content-end flex-row flex-wrap">
+                                    <div class="nav-search">
+                                        <div class="btn-search b-0 t-1 p-3">
+                                            <i class="fal fa-search"></i>
+                                        </div>
+                                    </div>
+                                </section>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- Шапка -->
+                <div class="w-100 py-3 bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-3">
+                                <div class="dropdown w-100">
+                                    <button class="btn bg-secondary dropdown-toggle w-100 d-flex align-items-center justify-content-between t-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Россия
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="#">Россия</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-3 d-flex align-items-center">
+                                <a href="tel:8 (800) 2000-865" class="c-block">
+                                    <i class="fas fa-phone mr-1 c-primary t-0"></i>
+                                    <span class="t-1 t-medium c-black">8 (800) 2000-865</span>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <a class="mr-2 btn btn-primary" href="/">
+                                    Обратная связь
+                                </a>
+                                <a href="/" class="btn btn-primary">
+                                    Заказать звонок
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-2">
+                                <div class="w-100 h-100 d-flex justify-content-end t-1">
+                                    <a href="/" class="p-2 mr-2 c-black">
+                                        <i class="fas fa-shopping-cart"></i>
+                                    </a>
+                                    <a href="/" class="p-2 c-black">
+                                        <i class="fas fa-user-circle"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- -->
+
+            </header>
+            <script>
+                var fixedMode = function() {
+
+                    var navF = document.querySelector('.simaiHeaderFixed'),
+                        location = navF.getBoundingClientRect(),
+                        locationStart = 0,
+                        classF = "fixed-top";
+                        classF += " transition";
+                        var arrClassF = classF.split(" "),
+                        lastScroll = 0;
+
+
+                    if(location.y < locationStart)
+                    {
+                        for(var k = 0; k < arrClassF.length; k++)
+                        {
+                            navF.classList.add(arrClassF[k]);
+                        }
+
+                        navF.style.top = 0;
+                    }
+                    else
+                    {
+                        for(var k = 0; k < arrClassF.length; k++)
+                        {
+                            navF.classList.remove(arrClassF[k]);
+                        }
+                    }
+
+                    document.addEventListener("scroll", function(e)
+                    {
+                        var location = navF.getBoundingClientRect(),
+                            locationContainer = navF.parentNode.getBoundingClientRect();
+                        if(location.y < locationStart)
+                        {
+                            for(var k = 0; k < arrClassF.length; k++)
+                            {
+                                navF.classList.add(arrClassF[k]);
+                            }
+                            navF.style.top = '0';
+                        }
+                        else if(location.y <= locationContainer.y)
+                        {
+                            for(var k = 0; k < arrClassF.length; k++)
+                            {
+                                navF.classList.remove(arrClassF[k]);
+                            }
+                        }
+
+
+                    });
+
+                };
+                if(window.innerWidth >=768)
+                {
+                    fixedMode();
+                }
+                
+            </script>
+        <!--  -->
+        
+
+        <main class="flex-grow-1">
+
+            <!-- Промо баннер -->
+                <section class="w-100">
+                    <div class="swiper-container main--slider">
+                        <div class="swiper-wrapper h-auto">
+                            <div class="swiper-slide theme-dark bg-transparent">
+                                <div data-background="./image/bg.png" class="swiper-lazy aspect-ratio-1x1 aspect-ratio-md-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0 d-flex align-items-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="mb-3 t-medium t-4">Современный сайт города</h2>
+                                                <p class="mb-5">Сделанно на Simai Framework 4</p>
+                                                <a href="/" class="btn btn-lg btn-primary py-3 px-4">
+                                                    Узнать больше
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide theme-dark bg-transparent">
+                                <div data-background="./image/bg.png" class="swiper-lazy aspect-ratio-1x1 aspect-ratio-md-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0 d-flex align-items-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="mb-3 t-medium t-4">Современный сайт города</h2>
+                                                <p class="mb-5">Сделанно на Simai Framework 4</p>
+                                                <a href="/" class="btn btn-lg btn-primary py-3 px-4">
+                                                    Узнать больше
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide theme-dark bg-transparent">
+                                <div data-background="./image/bg.png" class="swiper-lazy aspect-ratio-1x1 aspect-ratio-md-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0 d-flex align-items-center">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <h2 class="mb-3 t-medium t-4">Современный сайт города</h2>
+                                                <p class="mb-5">Сделанно на Simai Framework 4</p>
+                                                <a href="/" class="btn btn-lg btn-primary py-3 px-4">
+                                                    Узнать больше
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100 position-absolute ar-0 ab-0 al-0 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-start">
+                                        <div class="swiper-pagination bulletsSimaiMainSlider paginationSimaiMainSlider position-relative"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var swiper = new Swiper(
+                            ".main--slider", {
+                            lazy: true,
+                            pagination: {
+                                el: ".paginationSimaiMainSlider",
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },
+                        });
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Мы в цифрах 1 -->
+                <section class="w-100 py-5 shadow-3 bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-4">
+                                <div class="d-flex px-5">
+                                    <span class="mr-4">
+                                        <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M61.593 48.9393H61.5971L61.5984 14.9236C61.5984 12.443 59.4626 10.4247 56.8384 10.4247C54.3816 10.4247 52.3518 12.1948 52.1036 14.4565H35.0784V2.89578H32.3584V0.175781H3.11844V14.4558H0.398438V53.8958H28.6783L22.2217 60.0158H49.3591V53.8958H57.0996V53.821L57.1036 53.8897C59.6271 53.7197 61.6018 51.6062 61.6018 49.078C61.6012 49.0311 61.5943 48.9848 61.593 48.9393ZM53.4384 14.9236C53.4384 13.193 54.963 11.7847 56.8384 11.7847C58.7125 11.7847 60.2384 13.193 60.2384 14.9236V45.8493C59.3714 45.0102 58.1638 44.4873 56.8384 44.4873C55.5131 44.4873 54.3054 45.0102 53.4384 45.8493V14.9236ZM32.3584 9.69578V8.5187V4.25578H33.7184V41.6558H7.19096V40.2958H32.3584V9.69578ZM30.9984 1.53578V2.89578V7.15734L25.381 1.53578H30.9984ZM24.1984 2.2763L30.2532 8.33578H24.1984V2.2763ZM4.47844 1.53578H22.8384V9.69578H30.9984V38.9358H5.83096H4.47844V1.53578ZM47.9984 58.6558H46.6384V57.2958H45.2784V58.6558H43.9171V55.9358H42.5571V58.6558H41.1971V57.2958H39.8371V58.6558H38.4784V55.9358H37.1184V58.6558H35.7584V57.2958H34.3984V58.6558H33.0371V55.9358H31.6771V58.6558H30.3178V57.2958H28.9578V58.6558H25.6326L47.9978 37.4575V58.6558H47.9984ZM57.0112 52.5331V52.5358H49.3584V34.2941L30.1131 52.5358H1.75844V15.8158H3.11844V40.2958H5.83096V43.0158H35.0784V15.8158H52.0784V48.8638V48.9291L53.4384 48.9372C53.4677 47.2331 54.9922 45.8473 56.8384 45.8473C58.4378 45.8473 59.7924 46.8891 60.1439 48.2742C60.1562 48.3232 60.1623 48.3728 60.1718 48.4218C60.201 48.5687 60.2221 48.7183 60.2289 48.8706C60.233 48.9399 60.2411 49.0086 60.2411 49.078C60.2411 50.8929 58.8227 52.4107 57.0112 52.5331Z" fill="#35373B"/>
+                                            <path d="M14 22.9498H15.323V17H18.7329C19.3665 17 19.9441 17.0746 20.4658 17.2238C20.9876 17.3606 21.4348 17.5782 21.8075 17.8766C22.1801 18.1626 22.472 18.5294 22.6832 18.977C22.8944 19.4247 23 19.9594 23 20.5811C23 21.2028 22.8882 21.7437 22.6646 22.2037C22.441 22.6638 22.1366 23.0493 21.7516 23.3601C21.3665 23.6585 20.913 23.8824 20.3913 24.0316C19.8696 24.1808 19.3043 24.2554 18.6957 24.2554H16.8137V26.1392H19.8137V27.3702H16.8137V30H15.323V27.3702H14V26.1392H15.323V24.2554H14V22.9498ZM18.7329 22.9498C19.5901 22.9498 20.2609 22.7571 20.7453 22.3716C21.2422 21.9737 21.4907 21.3769 21.4907 20.5811C21.4907 19.7853 21.2422 19.2071 20.7453 18.8465C20.2609 18.4859 19.5901 18.3056 18.7329 18.3056H16.8137V22.9498H18.7329Z" fill="#35373B"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M46.6371 41.793L33.2363 54.5695H46.6371V41.793ZM45.2771 53.2095H36.6336L45.2771 44.9686V53.2095Z" fill="#35373B"/>
+                                            <path d="M7.19887 47.7776H5.83887V49.1376H7.19887V47.7776Z" fill="#35373B"/>
+                                            <path d="M9.91859 47.7776H8.55859V49.1376H9.91859V47.7776Z" fill="#35373B"/>
+                                            <path d="M12.6388 47.7776H11.2788V49.1376H12.6388V47.7776Z" fill="#35373B"/>
+                                        </svg>                                
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-3 t-4 t-bold t-solid">461</span>
+                                        <span class="w-75 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6">
+                                            Проектов
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <div class="d-flex px-5">
+                                    <span class="mr-4">
+                                        <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M61.593 48.9393H61.5971L61.5984 14.9236C61.5984 12.443 59.4626 10.4247 56.8384 10.4247C54.3816 10.4247 52.3518 12.1948 52.1036 14.4565H35.0784V2.89578H32.3584V0.175781H3.11844V14.4558H0.398438V53.8958H28.6783L22.2217 60.0158H49.3591V53.8958H57.0996V53.821L57.1036 53.8897C59.6271 53.7197 61.6018 51.6062 61.6018 49.078C61.6012 49.0311 61.5943 48.9848 61.593 48.9393ZM53.4384 14.9236C53.4384 13.193 54.963 11.7847 56.8384 11.7847C58.7125 11.7847 60.2384 13.193 60.2384 14.9236V45.8493C59.3714 45.0102 58.1638 44.4873 56.8384 44.4873C55.5131 44.4873 54.3054 45.0102 53.4384 45.8493V14.9236ZM32.3584 9.69578V8.5187V4.25578H33.7184V41.6558H7.19096V40.2958H32.3584V9.69578ZM30.9984 1.53578V2.89578V7.15734L25.381 1.53578H30.9984ZM24.1984 2.2763L30.2532 8.33578H24.1984V2.2763ZM4.47844 1.53578H22.8384V9.69578H30.9984V38.9358H5.83096H4.47844V1.53578ZM47.9984 58.6558H46.6384V57.2958H45.2784V58.6558H43.9171V55.9358H42.5571V58.6558H41.1971V57.2958H39.8371V58.6558H38.4784V55.9358H37.1184V58.6558H35.7584V57.2958H34.3984V58.6558H33.0371V55.9358H31.6771V58.6558H30.3178V57.2958H28.9578V58.6558H25.6326L47.9978 37.4575V58.6558H47.9984ZM57.0112 52.5331V52.5358H49.3584V34.2941L30.1131 52.5358H1.75844V15.8158H3.11844V40.2958H5.83096V43.0158H35.0784V15.8158H52.0784V48.8638V48.9291L53.4384 48.9372C53.4677 47.2331 54.9922 45.8473 56.8384 45.8473C58.4378 45.8473 59.7924 46.8891 60.1439 48.2742C60.1562 48.3232 60.1623 48.3728 60.1718 48.4218C60.201 48.5687 60.2221 48.7183 60.2289 48.8706C60.233 48.9399 60.2411 49.0086 60.2411 49.078C60.2411 50.8929 58.8227 52.4107 57.0112 52.5331Z" fill="#35373B"/>
+                                            <path d="M14 22.9498H15.323V17H18.7329C19.3665 17 19.9441 17.0746 20.4658 17.2238C20.9876 17.3606 21.4348 17.5782 21.8075 17.8766C22.1801 18.1626 22.472 18.5294 22.6832 18.977C22.8944 19.4247 23 19.9594 23 20.5811C23 21.2028 22.8882 21.7437 22.6646 22.2037C22.441 22.6638 22.1366 23.0493 21.7516 23.3601C21.3665 23.6585 20.913 23.8824 20.3913 24.0316C19.8696 24.1808 19.3043 24.2554 18.6957 24.2554H16.8137V26.1392H19.8137V27.3702H16.8137V30H15.323V27.3702H14V26.1392H15.323V24.2554H14V22.9498ZM18.7329 22.9498C19.5901 22.9498 20.2609 22.7571 20.7453 22.3716C21.2422 21.9737 21.4907 21.3769 21.4907 20.5811C21.4907 19.7853 21.2422 19.2071 20.7453 18.8465C20.2609 18.4859 19.5901 18.3056 18.7329 18.3056H16.8137V22.9498H18.7329Z" fill="#35373B"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M46.6371 41.793L33.2363 54.5695H46.6371V41.793ZM45.2771 53.2095H36.6336L45.2771 44.9686V53.2095Z" fill="#35373B"/>
+                                            <path d="M7.19887 47.7776H5.83887V49.1376H7.19887V47.7776Z" fill="#35373B"/>
+                                            <path d="M9.91859 47.7776H8.55859V49.1376H9.91859V47.7776Z" fill="#35373B"/>
+                                            <path d="M12.6388 47.7776H11.2788V49.1376H12.6388V47.7776Z" fill="#35373B"/>
+                                        </svg>                                
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-3 t-4 t-bold t-solid">2518</span>
+                                        <span class="w-75 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6">
+                                            Сайтов
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-4">
+                                <div class="d-flex px-5">
+                                    <span class="mr-4">
+                                        <svg width="62" height="61" viewBox="0 0 62 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M61.593 48.9393H61.5971L61.5984 14.9236C61.5984 12.443 59.4626 10.4247 56.8384 10.4247C54.3816 10.4247 52.3518 12.1948 52.1036 14.4565H35.0784V2.89578H32.3584V0.175781H3.11844V14.4558H0.398438V53.8958H28.6783L22.2217 60.0158H49.3591V53.8958H57.0996V53.821L57.1036 53.8897C59.6271 53.7197 61.6018 51.6062 61.6018 49.078C61.6012 49.0311 61.5943 48.9848 61.593 48.9393ZM53.4384 14.9236C53.4384 13.193 54.963 11.7847 56.8384 11.7847C58.7125 11.7847 60.2384 13.193 60.2384 14.9236V45.8493C59.3714 45.0102 58.1638 44.4873 56.8384 44.4873C55.5131 44.4873 54.3054 45.0102 53.4384 45.8493V14.9236ZM32.3584 9.69578V8.5187V4.25578H33.7184V41.6558H7.19096V40.2958H32.3584V9.69578ZM30.9984 1.53578V2.89578V7.15734L25.381 1.53578H30.9984ZM24.1984 2.2763L30.2532 8.33578H24.1984V2.2763ZM4.47844 1.53578H22.8384V9.69578H30.9984V38.9358H5.83096H4.47844V1.53578ZM47.9984 58.6558H46.6384V57.2958H45.2784V58.6558H43.9171V55.9358H42.5571V58.6558H41.1971V57.2958H39.8371V58.6558H38.4784V55.9358H37.1184V58.6558H35.7584V57.2958H34.3984V58.6558H33.0371V55.9358H31.6771V58.6558H30.3178V57.2958H28.9578V58.6558H25.6326L47.9978 37.4575V58.6558H47.9984ZM57.0112 52.5331V52.5358H49.3584V34.2941L30.1131 52.5358H1.75844V15.8158H3.11844V40.2958H5.83096V43.0158H35.0784V15.8158H52.0784V48.8638V48.9291L53.4384 48.9372C53.4677 47.2331 54.9922 45.8473 56.8384 45.8473C58.4378 45.8473 59.7924 46.8891 60.1439 48.2742C60.1562 48.3232 60.1623 48.3728 60.1718 48.4218C60.201 48.5687 60.2221 48.7183 60.2289 48.8706C60.233 48.9399 60.2411 49.0086 60.2411 49.078C60.2411 50.8929 58.8227 52.4107 57.0112 52.5331Z" fill="#35373B"/>
+                                            <path d="M14 22.9498H15.323V17H18.7329C19.3665 17 19.9441 17.0746 20.4658 17.2238C20.9876 17.3606 21.4348 17.5782 21.8075 17.8766C22.1801 18.1626 22.472 18.5294 22.6832 18.977C22.8944 19.4247 23 19.9594 23 20.5811C23 21.2028 22.8882 21.7437 22.6646 22.2037C22.441 22.6638 22.1366 23.0493 21.7516 23.3601C21.3665 23.6585 20.913 23.8824 20.3913 24.0316C19.8696 24.1808 19.3043 24.2554 18.6957 24.2554H16.8137V26.1392H19.8137V27.3702H16.8137V30H15.323V27.3702H14V26.1392H15.323V24.2554H14V22.9498ZM18.7329 22.9498C19.5901 22.9498 20.2609 22.7571 20.7453 22.3716C21.2422 21.9737 21.4907 21.3769 21.4907 20.5811C21.4907 19.7853 21.2422 19.2071 20.7453 18.8465C20.2609 18.4859 19.5901 18.3056 18.7329 18.3056H16.8137V22.9498H18.7329Z" fill="#35373B"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M46.6371 41.793L33.2363 54.5695H46.6371V41.793ZM45.2771 53.2095H36.6336L45.2771 44.9686V53.2095Z" fill="#35373B"/>
+                                            <path d="M7.19887 47.7776H5.83887V49.1376H7.19887V47.7776Z" fill="#35373B"/>
+                                            <path d="M9.91859 47.7776H8.55859V49.1376H9.91859V47.7776Z" fill="#35373B"/>
+                                            <path d="M12.6388 47.7776H11.2788V49.1376H12.6388V47.7776Z" fill="#35373B"/>
+                                        </svg>                                
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-3 t-4 t-bold t-solid">126</span>
+                                        <span class="w-75 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6">
+                                            Битрикс24
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Наши компетенции -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-6">
+                                <div class="row">
+
+                                    <div class="col-12 col-xl-12">
+                                        <h2 class="t-2 mb-4 t-bold">Наши компетенции</h2>
+                                    </div>
+
+                                    <div class="col-12 col-xl-4 mb-4">
+                                        <a href="https://simai.ru/upload/iblock/015/corportal.png_thumbnail0.jpg" data-fancybox class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/corp.gif" alt="Сертификат на присвоение компетенции «Корпоративный портал»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4  mb-4">
+                                        <a href="https://simai.ru/upload/iblock/be2/page1_1.jpg" data-fancybox="" class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="lazyload" data-src="./image/cmp_gov_small.png" alt="Сертификат на присвоение компетенции «Решения для государственных организаций»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4  mb-4">
+                                        <a href="https://simai.ru/upload/iblock/571/page1.jpg" data-fancybox="" class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/cmp_med_small.png" alt="Сертификат на присвоение компетенции «Решения для медицины»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/d7e/bitrix24.png_thumbnail0.jpg" data-fancybox="" class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/cmp-b24.gif" alt="Сертификат на присвоение компетенции «Битрикс24»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/214/1c.png_thumbnail0.jpg" data-fancybox="" class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/komp_1c.gif" alt="Сертификат на присвоение компетенции «Интеграция с 1С»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/f30/kompozit.jpg" data-fancybox="" class="py-3 px-2 bg-white d-flex h-100 r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/composite.png" alt="Сертификат на присвоение компетенции «Интеграция с 1С»">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-6 d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-12 col-xl-12">
+                                        <h2 class="t-2 mb-4 t-bold">Наши сертификаты</h2>
+                                    </div>
+                                </div>
+                                <div class="row h-100">
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/1d5/gold.png" data-fancybox="" class="h-100 py-3 px-2 bg-white d-flex align-items-center r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/gold_sm.gif" alt="Золотой сертифицированный партнер «1С-Битрикс»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/6a4/hosting.jpg" data-fancybox="" class="h-100 py-3 px-2 bg-white d-flex align-items-center r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/cert_hoster_sm.gif" alt="Сертификат хостинг-партнера «1C-Битрикс»">
+                                        </a>
+                                    </div>
+                                    <div class="col-12 col-xl-4">
+                                        <a href="https://simai.ru/upload/iblock/0e5/kachestvo.jpg" data-fancybox="" class="h-100 py-3 px-2 bg-white d-flex align-items-center r-2 shadow-2">
+                                            <img class="w-100 lazyload" data-src="./image/qc_sm.png" alt="Сертификат участника программы качества «1C-Битрикс»">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                   
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Горизонтальная линия -->
+                <section class="w-100">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="w-100 bt-2 b-white"></div>
+                            <div class="at-0 bt-2 b-DBDFE3 b-secondary position-absolute w-100" style="top:-2px"></div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Наши решения -->
+                <section class="w-100 sf-tab py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Наши решения</h2>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <nav class="sf-tab-nav simaiSolutionTab">
+                                    <ul class="sf-tab-nav-wrap d-flex flex-wrap t--1">
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Государственным организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Медицинским организациям</a>
+                                        </li>
+                                        <li class="active mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Образовательным учреждениям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Учреждениям культуры</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="slinkTab bg-white px-4 py-2 r-2 c-black">Некоммерческим организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Коммерческим организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Корпоративные решения</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Интернет-магазинамя</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Все</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-12">
+                                <div class="sf-tab-content">
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap active">
+                                        <div class="swiper-container simai--solution">
+                                            <div class="swiper-wrapper h-auto">
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-4x3 w-100 bg-cover bg-position-cc" data-background="./image/bg-solution.jpg"></div>
+                                                        <div class="px-4 py-3">
+                                                            <h4 class="t-0 t-medium mb-0">
+                                                                SIMAI-SF4: Сайт научно-
+                                                                исследовательского
+                                                                института
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-4x3 w-100 bg-cover bg-position-cc" data-background="./image/bg-solution.jpg"></div>
+                                                        <div class="px-4 py-3">
+                                                            <h4 class="t-0 t-medium mb-0">
+                                                                SIMAI: Сайт школы
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-4x3 w-100 bg-cover bg-position-cc" data-background="./image/bg-solution.jpg"></div>
+                                                        <div class="px-4 py-3">
+                                                            <h4 class="t-0 t-medium mb-0">
+                                                                SIMAI-SF4: Сайт университета
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-4x3 w-100 bg-cover bg-position-cc" data-background="./image/bg-solution.jpg"></div>
+                                                        <div class="px-4 py-3">
+                                                            <h4 class="t-0 t-medium mb-0">
+                                                                SIMAI: Сайт учебного центра
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-4x3 w-100 bg-cover bg-position-cc" data-background="./image/bg-solution.jpg"></div>
+                                                        <div class="px-4 py-3">
+                                                            <h4 class="t-0 t-medium mb-0">
+                                                                SIMAI: Сайт учебного центра
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="btnSimaiSolution btnSimaiSolutionPrev simai--solutionPrev position-aboslute c-6778D3">
+                                            <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M10 0L0 9.96403L10 19.9281L13.75 16.1915L7.5 9.96403L13.75 3.73651L10 0Z"/>
+                                            </svg>                                                
+                                        </div>
+
+                                        <div class="btnSimaiSolution btnSimaiSolutionNext simai--solutionNext position-aboslute c-6778D3">
+                                            <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.75 0L13.75 9.96403L3.75 19.9281L0 16.1915L6.25 9.96403L0 3.73651L3.75 0Z"/>
+                                            </svg>                                                
+                                        </div>
+
+                                    </section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener("DOMContentLoaded", function(e) {
+                        var simaiSolution = new Swiper(
+                            ".simai--solution",
+                            {
+                                lazy: true,
+                                navigation: {
+                                    nextEl: ".simai--solutionNext",
+                                    prevEl: ".simai--solutionPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                autoHeight : true,
+                                slidesPerView: 4,
+                                spaceBetween: 32,
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    576: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Мы в цифрах -->
+                <section class="w-100 bg-white py-5 shadow-3">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-3">
+                                <div class="d-flex">
+                                    <span class="mr-4">
+                                        <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect y="0.000488281" width="80" height="80" rx="39" fill="#F2F4F6"/>
+                                            <g clip-path="url(#clip0)">
+                                            <path d="M59.5125 57.1227H57.6234V23.9117C57.6234 23.6423 57.4052 23.4242 57.1359 23.4242C56.5248 23.4242 55.9349 23.4549 55.3637 23.5094L44.266 19.1315C44.116 19.0734 43.9461 19.0915 43.8128 19.1819C43.6792 19.2729 43.5995 19.4238 43.5995 19.5852V29.7645C42.7197 30.811 42.2842 31.5722 42.2705 31.597C42.2303 31.6693 42.2091 31.7508 42.2091 31.8336V34.7891H37.0606V19.5852C37.0606 19.3157 36.8423 19.0977 36.5731 19.0977H24.0783C23.8091 19.0977 23.5908 19.3157 23.5908 19.5852V57.1227H21.4875C21.2183 57.1227 21 57.3407 21 57.6102C21 57.8796 21.2183 58.0977 21.4875 58.0977H59.5125C59.7817 58.0977 60 57.8796 60 57.6102C60 57.3407 59.7817 57.1227 59.5125 57.1227ZM44.5745 20.3016L53.443 23.8003C49.3102 24.6622 46.3902 26.8528 44.5745 28.695V20.3016ZM56.6484 24.4059V57.1227H53.5204V52.2243C53.5204 51.9549 53.3021 51.7368 53.0329 51.7368H46.7997C46.5304 51.7368 46.3122 51.9549 46.3122 52.2243V57.1227H43.1841V31.9674C43.7344 31.0685 47.9737 24.6396 56.6484 24.4059ZM52.5454 57.1227H47.2872V52.7118H52.5454V57.1227ZM42.2091 57.1227H33.7862V35.7641H42.2091V57.1227ZM24.5658 20.0727H36.0856V34.7891H33.2987C33.0294 34.7891 32.8112 35.0071 32.8112 35.2766V57.1227H30.8133V52.2243C30.8133 51.9549 30.595 51.7368 30.3258 51.7368H27.019C26.7498 51.7368 26.5315 51.9549 26.5315 52.2243V57.1227H24.5658V20.0727ZM29.8383 57.1227H27.5065V52.7118H29.8383V57.1227Z" fill="#35373B"/>
+                                            <path d="M36.5729 40.3538C36.8422 40.3538 37.0604 40.1358 37.0604 39.8663V38.5976C37.0604 38.3281 36.8422 38.1101 36.5729 38.1101C36.3037 38.1101 36.0854 38.3281 36.0854 38.5976V39.8663C36.0854 40.1358 36.3037 40.3538 36.5729 40.3538Z" fill="#35373B"/>
+                                            <path d="M39.4172 40.3538C39.6864 40.3538 39.9047 40.1358 39.9047 39.8663V38.5976C39.9047 38.3281 39.6864 38.1101 39.4172 38.1101C39.148 38.1101 38.9297 38.3281 38.9297 38.5976V39.8663C38.9297 40.1358 39.148 40.3538 39.4172 40.3538Z" fill="#35373B"/>
+                                            <path d="M36.5729 43.963C36.8422 43.963 37.0604 43.7449 37.0604 43.4755V42.2062C37.0604 41.9368 36.8422 41.7188 36.5729 41.7188C36.3037 41.7188 36.0854 41.9368 36.0854 42.2062V43.4755C36.0854 43.7449 36.3037 43.963 36.5729 43.963Z" fill="#35373B"/>
+                                            <path d="M39.4172 43.963C39.6864 43.963 39.9047 43.7449 39.9047 43.4755V42.2062C39.9047 41.9368 39.6864 41.7188 39.4172 41.7188C39.148 41.7188 38.9297 41.9368 38.9297 42.2062V43.4755C38.9297 43.7449 39.148 43.963 39.4172 43.963Z" fill="#35373B"/>
+                                            <path d="M36.5729 47.5678C36.8422 47.5678 37.0604 47.3498 37.0604 47.0803V45.8116C37.0604 45.5421 36.8422 45.3241 36.5729 45.3241C36.3037 45.3241 36.0854 45.5421 36.0854 45.8116V47.0803C36.0854 47.3498 36.3037 47.5678 36.5729 47.5678Z" fill="#35373B"/>
+                                            <path d="M39.4172 47.5678C39.6864 47.5678 39.9047 47.3498 39.9047 47.0803V45.8116C39.9047 45.5421 39.6864 45.3241 39.4172 45.3241C39.148 45.3241 38.9297 45.5421 38.9297 45.8116V47.0803C38.9297 47.3498 39.148 47.5678 39.4172 47.5678Z" fill="#35373B"/>
+                                            <path d="M36.5729 51.1734C36.8422 51.1734 37.0604 50.9554 37.0604 50.6859V49.4172C37.0604 49.1477 36.8422 48.9297 36.5729 48.9297C36.3037 48.9297 36.0854 49.1477 36.0854 49.4172V50.6859C36.0854 50.9554 36.3037 51.1734 36.5729 51.1734Z" fill="#35373B"/>
+                                            <path d="M39.4172 51.1734C39.6864 51.1734 39.9047 50.9554 39.9047 50.6859V49.4172C39.9047 49.1477 39.6864 48.9297 39.4172 48.9297C39.148 48.9297 38.9297 49.1477 38.9297 49.4172V50.6859C38.9297 50.9554 39.148 51.1734 39.4172 51.1734Z" fill="#35373B"/>
+                                            <path d="M36.5729 54.7823C36.8422 54.7823 37.0604 54.5643 37.0604 54.2948V53.0256C37.0604 52.7561 36.8422 52.5381 36.5729 52.5381C36.3037 52.5381 36.0854 52.7561 36.0854 53.0256V54.2948C36.0854 54.5643 36.3037 54.7823 36.5729 54.7823Z" fill="#35373B"/>
+                                            <path d="M39.4172 54.7823C39.6864 54.7823 39.9047 54.5643 39.9047 54.2948V53.0256C39.9047 52.7561 39.6864 52.5381 39.4172 52.5381C39.148 52.5381 38.9297 52.7561 38.9297 53.0256V54.2948C38.9297 54.5643 39.148 54.7823 39.4172 54.7823Z" fill="#35373B"/>
+                                            <path d="M27.0192 26.8868C27.2885 26.8868 27.5067 26.6687 27.5067 26.3993V25.2762C27.5067 25.0067 27.2885 24.7887 27.0192 24.7887C26.75 24.7887 26.5317 25.0067 26.5317 25.2762V26.3993C26.5317 26.6687 26.75 26.8868 27.0192 26.8868Z" fill="#35373B"/>
+                                            <path d="M30.0891 26.8868C30.3583 26.8868 30.5766 26.6687 30.5766 26.3993V25.2762C30.5766 25.0067 30.3583 24.7887 30.0891 24.7887C29.8198 24.7887 29.6016 25.0067 29.6016 25.2762V26.3993C29.6016 26.6687 29.8198 26.8868 30.0891 26.8868Z" fill="#35373B"/>
+                                            <path d="M27.0187 30.0785C27.288 30.0785 27.5062 29.8605 27.5062 29.591V28.468C27.5062 28.1985 27.288 27.9805 27.0187 27.9805C26.7495 27.9805 26.5312 28.1985 26.5312 28.468V29.591C26.5312 29.8605 26.7495 30.0785 27.0187 30.0785Z" fill="#35373B"/>
+                                            <path d="M30.0891 30.0785C30.3583 30.0785 30.5766 29.8605 30.5766 29.591V28.468C30.5766 28.1985 30.3583 27.9805 30.0891 27.9805C29.8198 27.9805 29.6016 28.1985 29.6016 28.468V29.591C29.6016 29.8605 29.8198 30.0785 30.0891 30.0785Z" fill="#35373B"/>
+                                            <path d="M33.2985 26.8868C33.5678 26.8868 33.786 26.6687 33.786 26.3993V25.2762C33.786 25.0067 33.5678 24.7887 33.2985 24.7887C33.0293 24.7887 32.811 25.0067 32.811 25.2762V26.3993C32.811 26.6687 33.0293 26.8868 33.2985 26.8868Z" fill="#35373B"/>
+                                            <path d="M33.2985 30.0785C33.5678 30.0785 33.786 29.8605 33.786 29.591V28.468C33.786 28.1985 33.5678 27.9805 33.2985 27.9805C33.0293 27.9805 32.811 28.1985 32.811 28.468V29.591C32.811 29.8605 33.0293 30.0785 33.2985 30.0785Z" fill="#35373B"/>
+                                            <path d="M27.0187 33.2738C27.288 33.2738 27.5062 33.0558 27.5062 32.7863V31.6633C27.5062 31.3938 27.288 31.1758 27.0187 31.1758C26.7495 31.1758 26.5312 31.3938 26.5312 31.6633V32.7863C26.5312 33.0558 26.7495 33.2738 27.0187 33.2738Z" fill="#35373B"/>
+                                            <path d="M30.0891 33.2738C30.3583 33.2738 30.5766 33.0558 30.5766 32.7863V31.6633C30.5766 31.3938 30.3583 31.1758 30.0891 31.1758C29.8198 31.1758 29.6016 31.3938 29.6016 31.6633V32.7863C29.6016 33.0558 29.8198 33.2738 30.0891 33.2738Z" fill="#35373B"/>
+                                            <path d="M33.2985 33.2738C33.5678 33.2738 33.786 33.0558 33.786 32.7863V31.6633C33.786 31.3938 33.5678 31.1758 33.2985 31.1758C33.0293 31.1758 32.811 31.3938 32.811 31.6633V32.7863C32.811 33.0558 33.0293 33.2738 33.2985 33.2738Z" fill="#35373B"/>
+                                            <path d="M46.6755 43.4094C46.9447 43.4094 47.163 43.1913 47.163 42.9219V41.7531C47.163 41.4837 46.9447 41.2656 46.6755 41.2656C46.4063 41.2656 46.188 41.4837 46.188 41.7531V42.9219C46.188 43.1913 46.4063 43.4094 46.6755 43.4094Z" fill="#35373B"/>
+                                            <path d="M49.7453 43.4094C50.0145 43.4094 50.2328 43.1913 50.2328 42.9219V41.7531C50.2328 41.4837 50.0145 41.2656 49.7453 41.2656C49.4761 41.2656 49.2578 41.4837 49.2578 41.7531V42.9219C49.2578 43.1913 49.4761 43.4094 49.7453 43.4094Z" fill="#35373B"/>
+                                            <path d="M46.6755 46.7331C46.9447 46.7331 47.163 46.5151 47.163 46.2456V45.0773C47.163 44.8079 46.9447 44.5898 46.6755 44.5898C46.4063 44.5898 46.188 44.8079 46.188 45.0773V46.2456C46.188 46.5151 46.4063 46.7331 46.6755 46.7331Z" fill="#35373B"/>
+                                            <path d="M49.7453 46.7331C50.0145 46.7331 50.2328 46.5151 50.2328 46.2456V45.0773C50.2328 44.8079 50.0145 44.5898 49.7453 44.5898C49.4761 44.5898 49.2578 44.8079 49.2578 45.0773V46.2456C49.2578 46.5151 49.4761 46.7331 49.7453 46.7331Z" fill="#35373B"/>
+                                            <path d="M52.9553 43.4094C53.2245 43.4094 53.4428 43.1913 53.4428 42.9219V41.7531C53.4428 41.4837 53.2245 41.2656 52.9553 41.2656C52.6861 41.2656 52.4678 41.4837 52.4678 41.7531V42.9219C52.4678 43.1913 52.6861 43.4094 52.9553 43.4094Z" fill="#35373B"/>
+                                            <path d="M52.9553 46.7331C53.2245 46.7331 53.4428 46.5151 53.4428 46.2456V45.0773C53.4428 44.8079 53.2245 44.5898 52.9553 44.5898C52.6861 44.5898 52.4678 44.8079 52.4678 45.0773V46.2456C52.4678 46.5151 52.6861 46.7331 52.9553 46.7331Z" fill="#35373B"/>
+                                            <path d="M46.6755 50.0534C46.9447 50.0534 47.163 49.8354 47.163 49.5659V48.3977C47.163 48.1282 46.9447 47.9102 46.6755 47.9102C46.4063 47.9102 46.188 48.1282 46.188 48.3977V49.5659C46.188 49.8354 46.4063 50.0534 46.6755 50.0534Z" fill="#35373B"/>
+                                            <path d="M49.7458 50.0534C50.015 50.0534 50.2333 49.8354 50.2333 49.5659V48.3977C50.2333 48.1282 50.015 47.9102 49.7458 47.9102C49.4766 47.9102 49.2583 48.1282 49.2583 48.3977V49.5659C49.2583 49.8354 49.4766 50.0534 49.7458 50.0534Z" fill="#35373B"/>
+                                            <path d="M52.9553 50.0534C53.2245 50.0534 53.4428 49.8354 53.4428 49.5659V48.3977C53.4428 48.1282 53.2245 47.9102 52.9553 47.9102C52.6861 47.9102 52.4678 48.1282 52.4678 48.3977V49.5659C52.4678 49.8354 52.6861 50.0534 52.9553 50.0534Z" fill="#35373B"/>
+                                            <path d="M46.6755 36.7677C46.9447 36.7677 47.163 36.5496 47.163 36.2802V35.1119C47.163 34.8424 46.9447 34.6244 46.6755 34.6244C46.4063 34.6244 46.188 34.8424 46.188 35.1119V36.2802C46.188 36.5496 46.4063 36.7677 46.6755 36.7677Z" fill="#35373B"/>
+                                            <path d="M49.7458 36.7677C50.015 36.7677 50.2333 36.5496 50.2333 36.2802V35.1119C50.2333 34.8424 50.015 34.6244 49.7458 34.6244C49.4766 34.6244 49.2583 34.8424 49.2583 35.1119V36.2802C49.2583 36.5496 49.4766 36.7677 49.7458 36.7677Z" fill="#35373B"/>
+                                            <path d="M52.9553 36.7677C53.2245 36.7677 53.4428 36.5496 53.4428 36.2802V35.1119C53.4428 34.8424 53.2245 34.6244 52.9553 34.6244C52.6861 34.6244 52.4678 34.8424 52.4678 35.1119V36.2802C52.4678 36.5496 52.6861 36.7677 52.9553 36.7677Z" fill="#35373B"/>
+                                            <path d="M46.6755 40.0892C46.9447 40.0892 47.163 39.8712 47.163 39.6017V38.4334C47.163 38.164 46.9447 37.9459 46.6755 37.9459C46.4063 37.9459 46.188 38.164 46.188 38.4334V39.6017C46.188 39.8712 46.4063 40.0892 46.6755 40.0892Z" fill="#35373B"/>
+                                            <path d="M49.7458 40.0892C50.015 40.0892 50.2333 39.8712 50.2333 39.6017V38.4334C50.2333 38.164 50.015 37.9459 49.7458 37.9459C49.4766 37.9459 49.2583 38.164 49.2583 38.4334V39.6017C49.2583 39.8712 49.4766 40.0892 49.7458 40.0892Z" fill="#35373B"/>
+                                            <path d="M52.9553 40.0892C53.2245 40.0892 53.4428 39.8712 53.4428 39.6017V38.4334C53.4428 38.164 53.2245 37.9459 52.9553 37.9459C52.6861 37.9459 52.4678 38.164 52.4678 38.4334V39.6017C52.4678 39.8712 52.6861 40.0892 52.9553 40.0892Z" fill="#35373B"/>
+                                            <path d="M27.0192 36.4649C27.2885 36.4649 27.5067 36.2468 27.5067 35.9774V34.8543C27.5067 34.5849 27.2885 34.3668 27.0192 34.3668C26.75 34.3668 26.5317 34.5849 26.5317 34.8543V35.9774C26.5317 36.2468 26.75 36.4649 27.0192 36.4649Z" fill="#35373B"/>
+                                            <path d="M30.0891 36.4649C30.3583 36.4649 30.5766 36.2468 30.5766 35.9774V34.8543C30.5766 34.5849 30.3583 34.3668 30.0891 34.3668C29.8198 34.3668 29.6016 34.5849 29.6016 34.8543V35.9774C29.6016 36.2468 29.8198 36.4649 30.0891 36.4649Z" fill="#35373B"/>
+                                            <path d="M27.0192 39.6574C27.2885 39.6574 27.5067 39.4393 27.5067 39.1699V38.0468C27.5067 37.7774 27.2885 37.5593 27.0192 37.5593C26.75 37.5593 26.5317 37.7774 26.5317 38.0468V39.1699C26.5317 39.4393 26.75 39.6574 27.0192 39.6574Z" fill="#35373B"/>
+                                            <path d="M30.0891 39.6574C30.3583 39.6574 30.5766 39.4393 30.5766 39.1699V38.0468C30.5766 37.7774 30.3583 37.5593 30.0891 37.5593C29.8198 37.5593 29.6016 37.7774 29.6016 38.0468V39.1699C29.6016 39.4393 29.8198 39.6574 30.0891 39.6574Z" fill="#35373B"/>
+                                            <path d="M27.0187 42.852C27.288 42.852 27.5062 42.6339 27.5062 42.3645V41.2414C27.5062 40.9719 27.288 40.7539 27.0187 40.7539C26.7495 40.7539 26.5312 40.9719 26.5312 41.2414V42.3645C26.5312 42.6339 26.7495 42.852 27.0187 42.852Z" fill="#35373B"/>
+                                            <path d="M30.0891 42.852C30.3583 42.852 30.5766 42.6339 30.5766 42.3645V41.2414C30.5766 40.9719 30.3583 40.7539 30.0891 40.7539C29.8198 40.7539 29.6016 40.9719 29.6016 41.2414V42.3645C29.6016 42.6339 29.8198 42.852 30.0891 42.852Z" fill="#35373B"/>
+                                            <path d="M27.0192 46.043C27.2885 46.043 27.5067 45.825 27.5067 45.5555V44.4324C27.5067 44.163 27.2885 43.9449 27.0192 43.9449C26.75 43.9449 26.5317 44.163 26.5317 44.4324V45.5555C26.5317 45.825 26.75 46.043 27.0192 46.043Z" fill="#35373B"/>
+                                            <path d="M30.0891 46.043C30.3583 46.043 30.5766 45.825 30.5766 45.5555V44.4324C30.5766 44.163 30.3583 43.9449 30.0891 43.9449C29.8198 43.9449 29.6016 44.163 29.6016 44.4324V45.5555C29.6016 45.825 29.8198 46.043 30.0891 46.043Z" fill="#35373B"/>
+                                            <path d="M27.0192 49.2355C27.2885 49.2355 27.5067 49.0175 27.5067 48.748V47.625C27.5067 47.3555 27.2885 47.1375 27.0192 47.1375C26.75 47.1375 26.5317 47.3555 26.5317 47.625V48.748C26.5317 49.0175 26.75 49.2355 27.0192 49.2355Z" fill="#35373B"/>
+                                            <path d="M30.0891 49.2355C30.3583 49.2355 30.5766 49.0175 30.5766 48.748V47.625C30.5766 47.3555 30.3583 47.1375 30.0891 47.1375C29.8198 47.1375 29.6016 47.3555 29.6016 47.625V48.748C29.6016 49.0175 29.8198 49.2355 30.0891 49.2355Z" fill="#35373B"/>
+                                            </g>
+                                        </svg>                                                                       
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-3 t-3 t-bold t-solid">5000+</span>
+                                        <span class="w-25 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6 t--2">
+                                            Сайтов уже<br>используют SIMAI<br>FRAMEWORK 4
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <div class="d-flex">
+                                    <span class="mr-4">
+                                        <svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect y="0.609863" width="80" height="80" rx="39" fill="#F2F4F6"/>
+                                            <g clip-path="url(#clip0)">
+                                            <path d="M56.4538 22.0981H51.6001C51.2986 22.0981 51.0545 22.3355 51.0545 22.6286C51.0545 22.9217 51.2986 23.1591 51.6001 23.1591H55.137L44.4041 33.5935L38.3326 27.6905C38.1194 27.4832 37.7746 27.4832 37.5614 27.6905L30.6388 34.4209C30.4752 34.4187 30.3149 34.4171 30.1602 34.4171C26.7605 34.4171 21.009 34.9513 21 36.9529C21.0006 36.9535 21 36.954 21 36.9551V54.5606C21 56.5638 26.7605 57.0981 30.1635 57.0981C33.3315 57.0981 36.1918 56.7071 37.8213 56.052C39.0633 56.7175 40.4886 57.0981 42.004 57.0981C46.7987 57.0981 50.699 53.3061 50.699 48.6446C50.699 43.983 46.7987 40.191 42.004 40.191C41.0674 40.191 40.1674 40.3397 39.3215 40.6071V36.9546C39.3215 36.9507 39.3192 36.9474 39.3192 36.9436C39.2973 35.3008 35.3998 34.6506 32.1289 34.4723L37.9473 28.8154L44.0188 34.7184C44.232 34.9256 44.5768 34.9256 44.79 34.7184L55.9088 23.9088V27.3476C55.9088 27.6407 56.1529 27.8781 56.4544 27.8781C56.7559 27.8781 57 27.6407 57 27.3476V22.6286C56.9994 22.3371 56.7531 22.0981 56.4538 22.0981ZM22.0907 47.0723C24.5814 48.3498 30.2254 48.4455 33.3343 48.1562C33.3247 48.3186 33.309 48.4799 33.309 48.6446C33.309 49.6262 33.4907 50.5646 33.8085 51.4418C28.0025 52.0855 22.3264 51.0005 22.0907 50.1523V47.0723ZM33.4654 47.0767C27.8793 47.6432 22.3157 46.5992 22.0912 45.7505V42.6727C24.8829 44.1017 31.5051 44.1099 35.0898 43.5395C34.2883 44.5638 33.7196 45.7653 33.4654 47.0767ZM22.0907 54.5601V51.4719C24.7209 52.8188 30.8385 52.8774 34.2562 52.4612C34.8407 53.5779 35.6709 54.5497 36.68 55.3131C31.8746 56.6973 22.4473 55.866 22.0907 54.5601ZM49.6083 48.6446C49.6083 52.721 46.1974 56.0372 42.0045 56.0372C37.8117 56.0372 34.4008 52.721 34.4008 48.6446C34.4008 44.5681 37.8117 41.2519 42.0045 41.2519C46.1974 41.2519 49.6083 44.5681 49.6083 48.6446ZM36.3976 42.1936C31.3212 43.505 22.4315 42.5622 22.0912 41.3536V38.272C22.0935 38.2731 22.0957 38.2742 22.098 38.2753C25.2867 39.9006 35.0207 39.8951 38.2111 38.2818C38.2173 38.2785 38.2252 38.2758 38.2314 38.2725V41.0403C37.5699 41.352 36.9528 41.737 36.3976 42.1936ZM38.2308 36.9507C38.2302 36.954 38.2263 36.9573 38.2252 36.96C37.5626 38.9036 22.6419 38.8708 22.0929 36.9589C22.247 36.4388 25.1349 35.4774 30.1602 35.4774C35.2029 35.4774 38.0941 36.4454 38.2308 36.9507Z" fill="#35373B"/>
+                                            <path d="M39.4536 48.699H40.3243V44.8745H42.5686C42.9856 44.8745 43.3657 44.9225 43.7091 45.0184C44.0525 45.1063 44.3468 45.2462 44.5921 45.438C44.8374 45.6218 45.0295 45.8576 45.1685 46.1453C45.3075 46.4331 45.377 46.7768 45.377 47.1764C45.377 47.576 45.3034 47.9237 45.1562 48.2194C45.0091 48.5152 44.8088 48.7629 44.5553 48.9627C44.3019 49.1546 44.0035 49.2984 43.6601 49.3943C43.3167 49.4903 42.9447 49.5382 42.5441 49.5382H41.3054V50.7491H43.2799V51.5404H41.3054V53.2308H40.3243V51.5404H39.4536V50.7491H40.3243V49.5382H39.4536V48.699ZM42.5686 48.699C43.1327 48.699 43.5742 48.5751 43.8931 48.3273C44.2201 48.0716 44.3836 47.6879 44.3836 47.1764C44.3836 46.6649 44.2201 46.2932 43.8931 46.0614C43.5742 45.8296 43.1327 45.7137 42.5686 45.7137H41.3054V48.699H42.5686Z" fill="#35373B"/>
+                                            </g>
+                                        </svg>                                                                              
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-3 t-3 t-bold t-solid">15</span>
+                                        <span class="w-25 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6 t--2">
+                                            Стран<br>
+                                            Европы,<br>
+                                            СНГ, Азии
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <div class="d-flex">
+                                    <span class="mr-4">
+                                        <svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect y="0.609863" width="80" height="80" rx="39" fill="#F2F4F6"/>
+                                            <g clip-path="url(#clip0)">
+                                            <path d="M29.125 44.5938H25.2299C24.9952 43.3768 23.925 42.4536 22.6404 42.4536C21.1846 42.4536 20 43.6382 20 45.0938C20 46.5493 21.1846 47.7339 22.6404 47.7339C23.925 47.7339 24.9952 46.8107 25.2299 45.5938H29.125V51.4731C29.125 51.7495 29.3489 51.9731 29.625 51.9731H35.5044V55.868C34.2873 56.1027 33.3643 57.1732 33.3643 58.458C33.3643 59.9136 34.5486 61.0981 36.0044 61.0981C37.4602 61.0981 38.6448 59.9136 38.6448 58.458C38.6448 57.1732 37.7216 56.1027 36.5044 55.868V51.9731H43.4956V55.868C42.2784 56.1027 41.3552 57.1732 41.3552 58.458C41.3552 59.9136 42.5398 61.0981 43.9956 61.0981C45.4514 61.0981 46.6357 59.9136 46.6357 58.458C46.6357 57.1732 45.7127 56.1027 44.4956 55.868V51.9731H50.375C50.6511 51.9731 50.875 51.7495 50.875 51.4731V45.5938H54.7701C55.0048 46.8107 56.075 47.7339 57.3596 47.7339C58.8154 47.7339 60 46.5493 60 45.0938C60 43.6382 58.8154 42.4536 57.3596 42.4536C56.075 42.4536 55.0048 43.3768 54.7701 44.5938H50.875V37.6025H54.7701C55.0048 38.8195 56.075 39.7427 57.3596 39.7427C58.8154 39.7427 60 38.5581 60 37.1025C60 35.647 58.8154 34.4624 57.3596 34.4624C56.075 34.4624 55.0048 35.3856 54.7701 36.6025H50.875V30.7231C50.875 30.4468 50.6511 30.2231 50.375 30.2231H44.4956V26.3283C45.7127 26.0936 46.6357 25.0231 46.6357 23.7383C46.6357 22.2827 45.4514 21.0981 43.9956 21.0981C42.5398 21.0981 41.3552 22.2827 41.3552 23.7383C41.3552 25.0231 42.2784 26.0936 43.4956 26.3283V30.2231H36.5044V26.3283C37.7216 26.0936 38.6448 25.0231 38.6448 23.7383C38.6448 22.2827 37.4602 21.0981 36.0044 21.0981C34.5486 21.0981 33.3643 22.2827 33.3643 23.7383C33.3643 25.0231 34.2873 26.0936 35.5044 26.3283V30.2231H29.625C29.3489 30.2231 29.125 30.4468 29.125 30.7231V36.6025H25.2299C24.9952 35.3856 23.925 34.4624 22.6404 34.4624C21.1846 34.4624 20 35.647 20 37.1025C20 38.5581 21.1846 39.7427 22.6404 39.7427C23.925 39.7427 24.9952 38.8195 25.2299 37.6025H29.125V44.5938ZM22.6404 46.7339C21.7358 46.7339 21 45.998 21 45.0938C21 44.1895 21.7358 43.4536 22.6404 43.4536C23.5447 43.4536 24.2805 44.1895 24.2805 45.0938C24.2805 45.998 23.5447 46.7339 22.6404 46.7339ZM37.6448 58.458C37.6448 59.3623 36.9089 60.0981 36.0044 60.0981C35.1001 60.0981 34.3643 59.3623 34.3643 58.458C34.3643 57.5532 35.1001 56.8174 36.0044 56.8174C36.9089 56.8174 37.6448 57.5532 37.6448 58.458ZM45.6357 58.458C45.6357 59.3623 44.8999 60.0981 43.9956 60.0981C43.0911 60.0981 42.3552 59.3623 42.3552 58.458C42.3552 57.5532 43.0911 56.8174 43.9956 56.8174C44.8999 56.8174 45.6357 57.5532 45.6357 58.458ZM57.3596 43.4536C58.2642 43.4536 59 44.1895 59 45.0938C59 45.998 58.2642 46.7339 57.3596 46.7339C56.4553 46.7339 55.7195 45.998 55.7195 45.0938C55.7195 44.1895 56.4553 43.4536 57.3596 43.4536ZM57.3596 35.4624C58.2642 35.4624 59 36.1982 59 37.1025C59 38.0068 58.2642 38.7427 57.3596 38.7427C56.4553 38.7427 55.7195 38.0068 55.7195 37.1025C55.7195 36.1982 56.4553 35.4624 57.3596 35.4624ZM42.3552 23.7383C42.3552 22.834 43.0911 22.0981 43.9956 22.0981C44.8999 22.0981 45.6357 22.834 45.6357 23.7383C45.6357 24.6431 44.8999 25.3789 43.9956 25.3789C43.0911 25.3789 42.3552 24.6431 42.3552 23.7383ZM34.3643 23.7383C34.3643 22.834 35.1001 22.0981 36.0044 22.0981C36.9089 22.0981 37.6448 22.834 37.6448 23.7383C37.6448 24.6431 36.9089 25.3789 36.0044 25.3789C35.1001 25.3789 34.3643 24.6431 34.3643 23.7383ZM22.6404 38.7427C21.7358 38.7427 21 38.0068 21 37.1025C21 36.1982 21.7358 35.4624 22.6404 35.4624C23.5447 35.4624 24.2805 36.1982 24.2805 37.1025C24.2805 38.0068 23.5447 38.7427 22.6404 38.7427ZM30.125 31.2231H49.875V50.9731H30.125V31.2231Z" fill="#35373B"/>
+                                            <path d="M45.8765 34.7192H34.123C33.8469 34.7192 33.623 34.9429 33.623 35.2192V46.9731C33.623 47.2495 33.8469 47.4731 34.123 47.4731H45.8765C46.1526 47.4731 46.3765 47.2495 46.3765 46.9731V35.2192C46.3765 34.9429 46.1526 34.7192 45.8765 34.7192ZM45.3765 46.4731H34.623V35.7192H45.3765V46.4731Z" fill="#35373B"/>
+                                            </g>
+                                        </svg>                                                                                                                                                           
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-3 t-3 t-bold t-solid">10</span>
+                                        <span class="w-25 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6 t--2">
+                                            Лет<br>
+                                            на рынке<br>
+                                            веб-разработки
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <div class="d-flex">
+                                    <span class="mr-4">
+                                        <svg width="80" height="81" viewBox="0 0 80 81" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <rect y="0.609863" width="80" height="80" rx="39" fill="#F2F4F6"/>
+                                            <g clip-path="url(#clip0)">
+                                            <path d="M57.55 53.824H56.8447V31.2535C56.8447 31.0894 56.7555 30.9384 56.6118 30.8593C56.4683 30.78 56.2929 30.7853 56.1541 30.8732L54.2194 32.0972L53.6923 24.4424C53.676 24.2064 53.4798 24.0234 53.2434 24.0234H49.0112C48.7732 24.0234 48.5766 24.2084 48.5621 24.4459L47.8476 36.1286L45.3031 37.7385V31.7035C45.3031 31.5427 45.2174 31.3941 45.0781 31.3139C44.939 31.2337 44.7674 31.2331 44.6283 31.3137L42.5903 32.4893L42.0606 24.4437C42.045 24.2073 41.8486 24.0234 41.6115 24.0234H37.3791C37.1411 24.0234 36.9445 24.2084 36.93 24.4459L36.2133 36.1676L33.9297 37.4848L33.0101 22.5273C32.9956 22.29 32.7987 22.105 32.5609 22.105H25.4341C25.1964 22.105 24.9995 22.29 24.985 22.5275L23.0648 53.824H22.45C22.2015 53.824 22 54.0255 22 54.274V57.649C22 57.8976 22.2015 58.099 22.45 58.099H57.55C57.7985 58.099 58 57.8976 58 57.649V54.274C58 54.0255 57.7985 53.824 57.55 53.824ZM49.4346 24.9234H52.8232L53.355 32.6442L48.7855 35.5352L49.4346 24.9234ZM37.8025 24.9234H41.19L41.7211 32.9906L37.1479 35.6285L37.8025 24.9234ZM44.4031 32.4827V38.5557C44.4031 38.7198 44.4923 38.8708 44.636 38.9499C44.7795 39.0292 44.9546 39.0237 45.0937 38.936L55.9447 32.0707V53.824H34.9343L33.9914 38.4881L44.4031 32.4827ZM25.8573 23.005H32.1377L34.0326 53.824H23.9664L25.8573 23.005ZM57.1 57.199H22.9V54.724H57.1V57.199Z" fill="#35373B"/>
+                                            <path d="M38.4368 45.6698C38.6853 45.6698 38.8868 45.4683 38.8868 45.2198V42.3372C38.8868 42.0887 38.6853 41.8872 38.4368 41.8872C38.1883 41.8872 37.9868 42.0887 37.9868 42.3372V45.2198C37.9868 45.4683 38.1883 45.6698 38.4368 45.6698Z" fill="#35373B"/>
+                                            <path d="M41.7557 45.6698C42.0042 45.6698 42.2057 45.4683 42.2057 45.2198V42.3372C42.2057 42.0887 42.0042 41.8872 41.7557 41.8872C41.5072 41.8872 41.3057 42.0887 41.3057 42.3372V45.2198C41.3057 45.4683 41.5072 45.6698 41.7557 45.6698Z" fill="#35373B"/>
+                                            <path d="M45.074 45.6698C45.3225 45.6698 45.524 45.4683 45.524 45.2198V42.3372C45.524 42.0887 45.3225 41.8872 45.074 41.8872C44.8255 41.8872 44.624 42.0887 44.624 42.3372V45.2198C44.624 45.4683 44.8255 45.6698 45.074 45.6698Z" fill="#35373B"/>
+                                            <path d="M48.3934 45.6698C48.6419 45.6698 48.8434 45.4683 48.8434 45.2198V42.3372C48.8434 42.0887 48.6419 41.8872 48.3934 41.8872C48.1448 41.8872 47.9434 42.0887 47.9434 42.3372V45.2198C47.9434 45.4683 48.1448 45.6698 48.3934 45.6698Z" fill="#35373B"/>
+                                            <path d="M51.7117 45.6698C51.9602 45.6698 52.1617 45.4683 52.1617 45.2198V42.3372C52.1617 42.0887 51.9602 41.8872 51.7117 41.8872C51.4632 41.8872 51.2617 42.0887 51.2617 42.3372V45.2198C51.2617 45.4683 51.4632 45.6698 51.7117 45.6698Z" fill="#35373B"/>
+                                            <path d="M38.4368 51.2987C38.6853 51.2987 38.8868 51.0972 38.8868 50.8487V47.9661C38.8868 47.7176 38.6853 47.5161 38.4368 47.5161C38.1883 47.5161 37.9868 47.7176 37.9868 47.9661V50.8487C37.9868 51.0972 38.1883 51.2987 38.4368 51.2987Z" fill="#35373B"/>
+                                            <path d="M41.7557 51.2987C42.0042 51.2987 42.2057 51.0972 42.2057 50.8487V47.9661C42.2057 47.7176 42.0042 47.5161 41.7557 47.5161C41.5072 47.5161 41.3057 47.7176 41.3057 47.9661V50.8487C41.3057 51.0972 41.5072 51.2987 41.7557 51.2987Z" fill="#35373B"/>
+                                            <path d="M45.074 51.2987C45.3225 51.2987 45.524 51.0972 45.524 50.8487V47.9661C45.524 47.7176 45.3225 47.5161 45.074 47.5161C44.8255 47.5161 44.624 47.7176 44.624 47.9661V50.8487C44.624 51.0972 44.8255 51.2987 45.074 51.2987Z" fill="#35373B"/>
+                                            <path d="M48.3934 51.2987C48.6419 51.2987 48.8434 51.0972 48.8434 50.8487V47.9661C48.8434 47.7176 48.6419 47.5161 48.3934 47.5161C48.1448 47.5161 47.9434 47.7176 47.9434 47.9661V50.8487C47.9434 51.0972 48.1448 51.2987 48.3934 51.2987Z" fill="#35373B"/>
+                                            <path d="M51.7117 51.2987C51.9602 51.2987 52.1617 51.0972 52.1617 50.8487V47.9661C52.1617 47.7176 51.9602 47.5161 51.7117 47.5161C51.4632 47.5161 51.2617 47.7176 51.2617 47.9661V50.8487C51.2617 51.0972 51.4632 51.2987 51.7117 51.2987Z" fill="#35373B"/>
+                                            </g>
+                                        </svg>                                                                                                                                                                                                    
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-3 t-3 t-bold t-solid">34 000</span>
+                                        <span class="w-25 bb-3 b-primary mb-2"></span>
+                                        <span class="c-gray-6 t--2">
+                                            Обращений<br>пользователей<br>за год
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- -->
+
+            <!-- Наши проекты -->
+                <section class="w-100 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Наши проекты</h2>
+                            </div>
+                            <div class="col-12">
+                                <div class="swiper-container simai--project">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-2x1 bg-cover bg-position-cc w-100" data-background="./image/bg-solution.jpg"></div>
+                                                <div class="px-4 py-3">
+                                                    <h4 class="t-0 t-medium mb-0">
+                                                        Ассоциация «Совет муниципальных образований Ханты-Мансийского автономного округа - Югры»
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-2x1 bg-cover bg-position-cc w-100" data-background="./image/bg-solution.jpg"></div>
+                                                <div class="px-4 py-3">
+                                                    <h4 class="t-0 t-medium mb-0">
+                                                        Благотворительный фонд помощи больным спинальной мышечной атрофией «#СМАФОНД»
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-2x1 bg-cover bg-position-cc w-100" data-background="./image/bg-solution.jpg"></div>
+                                                <div class="px-4 py-3">
+                                                    <h4 class="t-0 t-medium mb-0">
+                                                        Благотворительный фонд помощи детям с заболеваниями психоневрологического спектра...
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-2x1 bg-cover bg-position-cc w-100" data-background="./image/bg-solution.jpg"></div>
+                                                <div class="px-4 py-3">
+                                                    <h4 class="t-0 t-medium mb-0">
+                                                        Благотворительный фонд помощи детям с заболеваниями психоневрологического спектра...
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                
+                                    
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--projectPrev position-aboslute c-6778D3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 0L0 9.96403L10 19.9281L13.75 16.1915L7.5 9.96403L13.75 3.73651L10 0Z"/>
+                                    </svg>                                                
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--projectNext position-aboslute c-6778D3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.75 0L13.75 9.96403L3.75 19.9281L0 16.1915L6.25 9.96403L0 3.73651L3.75 0Z"/>
+                                    </svg>                                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiSolution = new Swiper(
+                            ".simai--project",
+                            {
+                                lazy: true,
+                                navigation: {
+                                    nextEl: ".simai--projectNext",
+                                    prevEl: ".simai--projectPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                autoHeight : true,
+                                slidesPerView: 3,
+                                spaceBetween: 32,
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    576: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!-- -->
+
+            <!-- Горизонтальная линия -->
+                <section class="w-100">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="w-100 bt-2 b-white"></div>
+                            <div class="at-0 bt-2 b-DBDFE3 b-secondary position-absolute w-100" style="top:-2px"></div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Новости -->
+                <section class="w-100 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Новости</h2>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Скидки до 40% на<br>
+                                            продукты «1С-Битрикс:<br>
+                                            Управление сайтом»...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Акция «Великолепная<br>
+                                            восьмерка» - скидки до<br>
+                                            40% на Битрикс24
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Изменение тарифов<br>
+                                            виртуального хостинга с<br>
+                                            11 июля 2019 года
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Секретная распродажа:<br>
+                                            Скидка 50% на продление<br>
+                                            «1С-Битрикс: Управле...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black  r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Белая пятница продаж:<br>
+                                            скидки до 50% на<br>
+                                            Битрикс24 только 1 день!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Хватай Симай, пока май!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Приходите на бесплатную<br>
+                                            конференцию «Бизнес24»<br>
+                                            в Уфе 5 апреля!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--newsList shadow-2 hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            С праздником 8 марта!<br>
+                                            Скидки до 18% на<br>
+                                            готовые решения SIMAI!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Отзывы -->
+                <section class="simai--review w-100 py-5 bg-cover bg-position-cc lazyload" data-bg="./image/bg.png">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="swiper-container simai--reviewSlider">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                            <div class="d-flex bg-white col-12 col-sm-12 col-md-9 col-lg-7 col-xl-7 col-xxl-7 py-4 px-5 r-2">
+                                                <span class="mr-4">
+                                                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M71.1 70.2H67.6125V8.8875C67.6125 8.39004 67.2095 7.9875 66.7125 7.9875C65.5842 7.9875 64.4952 8.04408 63.4406 8.14477L42.9526 0.0624023C42.6757 -0.0448242 42.362 -0.0114257 42.1159 0.155566C41.8693 0.323437 41.7221 0.602051 41.7221 0.9V19.6927C40.098 21.6247 39.2939 23.0299 39.2687 23.0757C39.1944 23.2093 39.1553 23.3596 39.1553 23.5125V28.9688H29.6503V0.9C29.6503 0.402539 29.2474 0 28.7503 0H5.68301C5.18599 0 4.78301 0.402539 4.78301 0.9V70.2H0.9C0.402979 70.2 0 70.6025 0 71.1C0 71.5975 0.402979 72 0.9 72H71.1C71.597 72 72 71.5975 72 71.1C72 70.6025 71.597 70.2 71.1 70.2ZM43.5221 2.22275L59.8948 8.68184C52.2649 10.273 46.8742 14.3172 43.5221 17.7181V2.22275ZM65.8125 9.7998V70.2H60.0377V61.1569C60.0377 60.6595 59.6347 60.2569 59.1377 60.2569H47.6301C47.1331 60.2569 46.7301 60.6595 46.7301 61.1569V70.2H40.9553V23.7595C41.9713 22.1001 49.7975 10.2313 65.8125 9.7998ZM58.2376 70.2H48.5301V62.0569H58.2376V70.2ZM39.1553 70.2H23.6052V30.7688H39.1553V70.2ZM6.58301 1.8H27.8503V28.9688H22.7052C22.2082 28.9688 21.8052 29.3713 21.8052 29.8688V70.2H18.1169V61.1569C18.1169 60.6595 17.7139 60.2569 17.2169 60.2569H11.112C10.615 60.2569 10.212 60.6595 10.212 61.1569V70.2H6.58301V1.8ZM16.3169 70.2H12.012V62.0569H16.3169V70.2Z" fill="#35373B"/>
+                                                        <path d="M28.7503 39.2415C29.2473 39.2415 29.6503 38.839 29.6503 38.3415V35.9992C29.6503 35.5018 29.2473 35.0992 28.7503 35.0992C28.2533 35.0992 27.8503 35.5018 27.8503 35.9992V38.3415C27.8503 38.839 28.2533 39.2415 28.7503 39.2415Z" fill="#35373B"/>
+                                                        <path d="M34.0009 39.2415C34.498 39.2415 34.9009 38.839 34.9009 38.3415V35.9992C34.9009 35.5018 34.498 35.0992 34.0009 35.0992C33.5039 35.0992 33.1009 35.5018 33.1009 35.9992V38.3415C33.1009 38.839 33.5039 39.2415 34.0009 39.2415Z" fill="#35373B"/>
+                                                        <path d="M28.7503 45.9052C29.2473 45.9052 29.6503 45.5026 29.6503 45.0052V42.662C29.6503 42.1646 29.2473 41.762 28.7503 41.762C28.2533 41.762 27.8503 42.1646 27.8503 42.662V45.0052C27.8503 45.5026 28.2533 45.9052 28.7503 45.9052Z" fill="#35373B"/>
+                                                        <path d="M34.001 45.9052C34.498 45.9052 34.901 45.5026 34.901 45.0052V42.662C34.901 42.1646 34.498 41.762 34.001 41.762C33.5039 41.762 33.101 42.1646 33.101 42.662V45.0052C33.101 45.5026 33.5039 45.9052 34.001 45.9052Z" fill="#35373B"/>
+                                                        <path d="M28.7503 52.5604C29.2473 52.5604 29.6503 52.1579 29.6503 51.6604V49.3181C29.6503 48.8207 29.2473 48.4181 28.7503 48.4181C28.2533 48.4181 27.8503 48.8207 27.8503 49.3181V51.6604C27.8503 52.1579 28.2533 52.5604 28.7503 52.5604Z" fill="#35373B"/>
+                                                        <path d="M34.0009 52.5604C34.498 52.5604 34.9009 52.1579 34.9009 51.6604V49.3181C34.9009 48.8207 34.498 48.4181 34.0009 48.4181C33.5039 48.4181 33.1009 48.8207 33.1009 49.3181V51.6604C33.1009 52.1579 33.5039 52.5604 34.0009 52.5604Z" fill="#35373B"/>
+                                                        <path d="M28.7503 59.2168C29.2473 59.2168 29.6503 58.8143 29.6503 58.3168V55.9745C29.6503 55.4771 29.2473 55.0745 28.7503 55.0745C28.2533 55.0745 27.8503 55.4771 27.8503 55.9745V58.3168C27.8503 58.8143 28.2533 59.2168 28.7503 59.2168Z" fill="#35373B"/>
+                                                        <path d="M34.001 59.2168C34.498 59.2168 34.901 58.8143 34.901 58.3168V55.9745C34.901 55.4771 34.498 55.0745 34.001 55.0745C33.5039 55.0745 33.101 55.4771 33.101 55.9745V58.3168C33.101 58.8143 33.5039 59.2168 34.001 59.2168Z" fill="#35373B"/>
+                                                        <path d="M28.7503 65.8803C29.2473 65.8803 29.6503 65.4778 29.6503 64.9803V62.6371C29.6503 62.1397 29.2473 61.7371 28.7503 61.7371C28.2533 61.7371 27.8503 62.1397 27.8503 62.6371V64.9803C27.8503 65.4778 28.2533 65.8803 28.7503 65.8803Z" fill="#35373B"/>
+                                                        <path d="M34.0009 65.8803C34.498 65.8803 34.9009 65.4778 34.9009 64.9803V62.6371C34.9009 62.1397 34.498 61.7371 34.0009 61.7371C33.5039 61.7371 33.1009 62.1397 33.1009 62.6371V64.9803C33.1009 65.4778 33.5039 65.8803 34.0009 65.8803Z" fill="#35373B"/>
+                                                        <path d="M11.112 14.3802C11.609 14.3802 12.012 13.9777 12.012 13.4802V11.4069C12.012 10.9094 11.609 10.5069 11.112 10.5069C10.615 10.5069 10.212 10.9094 10.212 11.4069V13.4802C10.212 13.9777 10.615 14.3802 11.112 14.3802Z" fill="#35373B"/>
+                                                        <path d="M16.7801 14.3802C17.2771 14.3802 17.6801 13.9777 17.6801 13.4802V11.4069C17.6801 10.9094 17.2771 10.5069 16.7801 10.5069C16.283 10.5069 15.8801 10.9094 15.8801 11.4069V13.4802C15.8801 13.9777 16.283 14.3802 16.7801 14.3802Z" fill="#35373B"/>
+                                                        <path d="M11.112 20.2724C11.609 20.2724 12.012 19.8698 12.012 19.3724V17.299C12.012 16.8016 11.609 16.399 11.112 16.399C10.615 16.399 10.212 16.8016 10.212 17.299V19.3724C10.212 19.8698 10.615 20.2724 11.112 20.2724Z" fill="#35373B"/>
+                                                        <path d="M16.78 20.2724C17.2771 20.2724 17.68 19.8698 17.68 19.3724V17.299C17.68 16.8016 17.2771 16.399 16.78 16.399C16.283 16.399 15.88 16.8016 15.88 17.299V19.3724C15.88 19.8698 16.283 20.2724 16.78 20.2724Z" fill="#35373B"/>
+                                                        <path d="M22.7052 14.3802C23.2022 14.3802 23.6052 13.9777 23.6052 13.4802V11.4069C23.6052 10.9094 23.2022 10.5069 22.7052 10.5069C22.2082 10.5069 21.8052 10.9094 21.8052 11.4069V13.4802C21.8052 13.9777 22.2082 14.3802 22.7052 14.3802Z" fill="#35373B"/>
+                                                        <path d="M22.7052 20.2724C23.2022 20.2724 23.6052 19.8698 23.6052 19.3724V17.299C23.6052 16.8016 23.2022 16.399 22.7052 16.399C22.2082 16.399 21.8052 16.8016 21.8052 17.299V19.3724C21.8052 19.8698 22.2082 20.2724 22.7052 20.2724Z" fill="#35373B"/>
+                                                        <path d="M11.112 26.1714C11.609 26.1714 12.012 25.7689 12.012 25.2714V23.1981C12.012 22.7006 11.609 22.2981 11.112 22.2981C10.615 22.2981 10.212 22.7006 10.212 23.1981V25.2714C10.212 25.7689 10.615 26.1714 11.112 26.1714Z" fill="#35373B"/>
+                                                        <path d="M16.78 26.1714C17.2771 26.1714 17.68 25.7689 17.68 25.2714V23.1981C17.68 22.7006 17.2771 22.2981 16.78 22.2981C16.283 22.2981 15.88 22.7006 15.88 23.1981V25.2714C15.88 25.7689 16.283 26.1714 16.78 26.1714Z" fill="#35373B"/>
+                                                        <path d="M22.7052 26.1714C23.2022 26.1714 23.6052 25.7689 23.6052 25.2714V23.1981C23.6052 22.7006 23.2022 22.2981 22.7052 22.2981C22.2082 22.2981 21.8052 22.7006 21.8052 23.1981V25.2714C21.8052 25.7689 22.2082 26.1714 22.7052 26.1714Z" fill="#35373B"/>
+                                                        <path d="M47.4007 44.8832C47.8977 44.8832 48.3007 44.4807 48.3007 43.9832V41.8255C48.3007 41.328 47.8977 40.9255 47.4007 40.9255C46.9037 40.9255 46.5007 41.328 46.5007 41.8255V43.9832C46.5007 44.4807 46.9037 44.8832 47.4007 44.8832Z" fill="#35373B"/>
+                                                        <path d="M53.0687 44.8832C53.5657 44.8832 53.9687 44.4807 53.9687 43.9832V41.8255C53.9687 41.328 53.5657 40.9255 53.0687 40.9255C52.5717 40.9255 52.1687 41.328 52.1687 41.8255V43.9832C52.1687 44.4807 52.5717 44.8832 53.0687 44.8832Z" fill="#35373B"/>
+                                                        <path d="M47.4007 51.0193C47.8977 51.0193 48.3007 50.6168 48.3007 50.1193V47.9625C48.3007 47.465 47.8977 47.0625 47.4007 47.0625C46.9037 47.0625 46.5007 47.465 46.5007 47.9625V50.1193C46.5007 50.6168 46.9037 51.0193 47.4007 51.0193Z" fill="#35373B"/>
+                                                        <path d="M53.0687 51.0193C53.5657 51.0193 53.9687 50.6168 53.9687 50.1193V47.9625C53.9687 47.465 53.5657 47.0625 53.0687 47.0625C52.5717 47.0625 52.1687 47.465 52.1687 47.9625V50.1193C52.1687 50.6168 52.5717 51.0193 53.0687 51.0193Z" fill="#35373B"/>
+                                                        <path d="M58.9944 44.8832C59.4914 44.8832 59.8944 44.4807 59.8944 43.9832V41.8255C59.8944 41.328 59.4914 40.9255 58.9944 40.9255C58.4973 40.9255 58.0944 41.328 58.0944 41.8255V43.9832C58.0944 44.4807 58.4973 44.8832 58.9944 44.8832Z" fill="#35373B"/>
+                                                        <path d="M58.9944 51.0193C59.4914 51.0193 59.8944 50.6168 59.8944 50.1193V47.9625C59.8944 47.465 59.4914 47.0625 58.9944 47.0625C58.4973 47.0625 58.0944 47.465 58.0944 47.9625V50.1193C58.0944 50.6168 58.4973 51.0193 58.9944 51.0193Z" fill="#35373B"/>
+                                                        <path d="M47.4007 57.1491C47.8977 57.1491 48.3007 56.7466 48.3007 56.2491V54.0923C48.3007 53.5948 47.8977 53.1923 47.4007 53.1923C46.9037 53.1923 46.5007 53.5948 46.5007 54.0923V56.2491C46.5007 56.7466 46.9037 57.1491 47.4007 57.1491Z" fill="#35373B"/>
+                                                        <path d="M53.0688 57.1491C53.5658 57.1491 53.9688 56.7466 53.9688 56.2491V54.0923C53.9688 53.5948 53.5658 53.1923 53.0688 53.1923C52.5717 53.1923 52.1688 53.5948 52.1688 54.0923V56.2491C52.1688 56.7466 52.5717 57.1491 53.0688 57.1491Z" fill="#35373B"/>
+                                                        <path d="M58.9944 57.1491C59.4914 57.1491 59.8944 56.7466 59.8944 56.2491V54.0923C59.8944 53.5948 59.4914 53.1923 58.9944 53.1923C58.4974 53.1923 58.0944 53.5948 58.0944 54.0923V56.2491C58.0944 56.7466 58.4974 57.1491 58.9944 57.1491Z" fill="#35373B"/>
+                                                        <path d="M47.4007 32.6222C47.8977 32.6222 48.3007 32.2196 48.3007 31.7222V29.5653C48.3007 29.0679 47.8977 28.6653 47.4007 28.6653C46.9037 28.6653 46.5007 29.0679 46.5007 29.5653V31.7222C46.5007 32.2196 46.9037 32.6222 47.4007 32.6222Z" fill="#35373B"/>
+                                                        <path d="M53.0688 32.6222C53.5658 32.6222 53.9688 32.2196 53.9688 31.7222V29.5653C53.9688 29.0679 53.5658 28.6653 53.0688 28.6653C52.5717 28.6653 52.1688 29.0679 52.1688 29.5653V31.7222C52.1688 32.2196 52.5717 32.6222 53.0688 32.6222Z" fill="#35373B"/>
+                                                        <path d="M58.9944 32.6222C59.4914 32.6222 59.8944 32.2196 59.8944 31.7222V29.5653C59.8944 29.0679 59.4914 28.6653 58.9944 28.6653C58.4974 28.6653 58.0944 29.0679 58.0944 29.5653V31.7222C58.0944 32.2196 58.4974 32.6222 58.9944 32.6222Z" fill="#35373B"/>
+                                                        <path d="M47.4007 38.753C47.8977 38.753 48.3007 38.3505 48.3007 37.853V35.6962C48.3007 35.1987 47.8977 34.7962 47.4007 34.7962C46.9037 34.7962 46.5007 35.1987 46.5007 35.6962V37.853C46.5007 38.3505 46.9037 38.753 47.4007 38.753Z" fill="#35373B"/>
+                                                        <path d="M53.0688 38.753C53.5658 38.753 53.9688 38.3505 53.9688 37.853V35.6962C53.9688 35.1987 53.5658 34.7962 53.0688 34.7962C52.5717 34.7962 52.1688 35.1987 52.1688 35.6962V37.853C52.1688 38.3505 52.5717 38.753 53.0688 38.753Z" fill="#35373B"/>
+                                                        <path d="M58.9944 38.753C59.4914 38.753 59.8944 38.3505 59.8944 37.853V35.6962C59.8944 35.1987 59.4914 34.7962 58.9944 34.7962C58.4974 34.7962 58.0944 35.1987 58.0944 35.6962V37.853C58.0944 38.3505 58.4974 38.753 58.9944 38.753Z" fill="#35373B"/>
+                                                        <path d="M11.112 32.0629C11.609 32.0629 12.012 31.6604 12.012 31.1629V29.0896C12.012 28.5921 11.609 28.1896 11.112 28.1896C10.615 28.1896 10.212 28.5921 10.212 29.0896V31.1629C10.212 31.6604 10.615 32.0629 11.112 32.0629Z" fill="#35373B"/>
+                                                        <path d="M16.7801 32.0629C17.2771 32.0629 17.6801 31.6604 17.6801 31.1629V29.0896C17.6801 28.5921 17.2771 28.1896 16.7801 28.1896C16.283 28.1896 15.8801 28.5921 15.8801 29.0896V31.1629C15.8801 31.6604 16.283 32.0629 16.7801 32.0629Z" fill="#35373B"/>
+                                                        <path d="M11.112 37.9557C11.609 37.9557 12.012 37.5532 12.012 37.0557V34.9824C12.012 34.4849 11.609 34.0824 11.112 34.0824C10.615 34.0824 10.212 34.4849 10.212 34.9824V37.0557C10.212 37.5532 10.615 37.9557 11.112 37.9557Z" fill="#35373B"/>
+                                                        <path d="M16.7801 37.9557C17.2771 37.9557 17.6801 37.5532 17.6801 37.0557V34.9824C17.6801 34.4849 17.2771 34.0824 16.7801 34.0824C16.283 34.0824 15.8801 34.4849 15.8801 34.9824V37.0557C15.8801 37.5532 16.283 37.9557 16.7801 37.9557Z" fill="#35373B"/>
+                                                        <path d="M11.112 43.8541C11.609 43.8541 12.012 43.4516 12.012 42.9541V40.8808C12.012 40.3833 11.609 39.9808 11.112 39.9808C10.615 39.9808 10.212 40.3833 10.212 40.8808V42.9541C10.212 43.4516 10.615 43.8541 11.112 43.8541Z" fill="#35373B"/>
+                                                        <path d="M16.78 43.8541C17.2771 43.8541 17.68 43.4516 17.68 42.9541V40.8808C17.68 40.3833 17.2771 39.9808 16.78 39.9808C16.283 39.9808 15.88 40.3833 15.88 40.8808V42.9541C15.88 43.4516 16.283 43.8541 16.78 43.8541Z" fill="#35373B"/>
+                                                        <path d="M11.112 49.7456C11.609 49.7456 12.012 49.3431 12.012 48.8456V46.7723C12.012 46.2748 11.609 45.8723 11.112 45.8723C10.615 45.8723 10.212 46.2748 10.212 46.7723V48.8456C10.212 49.3431 10.615 49.7456 11.112 49.7456Z" fill="#35373B"/>
+                                                        <path d="M16.7801 49.7456C17.2771 49.7456 17.6801 49.3431 17.6801 48.8456V46.7723C17.6801 46.2748 17.2771 45.8723 16.7801 45.8723C16.283 45.8723 15.8801 46.2748 15.8801 46.7723V48.8456C15.8801 49.3431 16.283 49.7456 16.7801 49.7456Z" fill="#35373B"/>
+                                                        <path d="M11.112 55.6384C11.609 55.6384 12.012 55.2359 12.012 54.7384V52.6651C12.012 52.1676 11.609 51.7651 11.112 51.7651C10.615 51.7651 10.212 52.1676 10.212 52.6651V54.7384C10.212 55.2359 10.615 55.6384 11.112 55.6384Z" fill="#35373B"/>
+                                                        <path d="M16.7801 55.6384C17.2771 55.6384 17.6801 55.2359 17.6801 54.7384V52.6651C17.6801 52.1676 17.2771 51.7651 16.7801 51.7651C16.283 51.7651 15.8801 52.1676 15.8801 52.6651V54.7384C15.8801 55.2359 16.283 55.6384 16.7801 55.6384Z" fill="#35373B"/>
+                                                    </svg>                                                                                                                        
+                                                </span>
+                                                <div class="d-flex flex-column w-100">
+                                                    <span class="pb-3 t-2 t-bold t-solid">Николай Галустян</span>
+                                                    <span class="w-10 bb-3 b-primary mb-3"></span>
+                                                    <span class="t-0">
+                                                        Впечатления - очень положительные! Очень благодарен Наталье за помощь  в выборе решений и скорости работы.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                            <div class="d-flex bg-white col-12 col-sm-12 col-md-9 col-lg-7 col-xl-7 col-xxl-7 py-4 px-5 r-2">
+                                                <span class="mr-4">
+                                                    <svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M71.1 70.2H67.6125V8.8875C67.6125 8.39004 67.2095 7.9875 66.7125 7.9875C65.5842 7.9875 64.4952 8.04408 63.4406 8.14477L42.9526 0.0624023C42.6757 -0.0448242 42.362 -0.0114257 42.1159 0.155566C41.8693 0.323437 41.7221 0.602051 41.7221 0.9V19.6927C40.098 21.6247 39.2939 23.0299 39.2687 23.0757C39.1944 23.2093 39.1553 23.3596 39.1553 23.5125V28.9688H29.6503V0.9C29.6503 0.402539 29.2474 0 28.7503 0H5.68301C5.18599 0 4.78301 0.402539 4.78301 0.9V70.2H0.9C0.402979 70.2 0 70.6025 0 71.1C0 71.5975 0.402979 72 0.9 72H71.1C71.597 72 72 71.5975 72 71.1C72 70.6025 71.597 70.2 71.1 70.2ZM43.5221 2.22275L59.8948 8.68184C52.2649 10.273 46.8742 14.3172 43.5221 17.7181V2.22275ZM65.8125 9.7998V70.2H60.0377V61.1569C60.0377 60.6595 59.6347 60.2569 59.1377 60.2569H47.6301C47.1331 60.2569 46.7301 60.6595 46.7301 61.1569V70.2H40.9553V23.7595C41.9713 22.1001 49.7975 10.2313 65.8125 9.7998ZM58.2376 70.2H48.5301V62.0569H58.2376V70.2ZM39.1553 70.2H23.6052V30.7688H39.1553V70.2ZM6.58301 1.8H27.8503V28.9688H22.7052C22.2082 28.9688 21.8052 29.3713 21.8052 29.8688V70.2H18.1169V61.1569C18.1169 60.6595 17.7139 60.2569 17.2169 60.2569H11.112C10.615 60.2569 10.212 60.6595 10.212 61.1569V70.2H6.58301V1.8ZM16.3169 70.2H12.012V62.0569H16.3169V70.2Z" fill="#35373B"/>
+                                                        <path d="M28.7503 39.2415C29.2473 39.2415 29.6503 38.839 29.6503 38.3415V35.9992C29.6503 35.5018 29.2473 35.0992 28.7503 35.0992C28.2533 35.0992 27.8503 35.5018 27.8503 35.9992V38.3415C27.8503 38.839 28.2533 39.2415 28.7503 39.2415Z" fill="#35373B"/>
+                                                        <path d="M34.0009 39.2415C34.498 39.2415 34.9009 38.839 34.9009 38.3415V35.9992C34.9009 35.5018 34.498 35.0992 34.0009 35.0992C33.5039 35.0992 33.1009 35.5018 33.1009 35.9992V38.3415C33.1009 38.839 33.5039 39.2415 34.0009 39.2415Z" fill="#35373B"/>
+                                                        <path d="M28.7503 45.9052C29.2473 45.9052 29.6503 45.5026 29.6503 45.0052V42.662C29.6503 42.1646 29.2473 41.762 28.7503 41.762C28.2533 41.762 27.8503 42.1646 27.8503 42.662V45.0052C27.8503 45.5026 28.2533 45.9052 28.7503 45.9052Z" fill="#35373B"/>
+                                                        <path d="M34.001 45.9052C34.498 45.9052 34.901 45.5026 34.901 45.0052V42.662C34.901 42.1646 34.498 41.762 34.001 41.762C33.5039 41.762 33.101 42.1646 33.101 42.662V45.0052C33.101 45.5026 33.5039 45.9052 34.001 45.9052Z" fill="#35373B"/>
+                                                        <path d="M28.7503 52.5604C29.2473 52.5604 29.6503 52.1579 29.6503 51.6604V49.3181C29.6503 48.8207 29.2473 48.4181 28.7503 48.4181C28.2533 48.4181 27.8503 48.8207 27.8503 49.3181V51.6604C27.8503 52.1579 28.2533 52.5604 28.7503 52.5604Z" fill="#35373B"/>
+                                                        <path d="M34.0009 52.5604C34.498 52.5604 34.9009 52.1579 34.9009 51.6604V49.3181C34.9009 48.8207 34.498 48.4181 34.0009 48.4181C33.5039 48.4181 33.1009 48.8207 33.1009 49.3181V51.6604C33.1009 52.1579 33.5039 52.5604 34.0009 52.5604Z" fill="#35373B"/>
+                                                        <path d="M28.7503 59.2168C29.2473 59.2168 29.6503 58.8143 29.6503 58.3168V55.9745C29.6503 55.4771 29.2473 55.0745 28.7503 55.0745C28.2533 55.0745 27.8503 55.4771 27.8503 55.9745V58.3168C27.8503 58.8143 28.2533 59.2168 28.7503 59.2168Z" fill="#35373B"/>
+                                                        <path d="M34.001 59.2168C34.498 59.2168 34.901 58.8143 34.901 58.3168V55.9745C34.901 55.4771 34.498 55.0745 34.001 55.0745C33.5039 55.0745 33.101 55.4771 33.101 55.9745V58.3168C33.101 58.8143 33.5039 59.2168 34.001 59.2168Z" fill="#35373B"/>
+                                                        <path d="M28.7503 65.8803C29.2473 65.8803 29.6503 65.4778 29.6503 64.9803V62.6371C29.6503 62.1397 29.2473 61.7371 28.7503 61.7371C28.2533 61.7371 27.8503 62.1397 27.8503 62.6371V64.9803C27.8503 65.4778 28.2533 65.8803 28.7503 65.8803Z" fill="#35373B"/>
+                                                        <path d="M34.0009 65.8803C34.498 65.8803 34.9009 65.4778 34.9009 64.9803V62.6371C34.9009 62.1397 34.498 61.7371 34.0009 61.7371C33.5039 61.7371 33.1009 62.1397 33.1009 62.6371V64.9803C33.1009 65.4778 33.5039 65.8803 34.0009 65.8803Z" fill="#35373B"/>
+                                                        <path d="M11.112 14.3802C11.609 14.3802 12.012 13.9777 12.012 13.4802V11.4069C12.012 10.9094 11.609 10.5069 11.112 10.5069C10.615 10.5069 10.212 10.9094 10.212 11.4069V13.4802C10.212 13.9777 10.615 14.3802 11.112 14.3802Z" fill="#35373B"/>
+                                                        <path d="M16.7801 14.3802C17.2771 14.3802 17.6801 13.9777 17.6801 13.4802V11.4069C17.6801 10.9094 17.2771 10.5069 16.7801 10.5069C16.283 10.5069 15.8801 10.9094 15.8801 11.4069V13.4802C15.8801 13.9777 16.283 14.3802 16.7801 14.3802Z" fill="#35373B"/>
+                                                        <path d="M11.112 20.2724C11.609 20.2724 12.012 19.8698 12.012 19.3724V17.299C12.012 16.8016 11.609 16.399 11.112 16.399C10.615 16.399 10.212 16.8016 10.212 17.299V19.3724C10.212 19.8698 10.615 20.2724 11.112 20.2724Z" fill="#35373B"/>
+                                                        <path d="M16.78 20.2724C17.2771 20.2724 17.68 19.8698 17.68 19.3724V17.299C17.68 16.8016 17.2771 16.399 16.78 16.399C16.283 16.399 15.88 16.8016 15.88 17.299V19.3724C15.88 19.8698 16.283 20.2724 16.78 20.2724Z" fill="#35373B"/>
+                                                        <path d="M22.7052 14.3802C23.2022 14.3802 23.6052 13.9777 23.6052 13.4802V11.4069C23.6052 10.9094 23.2022 10.5069 22.7052 10.5069C22.2082 10.5069 21.8052 10.9094 21.8052 11.4069V13.4802C21.8052 13.9777 22.2082 14.3802 22.7052 14.3802Z" fill="#35373B"/>
+                                                        <path d="M22.7052 20.2724C23.2022 20.2724 23.6052 19.8698 23.6052 19.3724V17.299C23.6052 16.8016 23.2022 16.399 22.7052 16.399C22.2082 16.399 21.8052 16.8016 21.8052 17.299V19.3724C21.8052 19.8698 22.2082 20.2724 22.7052 20.2724Z" fill="#35373B"/>
+                                                        <path d="M11.112 26.1714C11.609 26.1714 12.012 25.7689 12.012 25.2714V23.1981C12.012 22.7006 11.609 22.2981 11.112 22.2981C10.615 22.2981 10.212 22.7006 10.212 23.1981V25.2714C10.212 25.7689 10.615 26.1714 11.112 26.1714Z" fill="#35373B"/>
+                                                        <path d="M16.78 26.1714C17.2771 26.1714 17.68 25.7689 17.68 25.2714V23.1981C17.68 22.7006 17.2771 22.2981 16.78 22.2981C16.283 22.2981 15.88 22.7006 15.88 23.1981V25.2714C15.88 25.7689 16.283 26.1714 16.78 26.1714Z" fill="#35373B"/>
+                                                        <path d="M22.7052 26.1714C23.2022 26.1714 23.6052 25.7689 23.6052 25.2714V23.1981C23.6052 22.7006 23.2022 22.2981 22.7052 22.2981C22.2082 22.2981 21.8052 22.7006 21.8052 23.1981V25.2714C21.8052 25.7689 22.2082 26.1714 22.7052 26.1714Z" fill="#35373B"/>
+                                                        <path d="M47.4007 44.8832C47.8977 44.8832 48.3007 44.4807 48.3007 43.9832V41.8255C48.3007 41.328 47.8977 40.9255 47.4007 40.9255C46.9037 40.9255 46.5007 41.328 46.5007 41.8255V43.9832C46.5007 44.4807 46.9037 44.8832 47.4007 44.8832Z" fill="#35373B"/>
+                                                        <path d="M53.0687 44.8832C53.5657 44.8832 53.9687 44.4807 53.9687 43.9832V41.8255C53.9687 41.328 53.5657 40.9255 53.0687 40.9255C52.5717 40.9255 52.1687 41.328 52.1687 41.8255V43.9832C52.1687 44.4807 52.5717 44.8832 53.0687 44.8832Z" fill="#35373B"/>
+                                                        <path d="M47.4007 51.0193C47.8977 51.0193 48.3007 50.6168 48.3007 50.1193V47.9625C48.3007 47.465 47.8977 47.0625 47.4007 47.0625C46.9037 47.0625 46.5007 47.465 46.5007 47.9625V50.1193C46.5007 50.6168 46.9037 51.0193 47.4007 51.0193Z" fill="#35373B"/>
+                                                        <path d="M53.0687 51.0193C53.5657 51.0193 53.9687 50.6168 53.9687 50.1193V47.9625C53.9687 47.465 53.5657 47.0625 53.0687 47.0625C52.5717 47.0625 52.1687 47.465 52.1687 47.9625V50.1193C52.1687 50.6168 52.5717 51.0193 53.0687 51.0193Z" fill="#35373B"/>
+                                                        <path d="M58.9944 44.8832C59.4914 44.8832 59.8944 44.4807 59.8944 43.9832V41.8255C59.8944 41.328 59.4914 40.9255 58.9944 40.9255C58.4973 40.9255 58.0944 41.328 58.0944 41.8255V43.9832C58.0944 44.4807 58.4973 44.8832 58.9944 44.8832Z" fill="#35373B"/>
+                                                        <path d="M58.9944 51.0193C59.4914 51.0193 59.8944 50.6168 59.8944 50.1193V47.9625C59.8944 47.465 59.4914 47.0625 58.9944 47.0625C58.4973 47.0625 58.0944 47.465 58.0944 47.9625V50.1193C58.0944 50.6168 58.4973 51.0193 58.9944 51.0193Z" fill="#35373B"/>
+                                                        <path d="M47.4007 57.1491C47.8977 57.1491 48.3007 56.7466 48.3007 56.2491V54.0923C48.3007 53.5948 47.8977 53.1923 47.4007 53.1923C46.9037 53.1923 46.5007 53.5948 46.5007 54.0923V56.2491C46.5007 56.7466 46.9037 57.1491 47.4007 57.1491Z" fill="#35373B"/>
+                                                        <path d="M53.0688 57.1491C53.5658 57.1491 53.9688 56.7466 53.9688 56.2491V54.0923C53.9688 53.5948 53.5658 53.1923 53.0688 53.1923C52.5717 53.1923 52.1688 53.5948 52.1688 54.0923V56.2491C52.1688 56.7466 52.5717 57.1491 53.0688 57.1491Z" fill="#35373B"/>
+                                                        <path d="M58.9944 57.1491C59.4914 57.1491 59.8944 56.7466 59.8944 56.2491V54.0923C59.8944 53.5948 59.4914 53.1923 58.9944 53.1923C58.4974 53.1923 58.0944 53.5948 58.0944 54.0923V56.2491C58.0944 56.7466 58.4974 57.1491 58.9944 57.1491Z" fill="#35373B"/>
+                                                        <path d="M47.4007 32.6222C47.8977 32.6222 48.3007 32.2196 48.3007 31.7222V29.5653C48.3007 29.0679 47.8977 28.6653 47.4007 28.6653C46.9037 28.6653 46.5007 29.0679 46.5007 29.5653V31.7222C46.5007 32.2196 46.9037 32.6222 47.4007 32.6222Z" fill="#35373B"/>
+                                                        <path d="M53.0688 32.6222C53.5658 32.6222 53.9688 32.2196 53.9688 31.7222V29.5653C53.9688 29.0679 53.5658 28.6653 53.0688 28.6653C52.5717 28.6653 52.1688 29.0679 52.1688 29.5653V31.7222C52.1688 32.2196 52.5717 32.6222 53.0688 32.6222Z" fill="#35373B"/>
+                                                        <path d="M58.9944 32.6222C59.4914 32.6222 59.8944 32.2196 59.8944 31.7222V29.5653C59.8944 29.0679 59.4914 28.6653 58.9944 28.6653C58.4974 28.6653 58.0944 29.0679 58.0944 29.5653V31.7222C58.0944 32.2196 58.4974 32.6222 58.9944 32.6222Z" fill="#35373B"/>
+                                                        <path d="M47.4007 38.753C47.8977 38.753 48.3007 38.3505 48.3007 37.853V35.6962C48.3007 35.1987 47.8977 34.7962 47.4007 34.7962C46.9037 34.7962 46.5007 35.1987 46.5007 35.6962V37.853C46.5007 38.3505 46.9037 38.753 47.4007 38.753Z" fill="#35373B"/>
+                                                        <path d="M53.0688 38.753C53.5658 38.753 53.9688 38.3505 53.9688 37.853V35.6962C53.9688 35.1987 53.5658 34.7962 53.0688 34.7962C52.5717 34.7962 52.1688 35.1987 52.1688 35.6962V37.853C52.1688 38.3505 52.5717 38.753 53.0688 38.753Z" fill="#35373B"/>
+                                                        <path d="M58.9944 38.753C59.4914 38.753 59.8944 38.3505 59.8944 37.853V35.6962C59.8944 35.1987 59.4914 34.7962 58.9944 34.7962C58.4974 34.7962 58.0944 35.1987 58.0944 35.6962V37.853C58.0944 38.3505 58.4974 38.753 58.9944 38.753Z" fill="#35373B"/>
+                                                        <path d="M11.112 32.0629C11.609 32.0629 12.012 31.6604 12.012 31.1629V29.0896C12.012 28.5921 11.609 28.1896 11.112 28.1896C10.615 28.1896 10.212 28.5921 10.212 29.0896V31.1629C10.212 31.6604 10.615 32.0629 11.112 32.0629Z" fill="#35373B"/>
+                                                        <path d="M16.7801 32.0629C17.2771 32.0629 17.6801 31.6604 17.6801 31.1629V29.0896C17.6801 28.5921 17.2771 28.1896 16.7801 28.1896C16.283 28.1896 15.8801 28.5921 15.8801 29.0896V31.1629C15.8801 31.6604 16.283 32.0629 16.7801 32.0629Z" fill="#35373B"/>
+                                                        <path d="M11.112 37.9557C11.609 37.9557 12.012 37.5532 12.012 37.0557V34.9824C12.012 34.4849 11.609 34.0824 11.112 34.0824C10.615 34.0824 10.212 34.4849 10.212 34.9824V37.0557C10.212 37.5532 10.615 37.9557 11.112 37.9557Z" fill="#35373B"/>
+                                                        <path d="M16.7801 37.9557C17.2771 37.9557 17.6801 37.5532 17.6801 37.0557V34.9824C17.6801 34.4849 17.2771 34.0824 16.7801 34.0824C16.283 34.0824 15.8801 34.4849 15.8801 34.9824V37.0557C15.8801 37.5532 16.283 37.9557 16.7801 37.9557Z" fill="#35373B"/>
+                                                        <path d="M11.112 43.8541C11.609 43.8541 12.012 43.4516 12.012 42.9541V40.8808C12.012 40.3833 11.609 39.9808 11.112 39.9808C10.615 39.9808 10.212 40.3833 10.212 40.8808V42.9541C10.212 43.4516 10.615 43.8541 11.112 43.8541Z" fill="#35373B"/>
+                                                        <path d="M16.78 43.8541C17.2771 43.8541 17.68 43.4516 17.68 42.9541V40.8808C17.68 40.3833 17.2771 39.9808 16.78 39.9808C16.283 39.9808 15.88 40.3833 15.88 40.8808V42.9541C15.88 43.4516 16.283 43.8541 16.78 43.8541Z" fill="#35373B"/>
+                                                        <path d="M11.112 49.7456C11.609 49.7456 12.012 49.3431 12.012 48.8456V46.7723C12.012 46.2748 11.609 45.8723 11.112 45.8723C10.615 45.8723 10.212 46.2748 10.212 46.7723V48.8456C10.212 49.3431 10.615 49.7456 11.112 49.7456Z" fill="#35373B"/>
+                                                        <path d="M16.7801 49.7456C17.2771 49.7456 17.6801 49.3431 17.6801 48.8456V46.7723C17.6801 46.2748 17.2771 45.8723 16.7801 45.8723C16.283 45.8723 15.8801 46.2748 15.8801 46.7723V48.8456C15.8801 49.3431 16.283 49.7456 16.7801 49.7456Z" fill="#35373B"/>
+                                                        <path d="M11.112 55.6384C11.609 55.6384 12.012 55.2359 12.012 54.7384V52.6651C12.012 52.1676 11.609 51.7651 11.112 51.7651C10.615 51.7651 10.212 52.1676 10.212 52.6651V54.7384C10.212 55.2359 10.615 55.6384 11.112 55.6384Z" fill="#35373B"/>
+                                                        <path d="M16.7801 55.6384C17.2771 55.6384 17.6801 55.2359 17.6801 54.7384V52.6651C17.6801 52.1676 17.2771 51.7651 16.7801 51.7651C16.283 51.7651 15.8801 52.1676 15.8801 52.6651V54.7384C15.8801 55.2359 16.283 55.6384 16.7801 55.6384Z" fill="#35373B"/>
+                                                    </svg>                                                                                                                        
+                                                </span>
+                                                <div class="d-flex flex-column w-100">
+                                                    <span class="pb-3 t-2 t-bold t-solid">Николай Галустян</span>
+                                                    <span class="w-10 bb-3 b-primary mb-3"></span>
+                                                    <span class="t-0">
+                                                        Впечатления - очень положительные! Очень благодарен Наталье за помощь  в выборе решений и скорости работы.
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-100 position-absolute ar-0 ab--4 al-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center">
+                                                <div class="swiper-pagination bulletsSimaiMainSlider paginationSimaiReviewSlider position-relative"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--reviewSliderPrev position-aboslute c-DBDFE3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 0L0 9.96403L10 19.9281L13.75 16.1915L7.5 9.96403L13.75 3.73651L10 0Z"/>
+                                    </svg>                                                
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--reviewSliderNext position-aboslute c-DBDFE3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.75 0L13.75 9.96403L3.75 19.9281L0 16.1915L6.25 9.96403L0 3.73651L3.75 0Z"/>
+                                    </svg>                                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiReviewSlider = new Swiper(
+                            ".simai--reviewSlider", {
+                            pagination: {
+                                el: ".paginationSimaiReviewSlider",
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: ".simai--reviewSliderNext",
+                                prevEl: ".simai--reviewSliderPrev",
+                                disabledClass : 'c-6778D3'
+                            },
+                        });
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Статьи -->
+                <section class="w-100 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Статьи</h2>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Что выбрать среднему<br>
+                                            специальному учебному<br>
+                                            заведению? Сравне...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Как бесплатно создать<br>
+                                            персональный сайт<br>
+                                            учителя?
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            7 причин, почему<br>
+                                            учителю нужен<br>
+                                            персональный сайт
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Новое решение SIMAI для<br>
+                                            учебных и тренинговых<br>
+                                            центров – всё для... 
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Как быстро привести<br>
+                                            сайт медицинской<br>
+                                            организации в...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Как быстро привести<br>
+                                            сайт образовательной<br>
+                                            организации в...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            Сравнение решений<br>
+                                            «SIMAI: Сайт<br>
+                                            медицинской ...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-xl-3">
+                                <a href="" class="simai--arcticleList shadow-2 hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/bg-solution.jpg"></div>
+                                    <div class="newsList--content px-4 py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0">
+                                            3 секрета создания<br>
+                                            правильного сайта<br>
+                                            благотворительного...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Горизонтальная линия -->
+                <section class="w-100">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="w-100 bt-2 b-white"></div>
+                            <div class="at-0 bt-2 b-DBDFE3 b-secondary position-absolute w-100" style="top:-2px"></div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Клиенты -->
+                <section class="w-100 py-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Наши клиенты</h2>
+                            </div>
+                            <div class="col-12">
+                                <div class="swiper-container simai--clientSlider">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/bashneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/transneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/rosneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/bash-g.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/peton.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/ikea.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/ikea.jpg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--clientSliderPrev position-aboslute c-6778D3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 0L0 9.96403L10 19.9281L13.75 16.1915L7.5 9.96403L13.75 3.73651L10 0Z"/>
+                                    </svg>                                                
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--clientSliderNext position-aboslute c-6778D3">
+                                    <svg width="14" height="20" viewBox="0 0 14 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.75 0L13.75 9.96403L3.75 19.9281L0 16.1915L6.25 9.96403L0 3.73651L3.75 0Z"/>
+                                    </svg>                                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiReviewSlider = new Swiper(
+                            ".simai--clientSlider",
+                            {
+                                lazy: true,
+                                autoHeight : true,
+                                slidesPerView: 6,
+                                spaceBetween: 32,
+                                navigation: {
+                                    nextEl: ".simai--clientSliderNext",
+                                    prevEl: ".simai--clientSliderPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 0
+                                    },
+                                    576: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 0
+                                    },
+                                    768: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 5,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Карта -->
+                <section class="w-100">
+                    <div class="w-100 simai--map" style="height:560px" id="simai--map"></div>
+                    <script data-scip-moving="true" src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&load=package.full"></script>
+					<script>
+						ymaps.load(initYMap_10);
+						function initYMap_10() {
+							var map_10 = new ymaps.Map('simai--map', {
+								center: [51.955384, 85.948165],
+								zoom: 16,
+								controls: ['zoomControl'],
+							});
+
+							map_10.setType('yandex#map');
+							map_10.behaviors
+								.disable('scrollZoom');
+
+                                	
+                            var placemark_10 = new ymaps.Placemark(
+                                [51.955384, 85.948165],
+                                {
+                                    balloonContent:
+                                        '<div class="p-1  r-3" style="max-width:320px">' +
+                                            '<div class="row">' +
+                                                '<div class="col-5">' +
+                                                    '<div class="aspect-ratio-4x3 bg-cover bg-position-cc lazyload r-3" data-bg="./image/bg-solution.jpg"></div>' +
+                                                '</div>' +
+                                                '<div class="col-7 pl-0">' +
+                                                    '<div class="d-flex flex-column">' +
+                                                        '<h3 class="mb-2 t--1 t-bold">Министерство образования Республики Алтай</h3>' +
+                                                        '<span class="t--3 o-3">Государство</span>' +
+                                                        '<p class="mb-0 t--2">SIMAI: Портал образовательных организаций</p>' +
+                                                    '</div>' +
+                                                '</div>' +
+                                            '</div>' +
+                                        '</div>',
+                                },
+                                {
+                                    iconLayout: 'default#image',
+                                    //iconImageClipRect: [[0,0], [26, 46]],
+                                    iconImageHref: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1NiwwQzE2MS44OTYsMCw4NS4zMzMsNzYuNTYzLDg1LjMzMywxNzAuNjY3YzAsMjguMjUsNy4wNjMsNTYuMjYsMjAuNDksODEuMTA0TDI0Ni42NjcsNTA2LjUgICAgYzEuODc1LDMuMzk2LDUuNDQ4LDUuNSw5LjMzMyw1LjVzNy40NTgtMi4xMDQsOS4zMzMtNS41bDE0MC44OTYtMjU0LjgxM2MxMy4zNzUtMjQuNzYsMjAuNDM4LTUyLjc3MSwyMC40MzgtODEuMDIxICAgIEM0MjYuNjY3LDc2LjU2MywzNTAuMTA0LDAsMjU2LDB6IE0yNTYsMjU2Yy00Ny4wNTIsMC04NS4zMzMtMzguMjgxLTg1LjMzMy04NS4zMzNjMC00Ny4wNTIsMzguMjgxLTg1LjMzMyw4NS4zMzMtODUuMzMzICAgIHM4NS4zMzMsMzguMjgxLDg1LjMzMyw4NS4zMzNDMzQxLjMzMywyMTcuNzE5LDMwMy4wNTIsMjU2LDI1NiwyNTZ6IiBmaWxsPSIjZmY2NTY4IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==',
+                                    iconImageSize: [40, 40],
+                                    iconImageOffset: [0, 0],
+                                }
+                            );
+							map_10.geoObjects.add(placemark_10);
+
+
+						}
+					</script>
+                </section>
+            <!--  -->
+
+            <!-- Меню футера -->
+                <section class="w-100 py-5 bg-white t-normal">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">О нас</h4>
+                                <span class="b-gray-3 b-secondary bb-4 mb-4 r-2 w-20"></span>
+                                <div class="o-4 t--1 t-solid">
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon c-gray-9 mr-2"><i class="fas fa-map-marker-alt"></i></span>
+                                        <span class="prefooter--text">г. Уфа, ул. Чернышевского, д. 82</span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon c-gray-9 mr-2"><i class="fas fa-phone"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="c-black" href="tel:+7 (800) 200-0865">+7 (800) 200-0865 (РФ)</a>
+                                        </span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon c-gray-9 mr-2"><i class="fas fa-phone"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="c-black" href="tel:+7 (347) 246-8500">+7 (347) 246-8500 (Уфа)</a>
+                                        </span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center">
+                                        <span class="prefooter--icon c-gray-9 mr-2"><i class="fas fa-envelope"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="c-black" href="mailto:sale@simai.ru">sale@simai.ru</a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Готовые решения</h4>
+                                <span class="b-gray-3 b-secondary bb-4 mb-4 r-2 w-20"></span>
+                                <ul class="t-list m-0 p-0 t--1 o-4">
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Государственным организациям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Медицинским организациям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Образовательным учреждениям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Учреждениям культуры</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Научным организациям</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="c-black" href="/">Некоммерческим организациям</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Услуги</h4>
+                                <span class="b-gray-3 b-secondary bb-4 mb-4 r-2 w-20"></span>
+                                <ul class="t-list m-0 p-0 t--1 o-4">
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Интернет-проекты</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Корпоративный портал</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Хостинг и домены</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Создание панорам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Поддержка</h4>
+                                <span class="b-gray-3 b-secondary bb-4 mb-4 r-2 w-20"></span>
+                                <ul class="t-list m-0 p-0 t--1 o-4">
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Оставить заявку</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">База знаний</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Учебные курсы</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="c-black" href="/">Регламент техподдержки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+        </main>
+
+        <footer class="">
+            <!-- Футер -->
+                <section class="w-100 py-4 t-medium">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-6 d-flex flex-wrap justify-content-start">
+                                <a class="c-black t--2 mr-3 o-5" href="/">Конфиденциальность</a>
+                                <a class="c-black t--2 o-5" href="/">Публичная оферта</a>
+                                <span class="ml-5 c-black t--2 o-5">© 2007 - 2020, Компания SIMAI</span>
+                            </div>
+                            <div class="col-12 col-xl-2 d-flex justify-content-center align-items-center">
+                                <span class="footer--icon mr-3">
+                                    <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.149404 12.1245C0.0669862 12.1245 0 12.1909 0 12.2729V13.9243C0 14.0067 0.0669862 14.0727 0.149404 14.0727H9.59149C9.67414 14.0727 9.74078 14.0067 9.74078 13.9243V12.2729C9.74078 12.1909 9.67414 12.1245 9.59149 12.1245H0.149404Z" fill="#F25241"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.82585 0C5.84953 0 6.17143 0.735943 6.44021 1.47234C6.55438 1.78438 9.21396 9.09346 9.29358 9.31263C9.31555 9.37356 9.30128 9.47485 9.20671 9.51043C9.11247 9.54635 7.73064 10.0857 7.65475 10.1147C7.57807 10.1432 7.4921 10.1005 7.4639 10.0247C7.43536 9.94899 6.86292 8.35547 6.7979 8.17666H2.85776C2.79274 8.35547 2.2143 9.95172 2.18779 10.0247C2.16095 10.0977 2.07793 10.1466 1.99728 10.1147C1.91675 10.0823 0.528349 9.54203 0.444647 9.51043C0.366041 9.48019 0.330815 9.38959 0.358452 9.31263C0.455973 9.03856 3.07511 1.84725 3.20888 1.47234C3.46837 0.747198 3.80182 0 4.82585 0ZM4.81756 2.38688L3.48488 6.40195H6.17107L4.83443 2.38688H4.81756Z" fill="#F25241"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.740891 7.5802C0.740891 6.72207 0.814567 6.17757 2.63345 4.85103C4.13935 3.75285 8.96611 0 8.96611 0V6.26471H12.6368V15.2812H1.88742C1.25684 15.2812 0.740723 14.7769 0.740723 14.1609L0.740891 7.5802Z" fill="#F9C637"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.96626 6.26416V9.89415L2.22119 14.3833L10.7492 11.6725V6.26416H8.96626Z" fill="#C8A332"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8837 6.07784C6.27812 5.61866 6.85414 5.45652 7.17049 5.71586C7.48679 5.9752 7.42357 6.55778 7.0291 7.0169C6.63485 7.47602 6.05867 7.63794 5.74231 7.3786C5.42601 7.11932 5.4894 6.53696 5.8837 6.07784Z" fill="#000106"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8609 0H1.41252C0.985919 0 0.636719 0.34905 0.636719 0.7758C0.636719 1.2027 0.985919 1.55175 1.41252 1.55175V0.7758H14.8609V1.55175C15.2875 1.55175 15.6367 1.2027 15.6367 0.7758C15.6367 0.34905 15.2875 0 14.8609 0Z" fill="#3D465B"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9298 13.1899L3.48155 14.7415L5.0333 13.1899L6.58505 14.7415L8.1368 13.1899L9.68855 14.7415L11.2403 13.1899L12.792 14.7415L14.3438 13.1899L14.861 13.707V0.775635H1.4126V13.7071L1.9298 13.1899Z" fill="#F0EDE0"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7572 10.6039H7.87789C7.73509 10.6039 7.61914 10.4884 7.61914 10.3452C7.61914 10.2022 7.73524 10.0866 7.87804 10.0866H11.7573C11.8998 10.0866 12.0159 10.2024 12.0159 10.3453C12.0159 10.4884 11.9 10.6041 11.7573 10.6041L11.7572 10.6039ZM13.0502 10.6039C12.983 10.6039 12.9158 10.5754 12.8667 10.5289C12.8202 10.4797 12.7917 10.4125 12.7917 10.3452C12.7917 10.2753 12.8202 10.2105 12.8667 10.1616C12.965 10.066 13.1355 10.066 13.2338 10.1616C13.2803 10.2106 13.3088 10.2756 13.3088 10.3453C13.3088 10.4128 13.2803 10.4799 13.2338 10.5291C13.1849 10.5756 13.1175 10.6041 13.0502 10.6041V10.6039ZM13.0502 6.98292H9.17089C9.02839 6.98292 8.91229 6.86742 8.91229 6.72462C8.91229 6.58152 9.02824 6.46602 9.17089 6.46602H13.0502C13.193 6.46602 13.3088 6.58152 13.3088 6.72462C13.3088 6.86757 13.193 6.98307 13.0502 6.98307V6.98292ZM13.0502 8.79342H10.4642C10.3212 8.79342 10.2054 8.67792 10.2054 8.53497C10.2054 8.39202 10.3212 8.27622 10.464 8.27622H13.05C13.193 8.27622 13.3088 8.39202 13.3088 8.53497C13.3088 8.67792 13.193 8.79357 13.0502 8.79357V8.79342ZM8.39509 8.79342H7.87789C7.73509 8.79342 7.61914 8.67792 7.61914 8.53497C7.61914 8.39202 7.73524 8.27622 7.87804 8.27622H8.39524C8.53804 8.27622 8.65399 8.39202 8.65399 8.53497C8.65399 8.67792 8.53789 8.79357 8.39509 8.79357V8.79342ZM11.7572 5.17287H7.87789C7.73509 5.17287 7.61914 5.05737 7.61914 4.91427C7.61914 4.77102 7.73524 4.65552 7.87804 4.65552H11.7573C11.8998 4.65552 12.0159 4.77102 12.0159 4.91412C12.0159 5.05707 11.9 5.17257 11.7573 5.17257L11.7572 5.17287ZM13.0502 5.17287C12.983 5.17287 12.9158 5.14437 12.8667 5.09787C12.8202 5.04867 12.7917 4.98147 12.7917 4.91427C12.7917 4.84407 12.8202 4.77927 12.8667 4.73052C12.9624 4.63452 13.1382 4.63452 13.2338 4.73052C13.2803 4.77927 13.3088 4.84692 13.3088 4.91412C13.3088 4.98117 13.2803 5.04837 13.2338 5.09757C13.1849 5.14407 13.1201 5.17257 13.0502 5.17257V5.17287ZM8.13649 6.98292C8.06899 6.98292 8.00194 6.95472 7.95289 6.90792C7.90639 6.85917 7.87789 6.79437 7.87789 6.72462C7.87789 6.65457 7.90639 6.58992 7.95289 6.54102C8.05114 6.44532 8.22439 6.44532 8.32009 6.54102C8.36659 6.58992 8.39509 6.65457 8.39509 6.72462C8.39509 6.79437 8.36659 6.85917 8.32009 6.90807C8.27089 6.95487 8.20384 6.98307 8.13649 6.98307V6.98292ZM9.42949 8.79342C9.36229 8.79342 9.29509 8.76492 9.24589 8.71842C9.19939 8.66937 9.17089 8.60217 9.17089 8.53497C9.17089 8.46747 9.19939 8.40027 9.24589 8.35122C9.34414 8.25567 9.51739 8.25567 9.61339 8.35122C9.65989 8.39772 9.68839 8.46477 9.68839 8.53497C9.68839 8.60487 9.65989 8.66937 9.61339 8.71857C9.56389 8.76507 9.49669 8.79357 9.42964 8.79357L9.42949 8.79342Z" fill="#D4C3A5"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.18829 2.8442C2.12109 2.8442 2.05374 2.8157 2.00469 2.7692C1.95819 2.72015 1.92969 2.65295 1.92969 2.5856C1.92969 2.5187 1.95819 2.45105 2.00469 2.4023C2.10309 2.3066 2.27619 2.3066 2.37219 2.4023C2.41869 2.45105 2.44719 2.5187 2.44719 2.58575C2.44719 2.65325 2.41869 2.72045 2.37219 2.7695C2.32299 2.816 2.25564 2.8445 2.18844 2.8445L2.18829 2.8442ZM12.8356 2.58545C12.8356 2.4434 12.9496 2.32715 13.0943 2.32715C13.2364 2.32715 13.3529 2.4434 13.3529 2.5856C13.3529 2.7281 13.2364 2.84435 13.0943 2.84435C12.9494 2.84435 12.8356 2.7281 12.8356 2.58575V2.58545ZM11.8426 2.58545C11.8426 2.4434 11.9588 2.32715 12.1012 2.32715C12.2462 2.32715 12.3599 2.4434 12.3599 2.5856C12.3599 2.7281 12.2462 2.84435 12.1013 2.84435C11.9591 2.84435 11.8429 2.7281 11.8429 2.58575L11.8426 2.58545ZM10.852 2.58545C10.852 2.4434 10.9684 2.32715 11.1106 2.32715C11.2531 2.32715 11.3693 2.4434 11.3693 2.5856C11.3693 2.7281 11.2529 2.84435 11.1106 2.84435C10.9684 2.84435 10.852 2.7281 10.852 2.58575V2.58545ZM9.86154 2.58545C9.86154 2.4434 9.97554 2.32715 10.1201 2.32715C10.2623 2.32715 10.3787 2.4434 10.3787 2.5856C10.3787 2.7281 10.2623 2.84435 10.1201 2.84435C9.97539 2.84435 9.86154 2.7281 9.86154 2.58575V2.58545ZM8.86854 2.58545C8.86854 2.4434 8.98479 2.32715 9.12714 2.32715C9.27174 2.32715 9.38559 2.4434 9.38559 2.5856C9.38559 2.7281 9.27159 2.84435 9.12714 2.84435C8.98464 2.84435 8.86839 2.7281 8.86839 2.58575L8.86854 2.58545ZM7.87794 2.58545C7.87794 2.4434 7.99419 2.32715 8.13654 2.32715C8.27904 2.32715 8.39514 2.4434 8.39514 2.5856C8.39514 2.7281 8.27889 2.84435 8.13654 2.84435C7.99404 2.84435 7.87794 2.7281 7.87794 2.58575V2.58545ZM6.88749 2.58545C6.88749 2.4434 7.00119 2.32715 7.14594 2.32715C7.28844 2.32715 7.40469 2.4434 7.40469 2.5856C7.40469 2.7281 7.28844 2.84435 7.14609 2.84435C7.00134 2.84435 6.88764 2.7281 6.88764 2.58575L6.88749 2.58545ZM5.89449 2.58545C5.89449 2.4434 6.01074 2.32715 6.15294 2.32715C6.29769 2.32715 6.41154 2.4434 6.41154 2.5856C6.41154 2.7281 6.29754 2.84435 6.15294 2.84435C6.01074 2.84435 5.89434 2.7281 5.89434 2.58575L5.89449 2.58545ZM4.90374 2.58545C4.90374 2.4434 5.02014 2.32715 5.16249 2.32715C5.30454 2.32715 5.42109 2.4434 5.42109 2.5856C5.42109 2.7281 5.30454 2.84435 5.16249 2.84435C5.01999 2.84435 4.90374 2.7281 4.90374 2.58575V2.58545ZM3.91314 2.58545C3.91314 2.4434 4.02714 2.32715 4.17189 2.32715C4.31409 2.32715 4.43034 2.4434 4.43034 2.5856C4.43034 2.7281 4.31409 2.84435 4.17174 2.84435C4.02669 2.84435 3.91284 2.7281 3.91284 2.58575L3.91314 2.58545ZM2.92014 2.58545C2.92014 2.4434 3.03654 2.32715 3.17874 2.32715C3.32364 2.32715 3.43734 2.4434 3.43734 2.5856C3.43734 2.7281 3.32364 2.84435 3.17874 2.84435C3.03654 2.84435 2.92014 2.7281 2.92014 2.58575V2.58545ZM14.0848 2.8442C14.015 2.8442 13.9502 2.8157 13.9012 2.76665C13.8547 2.72015 13.8262 2.65295 13.8262 2.5856C13.8262 2.5187 13.8547 2.45105 13.9012 2.4023C13.9945 2.3066 14.1703 2.3066 14.2687 2.4023C14.3152 2.45105 14.3437 2.5187 14.3437 2.58575C14.3437 2.65325 14.3152 2.72045 14.2687 2.7695C14.2195 2.816 14.1521 2.8445 14.0849 2.8445L14.0848 2.8442Z" fill="#A5A5A4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.0781 7.77625H3.6679V8.28175C3.6679 8.3065 3.6757 8.32675 3.6916 8.34235C3.70735 8.35825 3.7276 8.36635 3.75205 8.36635H4.192C4.21495 8.36635 4.2346 8.35825 4.2514 8.34235C4.2679 8.3266 4.27615 8.30635 4.27615 8.2819V7.7764H5.60605C5.6308 7.7764 5.65105 7.7683 5.6668 7.7527C5.68255 7.7368 5.6905 7.7167 5.6905 7.6921V7.3549C5.6905 7.3303 5.68255 7.3099 5.6668 7.2943C5.65105 7.27855 5.6308 7.2706 5.6062 7.2706H4.27645V6.9601H5.17195C5.52295 6.9601 5.80945 6.85285 6.03145 6.6385C6.25345 6.4246 6.36475 6.148 6.36475 5.809C6.36475 5.47045 6.25375 5.194 6.03175 4.9795C5.80945 4.7656 5.52295 4.6582 5.1718 4.6582H3.75205C3.7276 4.6582 3.7075 4.66615 3.69175 4.6822C3.67585 4.6978 3.66775 4.7182 3.66775 4.7425V6.3991H3.07825C3.0535 6.3991 3.03325 6.4072 3.0175 6.424C3.0016 6.4405 2.9938 6.46045 2.9938 6.4834V6.87565C2.9938 6.9001 3.0016 6.9202 3.0175 6.93595C3.0334 6.952 3.0535 6.95995 3.0781 6.95995H3.6679V7.27045H3.07795C3.05335 7.27045 3.03325 7.2784 3.01735 7.29415C3.00145 7.3099 2.99365 7.33015 2.99365 7.35475V7.6918C2.99365 7.7167 3.00145 7.7368 3.01735 7.7527C3.03325 7.7683 3.05335 7.77625 3.07795 7.77625H3.0781ZM4.2763 5.2192H5.11885C5.30485 5.2192 5.45485 5.27365 5.5693 5.3827C5.6833 5.49145 5.7403 5.63365 5.7403 5.80915C5.7403 5.98465 5.6833 6.12685 5.5693 6.2356C5.455 6.3445 5.305 6.3991 5.11885 6.3991H4.2763V5.21905V5.2192Z" fill="#24AE5F"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0217 10.7201L13.2949 10.7003L13.5628 10.666L13.8287 10.6189L14.0874 10.5592L14.3426 10.4868L14.5922 10.4018L14.8365 10.3059L15.0752 10.1974L15.3069 10.0797L15.5313 9.94942L15.7502 9.81012L15.96 9.66L16.1627 9.50078L16.3581 9.33246L16.5444 9.15341L16.7236 8.96698L16.8918 8.77154L17.051 8.56892L17.2011 8.35912L17.3404 8.14012L17.4708 7.91575L17.5884 7.6842L17.6969 7.44527L17.7928 7.20117L17.8779 6.95132L17.9503 6.6963L18.01 6.43754L18.057 6.1716L18.0913 5.90384L18.1113 5.63061L18.1185 5.35375L18.1113 5.0787L18.0913 4.80739L18.057 4.53953L18.01 4.27723L17.9503 4.01847L17.8779 3.76517L17.7928 3.51552L17.6969 3.27304L17.5884 3.03603L17.4708 2.80448L17.3404 2.58193L17.2011 2.36293L17.051 2.15303L16.8918 1.95223L16.7236 1.7569L16.5444 1.57047L16.3581 1.39314L16.1627 1.22491L15.96 1.06569L15.7502 0.915475L15.5313 0.77618L15.3069 0.647711L15.0752 0.530163L14.8365 0.421525L14.5922 0.325724L14.3426 0.240652L14.0874 0.168227L13.8287 0.108543L13.5628 0.0615043L13.2949 0.0271117L13.0217 0.00728088L12.7449 0L12.4699 0.00728088L12.1966 0.0271117L11.9289 0.0615043L11.6647 0.108543L11.406 0.168227L11.1509 0.240652L10.903 0.325724L10.6588 0.421525L10.4218 0.530163L10.1919 0.647711L9.96766 0.77618L9.75048 0.915475L9.54058 1.06569L9.33797 1.22491L9.14435 1.39314L8.95802 1.57047L8.7807 1.7569L8.61247 1.95223L8.45325 2.15303L8.30486 2.36293L8.16547 2.58193L8.03709 2.80448L7.91773 3.03603L7.81091 3.27304L7.71501 3.51552L7.63186 3.76517L7.55943 4.01847L7.49975 4.27723L7.45271 4.53953L7.41832 4.80739L7.39839 5.0787L7.39111 5.35375L7.39839 5.63061L7.41832 5.90384L7.45271 6.1716L7.49975 6.43754L7.55943 6.6963L7.63186 6.95132L7.71501 7.20117L7.81091 7.44527L7.91773 7.6842L8.03709 7.91575L8.16547 8.14012L8.30486 8.35912L8.45325 8.56892L8.61247 8.77154L8.7807 8.96698L8.95802 9.15341L9.14435 9.33246L9.33797 9.50078L9.54058 9.66L9.75048 9.81012L9.96766 9.94942L10.1919 10.0797L10.4218 10.1974L10.6588 10.3059L10.903 10.4018L11.1509 10.4868L11.406 10.5592L11.6647 10.6189L11.9289 10.666L12.1966 10.7003L12.4699 10.7201L12.7449 10.7274L13.0217 10.7201Z" fill="#F2AD3D"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.01039 10.7282L6.28544 10.7209L6.55866 10.701L6.82642 10.6667L7.09055 10.6196L7.34931 10.5599L7.60443 10.4875L7.85226 10.4025L8.09656 10.3066L8.33357 10.1981L8.5633 10.0804L8.78776 9.95015L9.00484 9.81086L9.21475 9.66074L9.41736 9.50151L9.61088 9.33319L9.79731 9.15414L9.97464 8.96771L10.1429 8.77228L10.3021 8.56966L10.4505 8.35985L10.5898 8.14085L10.7182 7.91649L10.8376 7.68494L10.9443 7.44601L11.0403 7.20191L11.1235 6.95206L11.1958 6.69703L11.2556 6.43828L11.3026 6.17233L11.337 5.90457L11.357 5.63134L11.3641 5.35448L11.357 5.07943L11.337 4.80813L11.3026 4.54027L11.2556 4.27796L11.1958 4.0192L11.1235 3.76591L11.0403 3.51625L10.9443 3.27378L10.8376 3.03676L10.7182 2.80521L10.5898 2.58267L10.4505 2.36367L10.3021 2.15377L10.1429 1.95297L9.97464 1.75763L9.79731 1.5712L9.61088 1.39387L9.41736 1.22564L9.21475 1.06642L9.00484 0.916207L8.78776 0.776913L8.5633 0.648443L8.33357 0.530895L8.09656 0.422257L7.85226 0.326456L7.60443 0.241385L7.34931 0.168959L7.09055 0.109275L6.82642 0.0622367L6.55866 0.0278441L6.28544 0.0080133L6.01039 0.000732422L5.73362 0.0080133L5.4604 0.0278441L5.19254 0.0622367L4.92659 0.109275L4.66793 0.168959L4.41281 0.241385L4.16306 0.326456L3.91877 0.422257L3.68003 0.530895L3.44838 0.648443L3.22402 0.776913L3.00511 0.916207L2.79521 1.06642L2.59259 1.22564L2.39716 1.39387L2.21083 1.5712L2.03168 1.75763L1.86345 1.95297L1.70423 2.15377L1.55401 2.36367L1.41472 2.58267L1.28443 2.80521L1.16679 3.03676L1.05834 3.27378L0.962442 3.51625L0.877371 3.76591L0.804945 4.0192L0.745261 4.27796L0.698223 4.54027L0.66383 4.80813L0.643904 5.07943L0.636719 5.35448L0.643904 5.63134L0.66383 5.90457L0.698223 6.17233L0.745261 6.43828L0.804945 6.69703L0.877371 6.95206L0.962442 7.20191L1.05834 7.44601L1.16679 7.68494L1.28443 7.91649L1.41472 8.14085L1.55401 8.35985L1.70423 8.56966L1.86345 8.77228L2.03168 8.96771L2.21083 9.15414L2.39716 9.33319L2.59259 9.50151L2.79521 9.66074L3.00511 9.81086L3.22402 9.95015L3.44838 10.0804L3.68003 10.1981L3.91877 10.3066L4.16306 10.4025L4.41281 10.4875L4.66793 10.5599L4.92659 10.6196L5.19254 10.6667L5.4604 10.701L5.73362 10.7209L6.01039 10.7282Z" fill="#D82331"/>
+                                        <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M9.37626 9.52963C9.38274 9.52963 11.3642 8.12406 11.3642 5.36351C11.3642 2.60297 9.38274 1.19214 9.38274 1.19214C8.16785 2.17547 7.39111 3.67878 7.39111 5.36351C7.39111 7.04525 8.16509 8.54621 9.37626 9.52963Z" fill="url(#paint0_linear)"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon">
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.09254 0.0263672C8.18762 0.0263672 9.22474 0.281167 10.1482 0.733927C10.2934 0.802947 10.438 0.878687 10.5829 0.962127L9.94112 1.53697L8.97652 0.539607L7.34832 1.99169L6.38162 0.936087L3.34922 3.66973L5.29298 5.81243L4.52914 6.48415L6.44406 8.62979L5.68484 9.30039L8.42086 12.3459L10.0453 10.8507L11.4495 12.4529C11.1702 12.6699 10.866 12.8743 10.5307 13.063C9.51524 13.6422 8.34148 13.9737 7.09254 13.9737C3.25164 13.974 0.119141 10.8408 0.119141 7.00019C0.118861 3.15915 3.2515 0.0265072 7.09226 0.0265072L7.09254 0.0263672Z" fill="#006AB4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.82161 6.55978L7.48005 5.0664L8.97343 6.72512L7.31485 8.21808L5.82175 6.55978H5.82161ZM7.00083 9.4253L8.65927 7.9322L10.1527 9.5905L8.49449 11.0843L7.00083 9.4253ZM4.63525 3.72786L6.29355 2.2349L7.78637 3.89306L6.12807 5.3863L4.63525 3.72786ZM7.67815 2.92412L8.92177 1.80454L10.0418 3.0483L8.79801 4.1683L7.67801 2.92412H7.67815ZM9.88805 8.05358L11.1321 6.93358L12.2521 8.17762L11.0083 9.29734L9.88805 8.05358ZM10.9823 10.5656L12.2255 9.4456L13.3455 10.6892L12.1019 11.8089L10.9823 10.5657V10.5656ZM11.4832 4.80782L12.312 4.06134L13.0588 4.89056L12.23 5.63676L11.4832 4.80768V4.80782ZM10.4237 2.34438L11.2529 1.5979L11.9994 2.4267L11.17 3.17346L10.4236 2.34438H10.4237ZM12.5433 7.2714L13.3724 6.52478L14.1189 7.354L13.2898 8.10048L12.5433 7.2714ZM8.82461 5.4255L10.0684 4.30522L11.1881 5.54898L9.94489 6.66898L8.82461 5.4255Z" fill="#006AB4"/>
+                                    </svg>                                        
+                                </span>
+                            </div>
+                            <div class="col-12 col-xl-4 d-flex justify-content-end">
+                                <a class="c-black t--2 o-5" href="/">Разработан на платформе SIMAI SF4</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+        </footer>
+
+        <script src="./asset/swiper/js/swiper.min.js"></script>
+        <script src="./asset/lazysizes/js/lazysizes.min.js"></script>
+        <script src="./asset/lazysizes/js/lazysizes-umd.min.js"></script>
+        <script src="./asset/tab/js/tabs.js"></script>
+        <script defer>
+            var btnSSNext = document.querySelectorAll('.btnSimaiSolutionNext');
+            var btnSSPrev = document.querySelectorAll('.btnSimaiSolutionPrev');
+            for(var k = 0; k < btnSSNext.length; k++) {
+                btnSSNext[k].addEventListener('click', function(e) {
+                    simaiSolution.slideNext();
+                });
+                btnSSPrev[k].addEventListener('click', function(e) {
+                    simaiSolution.slidePrev();
+                })
+            }
+
+            document.addEventListener('lazybeforeunveil', function(e){
+                var bg = e.target.getAttribute('data-bg');
+                if(bg){
+                    e.target.style.backgroundImage = 'url(' + bg + ')';
+                }
+            });
+
+        </script>
+    </body>
+</html>
