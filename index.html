@@ -33,6 +33,19 @@
                 display:none
             }*/
 
+            .project--sliderFull .swiper-slide {
+                opacity:0.4;
+            }
+            .project--sliderFull .swiper-slide-active {
+                opacity: 1;
+            }
+            .project--sliderFull .swiper-slide-next {
+                opacity: 0.4;
+            }
+            .project--sliderFull .swiper-slide-next + .swiper-slide {
+                opacity:1;
+            }
+
             @media(min-width:576px) {
                 .btnSimaiSolutionNext {
                     right:-50px
@@ -42,6 +55,10 @@
                 }
                 .h-sm-auto{height:auto}
                 .h-sm-100{height:100%}
+
+                .project--sliderFull .swiper-slide-next {
+                    opacity: 1;
+                }
             }
 
             @media(min-width:768px) {
@@ -55,8 +72,23 @@
             }
 
             @media(min-width:1200px) {
+                .btnSimaiSolutionNext {
+                    right:-30px
+                }
+                .btnSimaiSolutionPrev {
+                    left:-30px
+                }
                 .h-xl-auto{height:auto}
                 .h-xl-100{height:100%}
+            }
+
+            @media(min-width:1280px) {
+                .btnSimaiSolutionNext {
+                    right:-50px
+                }
+                .btnSimaiSolutionPrev {
+                    left:-50px
+                }
             }
 
             .fill-6778D3{fill:#6778D3}
@@ -113,12 +145,12 @@
                     <div class="w-100 pt-3 bg-white">
                         <div class="container">
                             <div class="row">
-                                <div class="col-5 col-md-4 col-lg-3 col-xl-5 mb-3 mb-md-0">
+                                <div class="col-5 col-sm-12 col-md-3 col-lg-5 col-xl-5 mb-3 mb-md-0">
                                     <a class="nav-brand mr-4 d-flex align-items-center" href="/">
                                         <span class="mr-4">
                                             <svg width="86" height="24" viewBox="0 0 87 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M42.7954 25.1906V25.1869H40.2766L35.2508 13.5015V25.1869H30.2144V0.816398H35.2505V0.817373L42.7994 18.3707L50.3475 0.820786L50.3571 0.824687V0.817373H55.3929V25.1879H50.3571V13.4829L45.322 25.1903H42.7956L42.7954 25.1906ZM73.314 25.1882L68.495 9.65913L63.6765 25.1869H58.419L65.9822 0.815179L71.008 0.816398L78.5715 25.1884H73.314V25.1882ZM9.06527 25.1882L0.000344911 25.1869L2.01463 20.3084L9.06527 20.3148C9.66148 20.314 10.2516 20.0593 10.6491 19.5702C11.3362 18.7237 11.1841 17.4972 10.3096 16.8323C10.2076 16.7543 10.1005 16.688 9.98892 16.6324L3.88585 13.7345C3.47151 13.5332 3.07228 13.2891 2.69446 13.0014C-0.366393 10.6733 -0.898869 6.37998 1.50609 3.41777C2.88841 1.71506 4.94476 0.820542 7.02277 0.810303L16.1157 0.816398L14.1016 5.69099L7.00363 5.6849C6.4233 5.69782 5.85355 5.95308 5.46666 6.42972C4.77953 7.2762 4.93166 8.50277 5.80619 9.16762C5.9082 9.24564 6.01576 9.31195 6.12684 9.36754L12.2304 12.2654C12.6442 12.467 13.0435 12.7111 13.4218 12.9987C16.4819 15.3263 17.0144 19.6197 14.6094 22.5819C13.2203 24.2934 11.1536 25.1869 9.06553 25.1882H9.06527ZM81.5847 25.1882V0.817617H86.6208V25.1882H81.5847ZM20.1447 25.1869V0.816398H25.1798V25.1869H20.1447Z" fill="#FF6568"/></svg>
                                         </span>
-                                        <span class="t--1">
+                                        <span class="t--1 d-none d-sm-block d-md-none d-lg-block">
                                             Готовые решения для организаций
                                         </span>
                                     </a>
@@ -133,14 +165,14 @@
                                     </div>
                                     -->
                                 </div>
-                                <div class="col-7 col-md-4 col-lg-3 col-xl-4 d-flex align-items-center mb-3 mb-md-3 mb-lg-0">
+                                <div class="col-7 col-sm-5 col-md-4 col-lg-3 col-xl-4 d-flex align-items-center mb-3 mb-md-0 mb-lg-0">
                                     <a href="tel:8 (800) 2000-865" class="c-block">
                                         <i class="fas fa-phone mr-1 t-0"></i>
                                         <span class="t-0 t-sm-1 t-medium c-black t-solid">8 (800) 2000-865</span>
                                     </a>
                                 </div>
-                                <div class="col-12 col-sm-8 col-md-8 col-lg-2 col-xl-3 mb-3 mb-md-0">
-                                    <div class="w-100 h-100 d-flex justify-content-between">
+                                <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 mb-3 mb-md-0">
+                                    <div class="w-100 h-100 d-flex justify-content-end justify-content-lg-between align-items-center">
                                         <a class="mr-2 sf-link t--1 mr-4" href="/">
                                             Обратная связь
                                         </a>
@@ -371,9 +403,9 @@
                                 <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
                                     <div class="container h-100">
                                         <div class="row h-100">
-                                            <div class="col-12 col-xl-6 d-flex flex-column justify-content-center align-items-start">
-                                                <h2 class="slider--title mb-4 t-medium t-4">Современный сайт города</h2>
-                                                <div class="slider--text mb-4">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
                                                     <ul class="t-list m-0 p-0">
                                                         <li>- Полное соответсвие закононодательству РФ</li>
                                                         <li>- Огромный функционал</li>
@@ -385,7 +417,7 @@
                                                     Узнать больше
                                                 </a>
                                             </div>
-                                            <div class="col-12 col-xl-6 d-flex align-items-end" data-background="">
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
                                                 <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
                                             </div>
                                         </div>
@@ -393,13 +425,13 @@
                                 </div>
                             </div>
                             <div class="swiper-slide theme-dark bg-51556F">
-                                <div data-background="" class="swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
-                                <div class="position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0 d-flex align-items-center">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h2 class="slider--title mb-4 t-medium t-4">Современный сайт города</h2>
-                                                <div class="slider--text mb-4">
+                                <div data-background="" class="slider--imageBg swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
+                                    <div class="container h-100">
+                                        <div class="row h-100">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
                                                     <ul class="t-list m-0 p-0">
                                                         <li>- Полное соответсвие закононодательству РФ</li>
                                                         <li>- Огромный функционал</li>
@@ -410,19 +442,22 @@
                                                 <a href="/" class="slider--link btn btn-lg btn-primary py-3 px-4">
                                                     Узнать больше
                                                 </a>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
+                                                <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="swiper-slide theme-dark bg-51556F">
-                                <div data-background="" class="swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
-                                <div class="position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0 d-flex align-items-center">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-12">
-                                                <h2 class="slider--title mb-4 t-medium t-4">Современный сайт города</h2>
-                                                <div class="slider--text mb-4">
+                                <div data-background="" class="slider--imageBg swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
+                                    <div class="container h-100">
+                                        <div class="row h-100">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
                                                     <ul class="t-list m-0 p-0">
                                                         <li>- Полное соответсвие закононодательству РФ</li>
                                                         <li>- Огромный функционал</li>
@@ -434,12 +469,15 @@
                                                     Узнать больше
                                                 </a>
                                             </div>
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
+                                                <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-100 position-absolute ar-0 ab-0 al-0 pb-5">
+                        <div class="w-100 position-absolute ar-0 ab-0 al-0 pb-0 pb-sm-4 pb-md-4 pb-lg-5 d-none d-sm-block">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-start">
@@ -475,7 +513,7 @@
                         <div class="row">
                             <div class="col-12 col-sm-4 col-xl-4 mb-4 mb-sm-0">
                                 <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
-                                    <span class="mr-4 mr-sm-2 mr-md-3 pt-2">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
                                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M35.1713 47.2134H2.87496C1.72297 47.2134 0.785645 46.2762 0.785645 45.1242V9.82778C0.785645 8.67578 1.72297 7.73828 2.87496 7.73828H10.0499C10.2471 7.73828 10.4071 7.89802 10.4071 8.09542C10.4071 8.29283 10.2471 8.45257 10.0499 8.45257H2.87496C2.11673 8.45257 1.49993 9.06955 1.49993 9.82778V45.1242C1.49993 45.8825 2.11673 46.4991 2.87496 46.4991H35.1713C35.9295 46.4991 36.5463 45.8825 36.5463 45.1242V9.82778C36.5463 9.06955 35.9295 8.45257 35.1713 8.45257H27.9892C27.792 8.45257 27.632 8.29283 27.632 8.09542C27.632 7.89802 27.792 7.73828 27.9892 7.73828H35.1713C36.3233 7.73828 37.2606 8.67578 37.2606 9.82778V45.1242C37.2606 46.2762 36.3233 47.2134 35.1713 47.2134Z" fill="#35373B"/>
                                             <path d="M26.8467 11.4694H11.2005C11.0522 11.4694 10.9194 11.3781 10.8667 11.2393L9.04976 6.46736C9.01279 6.3704 9.01994 6.26228 9.06911 6.1709C9.11847 6.07952 9.20496 6.0143 9.30628 5.99163L15.5409 4.61049L16.2749 2.68004C16.7058 1.54653 17.8102 0.785156 19.0227 0.785156C20.2366 0.785156 21.3412 1.54792 21.7714 2.68283L22.5023 4.61049L28.736 5.99163C28.8374 6.0143 28.9239 6.07952 28.973 6.1709C29.0224 6.26193 29.0295 6.3704 28.9927 6.46736L27.1807 11.2393C27.128 11.3777 26.9951 11.4694 26.8467 11.4694ZM11.4467 10.7552H26.6003L28.1784 6.59989L22.1594 5.26618C22.0419 5.24003 21.9454 5.15667 21.9027 5.04401L21.1035 2.93604C20.7778 2.07666 19.9416 1.49944 19.0227 1.49944C18.1048 1.49944 17.2688 2.07596 16.9425 2.93394L16.1401 5.04436C16.0974 5.15667 16.001 5.24003 15.8836 5.26618L9.86449 6.59954L11.4467 10.7552Z" fill="#35373B"/>
@@ -504,7 +542,7 @@
                             </div>
                             <div class="col-12 col-sm-4 col-xl-4 mb-4 mb-sm-0">
                                 <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
-                                    <span class="mr-4 mr-sm-2 mr-md-3 pt-2">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
                                         <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M45.4609 45.8516H0.539062C0.32334 45.8516 0.148438 45.6767 0.148438 45.4609V0.539062C0.148438 0.32334 0.32334 0.148438 0.539062 0.148438H45.4609C45.6767 0.148438 45.8516 0.32334 45.8516 0.539062V45.4609C45.8516 45.6767 45.6767 45.8516 45.4609 45.8516ZM0.929688 45.0703H45.0703V0.929688H0.929688V45.0703Z" fill="#35373B"/>
                                             <path d="M45.4609 8.74219H0.539062C0.32334 8.74219 0.148438 8.56729 0.148438 8.35156C0.148438 8.13584 0.32334 7.96094 0.539062 7.96094H45.4609C45.6767 7.96094 45.8516 8.13584 45.8516 8.35156C45.8516 8.56729 45.6767 8.74219 45.4609 8.74219Z" fill="#35373B"/>
@@ -536,7 +574,7 @@
                             </div>
                             <div class="col-12 col-sm-4 col-xl-4">
                                 <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
-                                    <span class="mr-4 mr-sm-2 mr-md-3 pt-2">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
                                         <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M24.2402 21.1992H16.7871V20.1602L20.7246 15.7852C21.3079 15.1237 21.709 14.5872 21.9277 14.1758C22.1517 13.7591 22.2637 13.3294 22.2637 12.8867C22.2637 12.293 22.084 11.806 21.7246 11.4258C21.3652 11.0456 20.8861 10.8555 20.2871 10.8555C19.5684 10.8555 19.0085 11.0612 18.6074 11.4727C18.2116 11.8789 18.0137 12.4466 18.0137 13.1758H16.5684C16.5684 12.1289 16.9043 11.2826 17.5762 10.6367C18.2533 9.99089 19.1569 9.66797 20.2871 9.66797C21.3444 9.66797 22.1803 9.94661 22.7949 10.5039C23.4095 11.056 23.7168 11.793 23.7168 12.7148C23.7168 13.8346 23.0033 15.168 21.5762 16.7148L18.5293 20.0195H24.2402V21.1992ZM31.873 17.3789H33.4512V18.5586H31.873V21.1992H30.4199V18.5586H25.2402V17.707L30.334 9.82422H31.873V17.3789ZM26.8809 17.3789H30.4199V11.8008L30.248 12.1133L26.8809 17.3789Z" fill="#35373B"/>
                                             <path d="M49.4912 0H0.508792C0.227939 0 0 0.227939 0 0.508792V33.2536C0 33.5345 0.227939 33.7624 0.508792 33.7624H24.4912V41.9753H12.1988C11.9179 41.9753 11.69 42.2033 11.69 42.4841C11.69 42.765 11.9179 42.9929 12.1988 42.9929H37.8012C38.0821 42.9929 38.31 42.765 38.31 42.4841C38.31 42.2033 38.0821 41.9753 37.8012 41.9753H25.5088V33.7624H49.4912C49.7721 33.7624 50 33.5345 50 33.2536V0.508792C50 0.227939 49.7731 0 49.4912 0ZM48.9824 32.7448H1.01758V1.01758H48.9824V32.7448Z" fill="#35373B"/>
@@ -564,7 +602,7 @@
                                 <h2 class="t-2 mb-4 t-bold t-center">Наши компетенции и сертификаты</h2>
                             </div>
 
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7 mb-4 mb-lg-0">
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-6 col-xl-7 mb-4 mb-lg-0">
                                 <div class="row">
                                     <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4">
                                         <a href="https://simai.ru/upload/iblock/214/1c.png_thumbnail0.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
@@ -603,17 +641,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-1 d-flex justify-content-center">
+                            <div class="col-12 col-lg-1 col-xl-1 d-none d-sm-none d-md-none d-lg-flex justify-content-center">
                                 <div class="br-1 b-gray-5"></div>
                             </div>
-                            <div class="col-12 col-lg-6 col-xl-4 d-flex flex-column">
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 d-flex flex-column">
                                 <div class="row">
-                                    <div class="col-6 col-sm-4 col-xl-6 mb-4 mb-lg-0">
+                                    <div class="col-6 col-sm-4 col-md-6 col-xl-6 mb-4 mb-lg-0">
                                         <a href="https://simai.ru/upload/iblock/1d5/gold.png" data-fancybox="" class="h-auto bg-white d-flex align-items-center r-2">
                                             <img class="w-100 lazyload" data-src="./image/gold.png" alt="Золотой сертифицированный партнер «1С-Битрикс»">
                                         </a>
                                     </div>
-                                    <div class="col-6 col-sm-4 col-xl-6">
+                                    <div class="col-6 col-sm-4 col-md-6 col-xl-6">
                                         <a href="https://simai.ru/upload/iblock/0e5/kachestvo.jpg" data-fancybox="" class="h-auto bg-white d-flex align-items-center r-2">
                                             <img class="w-100 lazyload" data-src="./image/qc_sm.png" alt="Сертификат участника программы качества «1C-Битрикс»">
                                         </a>
@@ -640,7 +678,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h2 class="t-2 mb-4 t-bold">Наши решения</h2>
+                                <h2 class="t-2 mb-4 t-bold t-center">Наши решения</h2>
                             </div>
                             <div class="col-12 mb-4">
                                 <nav class="sf-tab-nav simaiSolutionTab">
@@ -738,7 +776,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="w-100 position-absolute ar-0 ab--4 al-0">
+                                        <div class="w-100 position-absolute ar-0 ab--3 ab-lg--4 al-0">
                                             <div class="container">
                                                 <div class="row">
                                                     <div class="col-12 d-flex justify-content-center">
@@ -749,11 +787,11 @@
                                         </div>
                                         
 
-                                        <div class="btnSimaiSolution btnSimaiSolutionPrev simai--solutionPrev position-aboslute c-6778D3 t-3">
+                                        <div class="btnSimaiSolution btnSimaiSolutionPrev simai--solutionPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                             <i class="fas fa-angle-left"></i>                                                
                                         </div>
 
-                                        <div class="btnSimaiSolution btnSimaiSolutionNext simai--solutionNext position-aboslute c-6778D3 t-3">
+                                        <div class="btnSimaiSolution btnSimaiSolutionNext simai--solutionNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                             <i class="fas fa-angle-right"></i>                                              
                                         </div>
 
@@ -785,7 +823,7 @@
                                     el: ".paginationSimaiSolution",
                                     clickable: true,
                                 },
-                                autoHeight : true,
+                                //autoHeight : true,
                                 slidesPerView: 4,
                                 spaceBetween: 32,
                                 breakpoints: {
@@ -824,7 +862,7 @@
                 <section class="w-100 py-4 py-md-4 py-lg-5 bg-secondary">
                     <div class="container">
                         <div class="row">
-                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-0">
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
                                 <div class="d-flex">
                                     <span class="mr-3">
                                         <svg width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -839,7 +877,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-0">
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
                                 <div class="d-flex">
                                     <span class="mr-3">
                                         <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -856,7 +894,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-0">
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
                                 <div class="d-flex">
                                     <span class="mr-3">
                                         <svg width="50" height="53" viewBox="0 0 50 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -874,7 +912,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-xl-3">
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
                                 <div class="d-flex">
                                     <span class="mr-3">
                                         <svg width="46" height="41" viewBox="0 0 46 41" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -895,20 +933,6 @@
             <!-- -->
 
             <!-- Наши проекты -->
-                <style>
-                    .project--sliderFull .swiper-slide {
-                        opacity:0.4;
-                    }
-                    .project--sliderFull .swiper-slide-active {
-                        opacity: 1;
-                    }
-                    .project--sliderFull .swiper-slide-next {
-                        opacity: 1;
-                    }
-                    .project--sliderFull .swiper-slide-next + .swiper-slide {
-                        opacity:1;
-                    }
-                </style>
                 <section class="simai--project w-100 py-4 py-md-4 py-lg-5 bg-51556F c-white">
                     <div class="container">
                         <div class="row">
@@ -920,7 +944,7 @@
                     <div class="container-fluid overflow-hidden">
                         <div class="row">
                             <div class="col-12">
-                                <div class="swiper-container container overflow-visible project--sliderFull">
+                                <div class="swiper-container container overflow-visible project--sliderFull px-0">
                                     <div class="swiper-wrapper h-auto">
                                         <div class="swiper-slide">
                                             <a href="" class="d-block r-2 w-100 h-100 overflow-hidden">
@@ -975,11 +999,11 @@
                                     </div>
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--projectPrev position-aboslute c-6778D3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--projectPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-left"></i>                                            
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--projectNext position-aboslute c-6778D3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--projectNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-right"></i>                                               
                                 </div>
 
@@ -1053,7 +1077,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--newsList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-sale40.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1073,7 +1097,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-bx24.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1093,7 +1117,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/tarig-hostin.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1113,7 +1137,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/sectetSale.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1133,7 +1157,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-lg-0">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black  r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/sectetSale.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1153,7 +1177,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-lg-0">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/newsShool.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1171,7 +1195,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/8mart.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1191,7 +1215,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                                 <a href="" class="simai--newsList hover:shadow-4 transition d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-sale40.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1221,46 +1245,46 @@
                                 <div class="swiper-container simai--reviewSlider">
                                     <div class="swiper-wrapper h-auto">
                                         <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-9 col-lg-7 col-xl-10 col-xxl-7 py-4 px-5 r-2">
-                                                <span class="mr-4 mt-2">
+                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-7 py-3 py-sm-4 px-3 px-md-5 r-2">
+                                                <span class="mr-4 mt-2 d-none d-sm-block">
                                                     <svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M5.54297 25.1582L0.416016 21.6426C3.47591 17.3783 5.07096 12.9837 5.20117 8.45898V0.304688H14.0391V7.38477C14.0391 10.6725 13.2253 13.9603 11.5977 17.248C10.0026 20.5358 7.98438 23.1725 5.54297 25.1582Z" fill="#C0C0C0"/>
                                                         <path d="M25.1719 25.1582L20.0449 21.6426C23.1048 17.3783 24.6999 12.9837 24.8301 8.45898V0.304688H33.668V7.38477C33.668 10.6725 32.8542 13.9603 31.2266 17.248C29.6315 20.5358 27.6133 23.1725 25.1719 25.1582Z" fill="#C0C0C0"/>
                                                     </svg>                                                                                                                                                                             
                                                 </span>
                                                 <div class="d-flex flex-column w-100">
-                                                    <span class="t-0">
+                                                    <span class="t--1 t-lg-0">
                                                         Нам срочно требовалась разработка сайта для нашего образовательного центра и время очень сильно поджимало.
                                                         Однако сам сайт требовался с весьма насыщенным функционалом. В сети нашел данную студию, созвонился и был удивлен,
                                                         что есть эффектные и функциональные решения именно для нашей сферы деятельности. Выражаю огромную благодарность
                                                         данной студии SIMAI и отдельно Натальи за подробные консультации и помощь на всех этапах работы. Теперь буду всегда
                                                         рекомендовать вашу компанию для решения подобных задач ... 
                                                     </span>
-                                                    <div class="d-flex flex-wrap justify-content-between mt-4 t--1">
-                                                        <span class="t-bold t-solid">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 t--1">
+                                                        <span class="t-bold t-solid mb-3 mb-sm-3 mb-md-3 mb-lg-0">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
                                                         <a href="/" class="bb-1 c-gray-6 b-gray-6">Читать весь отзыв</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="swiper-slide d-flex align-items-center justify-content-center">
-                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-9 col-lg-7 col-xl-10 col-xxl-7 py-4 px-5 r-2">
-                                                <span class="mr-4 mt-2">
+                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-7 py-3 py-sm-4 px-3 px-md-5 r-2">
+                                                <span class="mr-4 mt-2 d-none d-sm-block">
                                                     <svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M5.54297 25.1582L0.416016 21.6426C3.47591 17.3783 5.07096 12.9837 5.20117 8.45898V0.304688H14.0391V7.38477C14.0391 10.6725 13.2253 13.9603 11.5977 17.248C10.0026 20.5358 7.98438 23.1725 5.54297 25.1582Z" fill="#C0C0C0"/>
                                                         <path d="M25.1719 25.1582L20.0449 21.6426C23.1048 17.3783 24.6999 12.9837 24.8301 8.45898V0.304688H33.668V7.38477C33.668 10.6725 32.8542 13.9603 31.2266 17.248C29.6315 20.5358 27.6133 23.1725 25.1719 25.1582Z" fill="#C0C0C0"/>
                                                     </svg>                                                                                                                                                                             
                                                 </span>
                                                 <div class="d-flex flex-column w-100">
-                                                    <span class="t-0">
+                                                    <span class="t--1 t-lg-0">
                                                         Нам срочно требовалась разработка сайта для нашего образовательного центра и время очень сильно поджимало.
                                                         Однако сам сайт требовался с весьма насыщенным функционалом. В сети нашел данную студию, созвонился и был удивлен,
                                                         что есть эффектные и функциональные решения именно для нашей сферы деятельности. Выражаю огромную благодарность
                                                         данной студии SIMAI и отдельно Натальи за подробные консультации и помощь на всех этапах работы. Теперь буду всегда
                                                         рекомендовать вашу компанию для решения подобных задач ... 
                                                     </span>
-                                                    <div class="d-flex flex-wrap justify-content-between mt-4 t--1">
-                                                        <span class="t-bold t-solid">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 t--1">
+                                                        <span class="t-bold t-solid mb-3 mb-sm-3 mb-md-3 mb-lg-0">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
                                                         <a href="/" class="bb-1 c-gray-6 b-gray-6">Читать весь отзыв</a>
                                                     </div>
                                                 </div>
@@ -1269,7 +1293,7 @@
                                     </div>
                                 </div>
 
-                                <div class="w-100 position-absolute ar-0 ab--4 al-0">
+                                <div class="w-100 position-absolute ar-0 ab--3 ab-sm--4 al-0">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-12 d-flex justify-content-center">
@@ -1279,11 +1303,11 @@
                                     </div>
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--reviewSliderPrev position-aboslute c-DBDFE3 al-3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--reviewSliderPrev position-aboslute c-DBDFE3 al-3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-left"></i>                                               
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--reviewSliderNext position-aboslute c-DBDFE3 ar-3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--reviewSliderNext position-aboslute c-DBDFE3 ar-3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-right"></i>
                                 </div>
                             </div>
@@ -1342,11 +1366,11 @@
                                     </div>
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--clientSliderPrev position-aboslute c-6778D3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--clientSliderPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-left"></i>
                                 </div>
 
-                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--clientSliderNext position-aboslute c-6778D3 t-3">
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--clientSliderNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
                                     <i class="fas fa-angle-right"></i>                                               
                                 </div>
                             </div>
@@ -1419,7 +1443,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-1.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1439,7 +1463,7 @@
                             <div class="ccol-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-2.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1459,7 +1483,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-3.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1479,7 +1503,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-4.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1499,7 +1523,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-xl-0">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-5.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1519,7 +1543,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-xl-0">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-6.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1539,7 +1563,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-md-0">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-7.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1559,7 +1583,7 @@
                             <div class="col-12 col-sm-6 col-md-4 col-xl-3">
                                 <a href="" class="simai--arcticleList hover:shadow-4 transition c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
                                     <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-8.jpg"></div>
-                                    <div class="newsList--content px-4 py-3">
+                                    <div class="newsList--content py-3">
                                         <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
                                             <span class="mr-2 c-primary date--icon">
                                                 <i class="fal fa-calendar-alt"></i>
@@ -1672,7 +1696,7 @@
                                         </span>
                                     </div>
                                 </div>
-                                <div class="mt-5 d-flex simai--footerSocial">
+                                <div class="mt-4 mt-lg-5 d-flex simai--footerSocial">
                                     <a href="" class="social--item bg-vk align-items-center d-flex justify-content-center mr-2 p-2 r-7 t--3 t-solid">
                                         <i class="fab fa-vk"></i>
                                     </a>
