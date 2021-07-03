@@ -1,5 +1,6 @@
 .bg-primary{background-color:#F44236!important}
 .bg-secondary{background-color:#F8F8F8!important}
+.bg-F2F4F6{background-color:#F2F4F6!important}
 .b-secondary{border-color:#F2F4F6!important}
 .btn-primary{background-color:#F44236!important;border-color:#F44236!important}
 .btn-primary:hover{background-color:#F44236!important;border-color:#F44236!important}
@@ -9,10 +10,12 @@
 .h-auto{height:auto}
 .b-DBDFE3{border-color:#DBDFE3!important}
 .bg-51556F{background-color:#51556F!important}
+.bg-5F6380{background-color:#5F6380}
 .btnSimaiSolution {
     position:absolute;
     top:calc(50% - 10px);
 }
+.c-818181{color:#818181!important}
 
 .project--sliderFull .swiper-slide {
     opacity:0.4;
@@ -96,6 +99,11 @@
     background-color:#DBDFE3!important
 }
 
+.simaiQuestionTab .active .linkTab {
+    background-color:#5F6380!important;
+    color:#fff!important
+}
+
 .nav-btnBasket:hover {
     background-color: rgba(0,0,0,.05);
     color: rgba(0,0,0,.87);
@@ -109,4 +117,59 @@
 .simai--footerSocial .social--item {
     width:1.5rem;
     height:1.5rem;
+}
+.t-through{text-decoration:line-through}
+.t-nowrap{white-space:nowrap}
+
+.present--icon {
+    width:2.5rem;
+    height:2.5rem;
+}
+
+.compare--table .bg-51556F th {
+    background-color:#51556F;
+    border-color:#51556F;
+}
+
+.compare--table td,
+.compare--table th {
+    padding-top:1.25rem!important;
+    padding-bottom:1.25rem!important;
+}
+
+.compare--table tr:last-child td,
+.compare--table tr:last-child th {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+.sf-form-check.sf-form-check-primary .sf-form-check-input[type=checkbox]:checked+label:before {
+    background-color:#F44236!important;
+    border-color:#F44236!important;
+}
+
+.sf-form-check.sf-form-check-primary .sf-form-check-input[type=checkbox]+label.focus:before,
+.sf-form-check.sf-form-check-primary .sf-form-check-input[type=checkbox]+label:hover:before {
+    border-color:#F44236!important;
+}
+
+.sf-form-check.sf-form-check-primary .sf-form-check-input[type=checkbox]:checked:not(:disabled)+label:focus:before,
+.sf-form-check.sf-form-check-primary .sf-form-check-input[type=checkbox]:checked:not(:disabled)+label:hover:before {
+    background-color:#F44236!important;
+}
+
+.sf-form-check .sf-form-check-input[type=checkbox].sf-form-check-input-xs+label:before {
+    width: calc(1.3125rem * 0.7715);
+    height: calc(1.3125rem * 0.7715);
+}
+
+.sf-form-check .sf-form-check-input[type=checkbox].sf-form-check-input-xs+label:after {
+    top: calc(.56875rem * 0.7715);
+    left: calc(.56875rem * 0.7715);
+    width: calc(.54688rem * 0.7715);
+    height: calc(.32813rem * 0.7715);
+}
+
+.simai--benefitsIcon {
+    width:7.5rem;
+    height:7.5rem;
 }
