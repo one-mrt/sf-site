@@ -172,3 +172,9 @@
     width:7.5rem;
     height:7.5rem;
 }
+
+.event--icon {
+    width:5rem;
+    min-width:5rem;
+    height:5rem;
+}
