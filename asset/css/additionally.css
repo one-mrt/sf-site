@@ -1,10 +1,10 @@
-.bg-primary{background-color:#F44236!important}
+.bg-primary,.hover\:bg-primary:hover{background-color:#F44236!important}
 .bg-secondary{background-color:#F8F8F8!important}
 .bg-F2F4F6{background-color:#F2F4F6!important}
 .b-secondary{border-color:#F2F4F6!important}
 .btn-primary{background-color:#F44236!important;border-color:#F44236!important}
 .btn-primary:hover{background-color:#F44236!important;border-color:#F44236!important}
-.c-primary{color:#F44236!important}
+.c-primary,.hover\:c-primary:hover{color:#F44236!important}
 .b-primary{border-color:#F44236!important}
 .navigation-container{background-color:#fff!important}
 .h-auto{height:auto}
