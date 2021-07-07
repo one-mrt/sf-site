@@ -191,3 +191,7 @@
     min-width:20px;
     height:20px;
 }
+
+.sidebar--tab.active{
+    background-color:#F2F4F6!important
+}
