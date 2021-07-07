@@ -470,6 +470,83 @@
                         <!--  -->
                             <div class="col-12 col-xl-8">
 
+                                <!-- Карта -->
+                                    <section class="w-100">
+                                        <div class="w-100 simai--map" style="height:320px" id="simai--map"></div>
+                                        <script data-scip-moving="true" src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&load=package.full"></script>
+                                        <script>
+                                            ymaps.load(initYMap_10);
+                                            function initYMap_10() {
+
+                                                if(window.innerWidth >=768)
+                                                {
+                                                    document.querySelector('#simai--map').style.height = '320px'
+                                                } else {
+                                                    document.querySelector('#simai--map').style.height = '400px'
+                                                }
+
+                                                var map_10 = new ymaps.Map('simai--map', {
+                                                    center: [51.955384, 85.948165],
+                                                    zoom: 16,
+                                                    controls: ['zoomControl'],
+                                                });
+
+                                                map_10.setType('yandex#map');
+                                                map_10.behaviors
+                                                    .disable('scrollZoom');
+
+                                                        
+                                                var placemark_10 = new ymaps.Placemark(
+                                                    [51.955384, 85.948165],
+                                                    {
+                                                        balloonContent:
+                                                            '<div class="p-1  r-3" style="max-width:320px">' +
+                                                                '<div class="row">' +
+                                                                    '<div class="col-5">' +
+                                                                        '<div class="aspect-ratio-4x3 bg-cover bg-position-cc lazyload r-3" data-bg="./image/bg-solution.jpg"></div>' +
+                                                                    '</div>' +
+                                                                    '<div class="col-7 pl-0">' +
+                                                                        '<div class="d-flex flex-column">' +
+                                                                            '<h3 class="mb-2 t--1 t-bold">Министерство образования Республики Алтай</h3>' +
+                                                                            '<span class="t--3 o-3">Государство</span>' +
+                                                                            '<p class="mb-0 t--2">SIMAI: Портал образовательных организаций</p>' +
+                                                                        '</div>' +
+                                                                    '</div>' +
+                                                                '</div>' +
+                                                            '</div>',
+                                                    },
+                                                    {
+                                                        iconLayout: 'default#image',
+                                                        //iconImageClipRect: [[0,0], [26, 46]],
+                                                        iconImageHref: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1NiwwQzE2MS44OTYsMCw4NS4zMzMsNzYuNTYzLDg1LjMzMywxNzAuNjY3YzAsMjguMjUsNy4wNjMsNTYuMjYsMjAuNDksODEuMTA0TDI0Ni42NjcsNTA2LjUgICAgYzEuODc1LDMuMzk2LDUuNDQ4LDUuNSw5LjMzMyw1LjVzNy40NTgtMi4xMDQsOS4zMzMtNS41bDE0MC44OTYtMjU0LjgxM2MxMy4zNzUtMjQuNzYsMjAuNDM4LTUyLjc3MSwyMC40MzgtODEuMDIxICAgIEM0MjYuNjY3LDc2LjU2MywzNTAuMTA0LDAsMjU2LDB6IE0yNTYsMjU2Yy00Ny4wNTIsMC04NS4zMzMtMzguMjgxLTg1LjMzMy04NS4zMzNjMC00Ny4wNTIsMzguMjgxLTg1LjMzMyw4NS4zMzMtODUuMzMzICAgIHM4NS4zMzMsMzguMjgxLDg1LjMzMyw4NS4zMzNDMzQxLjMzMywyMTcuNzE5LDMwMy4wNTIsMjU2LDI1NiwyNTZ6IiBmaWxsPSIjZmY2NTY4IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==',
+                                                        iconImageSize: [40, 40],
+                                                        iconImageOffset: [0, 0],
+                                                    }
+                                                );
+                                                map_10.geoObjects.add(placemark_10);
+
+
+                                            }
+                                        </script>
+                                    </section>
+                                <!--  -->
+
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <h3 class="">Наши контакты</h3>
+                                        <div class="">
+                                            <ul class="">
+                                                <li class="d-flex">
+                                                    <span class="c-F2F4F6"></span>
+                                                    <span class="ml-2">г. Уфа, ул. Чернышевского, д. 82</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+
+                                    </div>
+                                </div>
                             </div>
                         <!--  -->
 
