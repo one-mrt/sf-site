@@ -13,6 +13,7 @@
 .bg-51556F{background-color:#51556F!important}
 .bg-5F6380{background-color:#5F6380}
 .bg-51556E{background-color:#51556E}
+.bg-1A2B58{background-color:#1A2B58!important}
 .btnSimaiSolution {
     position:absolute;
     top:calc(50% - 10px);
@@ -184,4 +185,9 @@
 .paginavigation--icon {
     width:2.5rem;
     height:2.5rem;
+}
+
+.number--icon {
+    min-width:20px;
+    height:20px;
 }
