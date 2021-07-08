@@ -6,14 +6,21 @@
 .btn-primary:hover{background-color:#F44236!important;border-color:#F44236!important}
 .c-primary,.hover\:c-primary:hover{color:#F44236!important}
 .c-F2F4F6{color:#F2F4F6!important}
+.c-C0C0C0{color:#C0C0C0}
 .b-primary{border-color:#F44236!important}
 .navigation-container{background-color:#fff!important}
 .h-auto{height:auto}
 .b-DBDFE3{border-color:#DBDFE3!important}
 .bg-51556F{background-color:#51556F!important}
-.bg-5F6380{background-color:#5F6380}
-.bg-51556E{background-color:#51556E}
+.bg-5F6380{background-color:#5F6380!important}
+.bg-51556E{background-color:#51556E!important}
+.b-51556E{border-color:#51556E!important}
 .bg-1A2B58{background-color:#1A2B58!important}
+.bg-005896{background-color:#005896!important}
+.b-005896{border-color:#005896!important}
+.b-EFF310{border-color:#EFF310!important}
+.b-A1A1A1{border-color:#A1A1A1!important}
+.c-A1A1A1{color:#A1A1A1!important}
 .btnSimaiSolution {
     position:absolute;
     top:calc(50% - 10px);
@@ -194,4 +201,29 @@
 
 .sidebar--tab.active{
     background-color:#F2F4F6!important
+}
+
+
+.buy--tab.active > a {
+    background-color:#F44236!important;
+    border-color:#F44236!important;
+    color:#fff;
+}
+
+.buy--itemIcon {
+    width:70px;
+    height:70px;
+    min-width:70px;
+    min-height:70px;
+}
+
+.buy--btn:hover {
+    color:#fff;
+    background-color:#F44236!important;
+    border-color:#F44236!important;
+}
+
+
+.buy--btnDisable.btn:before {
+    content:none!important;
 }
