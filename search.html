@@ -1,0 +1,1847 @@
+<!DOCTYPE>
+<html style="font-size:16px">
+    <head>
+        <title>Главная - с поиском</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./asset/fonts/fontawesome-5.7.1/css/all.min.css">
+        <link rel="stylesheet" href="./asset/css/sf-nav.min.css">
+        <link rel="stylesheet" href="./asset/swiper/css/swiper.min.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./asset/css/additionally.css">
+        <link rel="stylesheet" href="./asset/css/sf-full.min.css">
+        <style>
+            a:hover{text-decoration:none}
+            a{color:inherit}
+        </style>
+    </head>
+    <body class="d-flex flex-column h-100">
+
+        <!-- Фиксированный Header -->
+            <header class="simaiHeaderFixed">
+
+                <!-- Шапка -->
+                    <div class="w-100 pt-3 bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-5 col-sm-12 col-md-3 col-lg-5 col-xl-5 mb-3 mb-md-0">
+                                    <a class="nav-brand mr-4 d-flex align-items-center" href="/">
+                                        <span class="mr-4">
+                                            <svg width="86" height="24" viewBox="0 0 87 26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M42.7954 25.1906V25.1869H40.2766L35.2508 13.5015V25.1869H30.2144V0.816398H35.2505V0.817373L42.7994 18.3707L50.3475 0.820786L50.3571 0.824687V0.817373H55.3929V25.1879H50.3571V13.4829L45.322 25.1903H42.7956L42.7954 25.1906ZM73.314 25.1882L68.495 9.65913L63.6765 25.1869H58.419L65.9822 0.815179L71.008 0.816398L78.5715 25.1884H73.314V25.1882ZM9.06527 25.1882L0.000344911 25.1869L2.01463 20.3084L9.06527 20.3148C9.66148 20.314 10.2516 20.0593 10.6491 19.5702C11.3362 18.7237 11.1841 17.4972 10.3096 16.8323C10.2076 16.7543 10.1005 16.688 9.98892 16.6324L3.88585 13.7345C3.47151 13.5332 3.07228 13.2891 2.69446 13.0014C-0.366393 10.6733 -0.898869 6.37998 1.50609 3.41777C2.88841 1.71506 4.94476 0.820542 7.02277 0.810303L16.1157 0.816398L14.1016 5.69099L7.00363 5.6849C6.4233 5.69782 5.85355 5.95308 5.46666 6.42972C4.77953 7.2762 4.93166 8.50277 5.80619 9.16762C5.9082 9.24564 6.01576 9.31195 6.12684 9.36754L12.2304 12.2654C12.6442 12.467 13.0435 12.7111 13.4218 12.9987C16.4819 15.3263 17.0144 19.6197 14.6094 22.5819C13.2203 24.2934 11.1536 25.1869 9.06553 25.1882H9.06527ZM81.5847 25.1882V0.817617H86.6208V25.1882H81.5847ZM20.1447 25.1869V0.816398H25.1798V25.1869H20.1447Z" fill="#FF6568"/></svg>
+                                        </span>
+                                        <span class="t--1 d-none d-sm-block d-md-none d-lg-block">
+                                            Готовые решения для организаций
+                                        </span>
+                                    </a>
+                                    <!--
+                                    <div class="dropdown w-100">
+                                        <button class="btn bg-secondary dropdown-toggle w-100 d-flex align-items-center justify-content-between t-bold" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Россия
+                                        </button>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                            <a class="dropdown-item" href="#">Россия</a>
+                                        </div>
+                                    </div>
+                                    -->
+                                </div>
+                                <div class="col-7 col-sm-5 col-md-4 col-lg-3 col-xl-4 d-flex align-items-center mb-3 mb-md-0 mb-lg-0">
+                                    <a href="tel:8 (800) 2000-865" class="c-block">
+                                        <i class="fas fa-phone mr-1 t-0"></i>
+                                        <span class="t-0 t-sm-1 t-medium c-black t-solid">8 (800) 2000-865</span>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-3 mb-3 mb-md-0">
+                                    <div class="w-100 h-100 d-flex justify-content-end justify-content-lg-between align-items-center">
+                                        <a class="mr-2 sf-link t--1 mr-4" href="/">
+                                            Обратная связь
+                                        </a>
+                                        <a href="/" class="sf-link t--1">
+                                            Заказать звонок
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="col-12 col-sm-4 col-md-4 col-lg-2 col-xl-2">
+                                    <div class="w-100 h-100 d-flex justify-content-end t-1">
+                                        <a href="/" class="p-2 mr-2 c-black">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                        <a href="/" class="p-2 c-black mr-2">
+                                            <i class="fal fa-user-circle"></i>
+                                        </a>
+                                        <a href="/" class="p-2 c-black">
+                                            <i class="fal fa-search"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                <!-- -->
+
+                <!-- Линия -->
+                    <div class="w-100 bg-white">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="bb-2 b-gray-3 mt-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- -->
+
+                <!-- Меню -->
+                    <div class="simaiNavigationFixed navigation-container no-fixed sf-nav-fixed theme-light horizontal-submenu">
+                        <div class="container-wrap w-100">
+                            <div class="container nav-container">
+                                <nav class="sf-nav w-100 m-0 p-0 d-flex align-items-streach justify-content-between flex-row flex-wrap theme-light">
+                                    <section class="left-section d-flex align-items-streach justify-content-between flex-row flex-wrap">
+                                        
+                                    </section>
+                                    <section class="center-section align-items-streach justify-content-start mobile-level sf-scroll">
+                                        <button class="mobile-close sf-close" style="display:none"></button>
+                                        <ul class="nav-items d-inline-flex align-items-streach justify-content-start m-0 p-0">
+                                            <li class="nav-item">
+                                                <a class="p-3 t--1 blackout item-link" href="/">
+                                                    <span class="item-text py-1">
+                                                        Купить
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="p-3 t--1 blackout item-link" href="/">
+                                                    <span class="item-text py-1">
+                                                        Решения
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        Услуги
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        Портфолио
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        Обучение
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        Поддержка
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        Партнерам
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="item-link p-3 t--1 blackout" href="/">
+                                                    <span class="item-text py-1">
+                                                        О компании
+                                                    </span>
+                                                    <div class="item-icon submenu-indicator">
+                                                        <i class="fas fa-caret-down"></i>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </section>
+                                    <section class="right-section d-inline-flex align-items-streach justify-content-end flex-row flex-wrap t-1 c-black">
+                                        <a href="/" class="nav-btnBasket p-3 d-flex align-items-center justify-content-center">
+                                            <i class="fal fa-shopping-cart"></i>
+                                        </a>
+                                        <a href="/" class="nav-btnLk p-3 d-flex align-items-center justify-content-center">
+                                            <i class="fal fa-user-circle"></i>
+                                        </a>
+                                        <!-- Поиск -->
+                                            <div class="nav--search h-100 d-flex">
+                                                <!-- Кнопка поиска -->
+                                                    <div class="js-widget--btn-search btn-search b-0 t-1 p-3">
+                                                        <i class="fal fa-search"></i>
+                                                    </div>
+                                                <!-- -->
+
+                                                <!-- Окно поиска -->
+                                                    <div class="js-widget--container-search position-fixed at-0 ar-0 ab-0 al-0 w-100 h-100 align-items-center justify-content-center bg-black-5 z-4 transition d-flex">
+                                                        <form action="/ru/search/index.php" class="search-form align-items-center justify-content-between m-0 mb-0 w-100 w-md-80 w-lg-60 w-xl-40 transition bg-transparent">
+                                                            <div id="widget-search" class="inner-search d-flex flex-column w-100 position-relative transition">
+                                                                <div class="w-100 d-flex d-flex justify-content-between w-100 h-100 position-relative rb-sm-0 rt-2 overflow-hidden">
+                                                                    <div class="d-flex align-items-center justify-content-center h-100 w-100 flex-grow-1 position-relative">
+                                                                        <input value="Портал" id="widget-search-input" class="js-widget--field-search input-search form-control pl-4 pr-0 py-4 t-1 b-0 r-0 shadow-0" type="search" name="q" placeholder="Введите слово для поиска" autocomplete="off">
+                                                                        <div title="Очистить" class="js-widget--clear-field sf-close sf-close-center t-0 position-absolute at-0 ab-0 ar-0 mt-3 mr-3 p-3 bg-transparent"></div>
+                                                                    </div>
+                                                                    <button class="px-4 b-0 d-flex align-items-center bg-primary c-white" title="Поиск">
+                                                                        <i class="far fa-search t-1" aria-hidden="true"></i>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="result--search nav-live-search search-res bg-gray--primary flex-column w-100" style="display:flex">
+                                                                    <div class="w-100 sf-scroll sf-scroll--secondary d-flex flex-column">
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-more d-flex flex-column w-100 px-4 py-3 bt-1 b-gray-3">
+                                                                                <div class="w-100 d-flex justify-content-between">
+                                                                                    <div class="d-flex flex-column flex-grow-1">
+                                                                                        <h3 class="t--1 t-sm-0 t-md-0 t-lg-1 t-bold mb-0 t-left">
+                                                                                            <a class="d-block l-underline-none c-default c-link:hover" href="/">SIMAI:  <span class="c-primary">Портал</span> образовательных организаций</a>
+                                                                                        </h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-more d-flex flex-column w-100 px-4 py-3 bt-1 b-gray-3">
+                                                                                <div class="w-100 d-flex justify-content-between">
+                                                                                    <div class="d-flex flex-column flex-grow-1">
+                                                                                        <h3 class="t--1 t-sm-0 t-md-0 t-lg-1 t-bold mb-0 t-left">
+                                                                                            <a class="d-block l-underline-none c-default c-link:hover" href="/">
+                                                                                                SIMAI: <span class="c-primary">Портал</span> открытых данных
+                                                                                            </a>
+                                                                                        </h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-more d-flex flex-column w-100 px-4 py-3 bt-1 b-gray-3">
+                                                                                <div class="w-100 d-flex justify-content-between">
+                                                                                    <div class="d-flex flex-column flex-grow-1">
+                                                                                        <h3 class="t--1 t-sm-0 t-md-0 t-lg-1 t-bold mb-0 t-left">
+                                                                                            <a class="d-block l-underline-none c-default c-link:hover" href="/">
+                                                                                                SIMAI: <span class="c-primary">Портал</span> образовательных организаций
+                                                                                            </a>
+                                                                                        </h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-more d-flex flex-column w-100 px-4 py-3 bt-1 b-gray-3">
+                                                                                <div class="w-100 d-flex justify-content-between">
+                                                                                    <div class="d-flex flex-column flex-grow-1">
+                                                                                        <h3 class="t--1 t-sm-0 t-md-0 t-lg-1 t-bold mb-0 t-left">
+                                                                                            <a class="d-block l-underline-none c-default c-link:hover" href="/">
+                                                                                                SIMAI: <span class="c-primary">Портал</span> открытых данных
+                                                                                            </a>
+                                                                                        </h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-more d-flex flex-column w-100 px-4 py-3 bt-1 b-gray-3">
+                                                                                <div class="w-100 d-flex justify-content-between">
+                                                                                    <div class="d-flex flex-column flex-grow-1">
+                                                                                        <h3 class="t--1 t-sm-0 t-md-0 t-lg-1 t-bold mb-0 t-left">
+                                                                                            <a class="d-block l-underline-none c-default c-link:hover" href="/">
+                                                                                                SIMAI: <span class="c-primary">Портал</span> персональных страниц педагогов
+                                                                                            </a>
+                                                                                        </h3>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="widget-serach--footer">
+                                                                        <div class="live-search-result nav-live-search">
+                                                                            <div class="category-all d-flex flex-row justify-content-center w-100 bg-primary px-4 py-3">
+                                                                                <span class="t-0 mb-0 t-center">
+                                                                                    <a class="d-block l-underline-none c-white c-link:hover" href="/ru/search/index.php?q=%D0%BD%D0%BE%D0%B2%D0%BE">
+                                                                                        Все результаты
+                                                                                    </a>
+                                                                                </span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                <!--  -->
+                                            </div>
+                                        <!-- -->
+                                    </section>
+                                    <script>
+                                        function isFlex(el) {
+                                            if(el) {
+                                                if(el.classList.contains('d-flex')) {
+                                                    el.classList.add('d-none')
+                                                    el.classList.remove('d-flex')
+                                                    return false;
+                                                } else {
+                                                    el.classList.add('d-flex')
+                                                    el.classList.remove('d-none')
+                                                    return true;
+                                                }
+                                            }
+                                        }
+
+                                        function isInputBorder(show) {
+                                            var field = document.querySelector('.js-widget--field-search');
+                                            if(show) field.classList.add('r-bl--none', 'r-br--none')
+                                            else field.classList.remove('r-bl--none', 'r-br--none')
+                                        }
+
+                                        window.addEventListener('DOMContentLoaded', function(e) {
+                                            var btn = document.querySelector('.js-widget--btn-search'),
+                                                search = document.querySelector('.js-widget--container-search'),
+                                                searchClear = document.querySelector('.js-widget--clear-field'),
+                                                searchClose = document.querySelector('.js-widget--search-close');
+                                            if(btn) {
+                                                btn.addEventListener('click', function(e) {
+                                                    var el = e.currentTarget,
+                                                        search = el.nextElementSibling;
+                                                        isInputBorder(isFlex(search));
+                                                        document.querySelector('#widget-search-input').focus();
+                                                })
+                                                search.addEventListener('click', function(e) {
+                                                    var el = e.target;
+                                                    if(el.classList.contains('js-widget--container-search')) isInputBorder(isFlex(el));
+                                                })
+                                                searchClear.addEventListener('click', function(e) {
+                                                    var el = e.currentTarget.previousElementSibling.value = '';
+                                                })
+                                            }
+                                        })
+
+                                    </script>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                <!--  -->
+
+            </header>
+            <script>
+                var fixedMode = function(elem) {
+
+                    var navF = document.querySelector(elem),
+                        location = navF.getBoundingClientRect(),
+                        locationStart = 0,
+                        classF = "fixed-top";
+                        classF += " transition";
+                        var arrClassF = classF.split(" "),
+                        lastScroll = 0;
+
+
+                    if(location.y < locationStart)
+                    {
+                        for(var k = 0; k < arrClassF.length; k++)
+                        {
+                            navF.classList.add(arrClassF[k]);
+                        }
+
+                        navF.style.top = 0;
+                    }
+                    else
+                    {
+                        for(var k = 0; k < arrClassF.length; k++)
+                        {
+                            navF.classList.remove(arrClassF[k]);
+                        }
+                    }
+
+                    document.addEventListener("scroll", function(e)
+                    {
+                        var location = navF.getBoundingClientRect(),
+                            locationContainer = navF.parentNode.getBoundingClientRect();
+                        if(location.y < locationStart)
+                        {
+                            for(var k = 0; k < arrClassF.length; k++)
+                            {
+                                navF.classList.add(arrClassF[k]);
+                            }
+                            navF.style.top = '0';
+                        }
+                        else if(location.y <= locationContainer.y)
+                        {
+                            for(var k = 0; k < arrClassF.length; k++)
+                            {
+                                navF.classList.remove(arrClassF[k]);
+                            }
+                        }
+
+
+                    });
+
+                };
+                if(window.innerWidth >=768)
+                {
+                    fixedMode('.simaiHeaderFixed');
+                } else {
+                    fixedMode('.simaiNavigationFixed')
+                }
+                
+            </script>
+        <!--  -->
+        
+
+        <main class="flex-grow-1">
+
+            <!-- Промо баннер -->
+                <section class="w-100">
+                    <div class="swiper-container main--slider">
+                        <div class="swiper-wrapper h-auto">
+                            <div class="swiper-slide theme-dark bg-51556F">
+                                
+                                <div data-background="" class="slider--imageBg swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
+                                
+                                <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
+                                    <div class="container h-100">
+                                        <div class="row h-100">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
+                                                    <ul class="t-list m-0 p-0">
+                                                        <li>- Полное соответсвие закононодательству РФ</li>
+                                                        <li>- Огромный функционал</li>
+                                                        <li>- Простое и удобное заполнение</li>
+                                                        <li>- Безграничные возможности настройки</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <a href="/" class="slider--link btn btn-lg btn-primary py-3 px-4">
+                                                        Узнать больше
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
+                                                <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide theme-dark bg-51556F">
+                                <div data-background="" class="slider--imageBg swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
+                                    <div class="container h-100">
+                                        <div class="row h-100">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
+                                                    <ul class="t-list m-0 p-0">
+                                                        <li>- Полное соответсвие закононодательству РФ</li>
+                                                        <li>- Огромный функционал</li>
+                                                        <li>- Простое и удобное заполнение</li>
+                                                        <li>- Безграничные возможности настройки</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <a href="/" class="slider--link btn btn-lg btn-primary py-3 px-4">
+                                                        Узнать больше
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
+                                                <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide theme-dark bg-51556F">
+                                <div data-background="" class="slider--imageBg swiper-lazy aspect-ratio-1x1 aspect-ratio-sm-3x2 aspect-ratio-md-2x1 aspect-ratio-lg-2x1 aspect-ratio-xl-4x1 bg-cover bg-position-cc w-100"></div>
+                                <div class="slider--wrapper position-absolute w-100 h-100 at-0 ar-0 ab-0 al-0">
+                                    <div class="container h-100">
+                                        <div class="row h-100">
+                                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-column justify-content-center align-items-start">
+                                                <h2 class="slider--title mb-4 t-medium t-2 t-sm-4">Современный сайт города</h2>
+                                                <div class="slider--text mb-4 t--1 t-sm-0">
+                                                    <ul class="t-list m-0 p-0">
+                                                        <li>- Полное соответсвие закононодательству РФ</li>
+                                                        <li>- Огромный функционал</li>
+                                                        <li>- Простое и удобное заполнение</li>
+                                                        <li>- Безграничные возможности настройки</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <a href="/" class="slider--link btn btn-lg btn-primary py-3 px-4">
+                                                        Узнать больше
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-6 col-xl-6 align-items-end d-none d-sm-none d-md-none d-lg-flex" data-background="">
+                                                <img class="w-100 lazyload" data-src="image/bgSlider.png" alt="Изображение" title="Изображение">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100 position-absolute ar-0 ab-0 al-0 pb-0 pb-sm-4 pb-md-4 pb-lg-5 d-none d-sm-block">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 d-flex justify-content-start">
+                                        <div class="d-none d-sm-block swiper-pagination bulletsSimaiMainSlider paginationSimaiMainSlider position-relative"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var swiper = new Swiper(
+                            ".main--slider", {
+                            lazy: true,
+                            pagination: {
+                                el: ".paginationSimaiMainSlider",
+                                clickable: true,
+                            },
+                            /*navigation: {
+                                nextEl: ".swiper-button-next",
+                                prevEl: ".swiper-button-prev",
+                            },*/
+                        });
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Мы в цифрах 1 -->
+                <section class="w-100 py-4 py-md-4 py-lg-5 bg-secondary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-4 col-xl-4 mb-4 mb-sm-0">
+                                <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
+                                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M35.1713 47.2134H2.87496C1.72297 47.2134 0.785645 46.2762 0.785645 45.1242V9.82778C0.785645 8.67578 1.72297 7.73828 2.87496 7.73828H10.0499C10.2471 7.73828 10.4071 7.89802 10.4071 8.09542C10.4071 8.29283 10.2471 8.45257 10.0499 8.45257H2.87496C2.11673 8.45257 1.49993 9.06955 1.49993 9.82778V45.1242C1.49993 45.8825 2.11673 46.4991 2.87496 46.4991H35.1713C35.9295 46.4991 36.5463 45.8825 36.5463 45.1242V9.82778C36.5463 9.06955 35.9295 8.45257 35.1713 8.45257H27.9892C27.792 8.45257 27.632 8.29283 27.632 8.09542C27.632 7.89802 27.792 7.73828 27.9892 7.73828H35.1713C36.3233 7.73828 37.2606 8.67578 37.2606 9.82778V45.1242C37.2606 46.2762 36.3233 47.2134 35.1713 47.2134Z" fill="#35373B"/>
+                                            <path d="M26.8467 11.4694H11.2005C11.0522 11.4694 10.9194 11.3781 10.8667 11.2393L9.04976 6.46736C9.01279 6.3704 9.01994 6.26228 9.06911 6.1709C9.11847 6.07952 9.20496 6.0143 9.30628 5.99163L15.5409 4.61049L16.2749 2.68004C16.7058 1.54653 17.8102 0.785156 19.0227 0.785156C20.2366 0.785156 21.3412 1.54792 21.7714 2.68283L22.5023 4.61049L28.736 5.99163C28.8374 6.0143 28.9239 6.07952 28.973 6.1709C29.0224 6.26193 29.0295 6.3704 28.9927 6.46736L27.1807 11.2393C27.128 11.3777 26.9951 11.4694 26.8467 11.4694ZM11.4467 10.7552H26.6003L28.1784 6.59989L22.1594 5.26618C22.0419 5.24003 21.9454 5.15667 21.9027 5.04401L21.1035 2.93604C20.7778 2.07666 19.9416 1.49944 19.0227 1.49944C18.1048 1.49944 17.2688 2.07596 16.9425 2.93394L16.1401 5.04436C16.0974 5.15667 16.001 5.24003 15.8836 5.26618L9.86449 6.59954L11.4467 10.7552Z" fill="#35373B"/>
+                                            <path d="M19.0236 6.45424C18.039 6.45424 17.2379 5.65311 17.2379 4.66853C17.2379 3.68394 18.039 2.88281 19.0236 2.88281C20.0082 2.88281 20.8093 3.68394 20.8093 4.66853C20.8093 5.65311 20.0082 6.45424 19.0236 6.45424ZM19.0236 3.5971C18.4328 3.5971 17.9522 4.07771 17.9522 4.66853C17.9522 5.25935 18.4328 5.73996 19.0236 5.73996C19.6144 5.73996 20.0951 5.25935 20.0951 4.66853C20.0951 4.07771 19.6144 3.5971 19.0236 3.5971Z" fill="#35373B"/>
+                                            <path d="M46.8571 41.2434C46.6599 41.2434 46.5 41.0836 46.5 40.8862V14.0559C46.5 12.364 45.1235 10.9877 43.4318 10.9877C41.7401 10.9877 40.3638 12.364 40.3638 14.0559V40.8862C40.3638 41.0836 40.2039 41.2434 40.0067 41.2434C39.8094 41.2434 39.6495 41.0836 39.6495 40.8862V14.0559C39.6495 11.9702 41.3463 10.2734 43.4318 10.2734C45.5175 10.2734 47.2142 11.9702 47.2142 14.0559V40.8862C47.2142 41.0836 47.0543 41.2434 46.8571 41.2434Z" fill="#35373B"/>
+                                            <path d="M43.4317 47.21C43.3037 47.21 43.1857 47.1416 43.122 47.0307L39.6969 41.0625C39.6071 40.9059 39.6479 40.7075 39.7921 40.599C42.2072 38.7847 44.6564 38.7847 47.0715 40.599C47.2157 40.7075 47.2565 40.9059 47.1667 41.0625L43.7414 47.0307C43.6778 47.1416 43.5597 47.21 43.4317 47.21ZM40.4764 40.9858L43.4317 46.1354L46.3872 40.9858C44.4013 39.6082 42.4623 39.6082 40.4764 40.9858Z" fill="#35373B"/>
+                                            <path d="M46.857 17.433H40.0066C39.8093 17.433 39.6494 17.2733 39.6494 17.0759C39.6494 16.8785 39.8093 16.7188 40.0066 16.7188H46.857C47.0542 16.7188 47.2141 16.8785 47.2141 17.0759C47.2141 17.2733 47.0542 17.433 46.857 17.433Z" fill="#35373B"/>
+                                            <path d="M44.846 44.7471C44.7829 44.7471 44.7189 44.7303 44.6608 44.6951C43.9271 44.2494 42.9365 44.2494 42.2032 44.6951C42.0342 44.798 41.8146 44.7439 41.7124 44.5755C41.6099 44.407 41.6636 44.1873 41.8321 44.0847C42.7893 43.503 44.0743 43.503 45.0319 44.0847C45.2003 44.1873 45.254 44.407 45.1515 44.5755C45.0844 44.686 44.9667 44.7471 44.846 44.7471Z" fill="#35373B"/>
+                                            <path d="M43.4317 39.9564C43.2345 39.9564 43.0746 39.7967 43.0746 39.5993V17.0759C43.0746 16.8785 43.2345 16.7188 43.4317 16.7188C43.629 16.7188 43.7889 16.8785 43.7889 17.0759V39.5993C43.7889 39.7967 43.629 39.9564 43.4317 39.9564Z" fill="#35373B"/>
+                                            <path d="M5.18172 23.5123C5.10778 23.5123 5.03401 23.4893 4.97176 23.444C4.86189 23.3641 4.80679 23.2288 4.82963 23.0949L5.2227 20.8034L3.55766 19.1802C3.46035 19.0854 3.4253 18.9434 3.46733 18.8144C3.50936 18.685 3.62114 18.5908 3.75576 18.5713L6.05661 18.2368L7.08549 16.1519C7.20582 15.9077 7.60586 15.9077 7.72619 16.1519L8.75507 18.2368L11.0559 18.5713C11.1904 18.5908 11.3021 18.685 11.3442 18.8144C11.3862 18.9434 11.3512 19.0854 11.2538 19.1802L9.58898 20.8031L9.98205 23.0949C10.0049 23.2288 9.94979 23.3641 9.83992 23.444C9.72988 23.5242 9.58445 23.5347 9.46377 23.4712L7.40584 22.3893L5.34791 23.4712C5.29559 23.4987 5.23857 23.5123 5.18172 23.5123ZM4.57451 19.174L5.85572 20.4229C5.93978 20.5049 5.97814 20.6231 5.95843 20.7389L5.65605 22.5023L7.23965 21.6698C7.34358 21.6147 7.4681 21.6147 7.57203 21.6698L9.15563 22.5023L8.85307 20.7389C8.83336 20.6231 8.87173 20.5049 8.95578 20.4229L10.237 19.174L8.46663 18.9166C8.35014 18.8998 8.24969 18.8266 8.19755 18.7213L7.40584 17.1169L6.61413 18.7213C6.56199 18.8266 6.46154 18.8998 6.34505 18.9166L4.57451 19.174Z" fill="#35373B"/>
+                                            <path d="M34.2392 22.746H13.0464C12.8491 22.746 12.6892 22.5862 12.6892 22.3888V17.0798C12.6892 16.8824 12.8491 16.7227 13.0464 16.7227H34.2392C34.4364 16.7227 34.5963 16.8824 34.5963 17.0798V22.3888C34.5963 22.5862 34.4364 22.746 34.2392 22.746ZM13.4035 22.0317H33.882V17.4369H13.4035V22.0317Z" fill="#35373B"/>
+                                            <path d="M34.2392 32.3433H13.0464C12.8491 32.3433 12.6892 32.1835 12.6892 31.9861V26.6775C12.6892 26.4801 12.8491 26.3203 13.0464 26.3203H34.2392C34.4364 26.3203 34.5963 26.4801 34.5963 26.6775V31.9861C34.5963 32.1835 34.4364 32.3433 34.2392 32.3433ZM13.4035 31.629H33.882V27.0346H13.4035V31.629Z" fill="#35373B"/>
+                                            <path d="M34.2392 41.9413H13.0464C12.8491 41.9413 12.6892 41.7815 12.6892 41.5841V36.2751C12.6892 36.0777 12.8491 35.918 13.0464 35.918H34.2392C34.4364 35.918 34.5963 36.0777 34.5963 36.2751V41.5841C34.5963 41.7815 34.4364 41.9413 34.2392 41.9413ZM13.4035 41.227H33.882V36.6323H13.4035V41.227Z" fill="#35373B"/>
+                                            <path d="M7.40585 41.7846C5.83044 41.7846 4.54871 40.5029 4.54871 38.9275C4.54871 37.3521 5.83044 36.0703 7.40585 36.0703C8.98125 36.0703 10.263 37.3521 10.263 38.9275C10.263 40.5029 8.98125 41.7846 7.40585 41.7846ZM7.40585 36.7846C6.22421 36.7846 5.26299 37.7458 5.26299 38.9275C5.26299 40.1091 6.22421 41.0703 7.40585 41.0703C8.58749 41.0703 9.54871 40.1091 9.54871 38.9275C9.54871 37.7458 8.58749 36.7846 7.40585 36.7846Z" fill="#35373B"/>
+                                            <path d="M9.72412 32.0075H5.08737C4.89014 32.0075 4.73022 31.8477 4.73022 31.6503V27.0134C4.73022 26.816 4.89014 26.6562 5.08737 26.6562H9.72412C9.92135 26.6562 10.0813 26.816 10.0813 27.0134V31.6503C10.0813 31.8477 9.92135 32.0075 9.72412 32.0075ZM5.44451 31.2932H9.36698V27.3705H5.44451V31.2932Z" fill="#35373B"/>
+                                        </svg>                                                                           
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-2 t-4 t-sm-3 t-md-4 t-bold t-solid">461</span>
+                                        <!--<span class="w-75 bb-3 b-primary mb-2"></span>-->
+                                        <span class="c-gray-6">
+                                            Проектов
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4 col-xl-4 mb-4 mb-sm-0">
+                                <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
+                                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M45.4609 45.8516H0.539062C0.32334 45.8516 0.148438 45.6767 0.148438 45.4609V0.539062C0.148438 0.32334 0.32334 0.148438 0.539062 0.148438H45.4609C45.6767 0.148438 45.8516 0.32334 45.8516 0.539062V45.4609C45.8516 45.6767 45.6767 45.8516 45.4609 45.8516ZM0.929688 45.0703H45.0703V0.929688H0.929688V45.0703Z" fill="#35373B"/>
+                                            <path d="M45.4609 8.74219H0.539062C0.32334 8.74219 0.148438 8.56729 0.148438 8.35156C0.148438 8.13584 0.32334 7.96094 0.539062 7.96094H45.4609C45.6767 7.96094 45.8516 8.13584 45.8516 8.35156C45.8516 8.56729 45.6767 8.74219 45.4609 8.74219Z" fill="#35373B"/>
+                                            <path d="M14.2109 8.74219C13.9952 8.74219 13.8203 8.56729 13.8203 8.35156V0.539062C13.8203 0.32334 13.9952 0.148438 14.2109 0.148438C14.4267 0.148438 14.6016 0.32334 14.6016 0.539062V8.35156C14.6016 8.56729 14.4267 8.74219 14.2109 8.74219Z" fill="#35373B"/>
+                                            <path d="M45.4609 4.83594H24.9531C24.7374 4.83594 24.5625 4.66104 24.5625 4.44531C24.5625 4.22959 24.7374 4.05469 24.9531 4.05469H45.4609C45.6767 4.05469 45.8516 4.22959 45.8516 4.44531C45.8516 4.66104 45.6767 4.83594 45.4609 4.83594Z" fill="#35373B"/>
+                                            <path d="M22.0234 4.83594C21.9209 4.83594 21.8203 4.79395 21.7471 4.72168C21.6748 4.64844 21.6328 4.54785 21.6328 4.44531C21.6328 4.34277 21.6748 4.24219 21.7471 4.16895C21.8203 4.09668 21.9209 4.05469 22.0234 4.05469C22.126 4.05469 22.2275 4.09668 22.2998 4.16895C22.3721 4.24121 22.4141 4.34277 22.4141 4.44531C22.4141 4.54785 22.3721 4.64844 22.2998 4.72168C22.2266 4.79395 22.126 4.83594 22.0234 4.83594Z" fill="#35373B"/>
+                                            <path d="M41.5547 26.3203H4.44531C4.22959 26.3203 4.05469 26.1454 4.05469 25.9297V12.2578C4.05469 12.0421 4.22959 11.8672 4.44531 11.8672H41.5547C41.7704 11.8672 41.9453 12.0421 41.9453 12.2578V25.9297C41.9453 26.1454 41.7704 26.3203 41.5547 26.3203ZM4.83594 25.5391H41.1641V12.6484H4.83594V25.5391Z" fill="#35373B"/>
+                                            <path d="M37.6484 22.4141H8.35156C8.13584 22.4141 7.96094 22.2392 7.96094 22.0234C7.96094 21.8077 8.13584 21.6328 8.35156 21.6328H37.6484C37.8642 21.6328 38.0391 21.8077 38.0391 22.0234C38.0391 22.2392 37.8642 22.4141 37.6484 22.4141Z" fill="#35373B"/>
+                                            <path d="M11.2809 22.4141C11.2065 22.4141 11.1312 22.3928 11.0646 22.3484C10.8851 22.2288 10.8366 21.9862 10.9563 21.8067L14.8626 15.9474C14.935 15.8387 15.057 15.7734 15.1876 15.7734H23.0001C23.1037 15.7734 23.203 15.8146 23.2762 15.8878L29.1356 21.7472C29.2882 21.8998 29.2882 22.1471 29.1356 22.2996C28.9832 22.4521 28.7356 22.4521 28.5833 22.2996L22.8382 16.5547H15.3965L11.6062 22.2401C11.5311 22.353 11.4072 22.4141 11.2809 22.4141Z" fill="#35373B"/>
+                                            <path d="M34.719 22.4141C34.6003 22.4141 34.483 22.3602 34.4062 22.2578L31.5937 18.5078H24.9531C24.7374 18.5078 24.5625 18.3329 24.5625 18.1172C24.5625 17.9015 24.7374 17.7266 24.9531 17.7266H31.7891C31.912 17.7266 32.0277 17.7845 32.1016 17.8828L35.0312 21.7891C35.1606 21.9616 35.1257 22.2064 34.9531 22.3359C34.8829 22.3887 34.8006 22.4141 34.719 22.4141Z" fill="#35373B"/>
+                                            <path d="M15.1875 34.1328H5.42188C5.20615 34.1328 5.03125 33.9579 5.03125 33.7422V29.8359C5.03125 29.6202 5.20615 29.4453 5.42188 29.4453H15.1875C15.4032 29.4453 15.5781 29.6202 15.5781 29.8359V33.7422C15.5781 33.9579 15.4032 34.1328 15.1875 34.1328ZM5.8125 33.3516H14.7969V30.2266H5.8125V33.3516Z" fill="#35373B"/>
+                                            <path d="M41.5547 30.2266H19.0938C18.878 30.2266 18.7031 30.0517 18.7031 29.8359C18.7031 29.6202 18.878 29.4453 19.0938 29.4453H41.5547C41.7704 29.4453 41.9453 29.6202 41.9453 29.8359C41.9453 30.0517 41.7704 30.2266 41.5547 30.2266Z" fill="#35373B"/>
+                                            <path d="M41.5547 34.1328H19.0938C18.878 34.1328 18.7031 33.9579 18.7031 33.7422C18.7031 33.5265 18.878 33.3516 19.0938 33.3516H41.5547C41.7704 33.3516 41.9453 33.5265 41.9453 33.7422C41.9453 33.9579 41.7704 34.1328 41.5547 34.1328Z" fill="#35373B"/>
+                                            <path d="M15.1875 41.9453H5.42188C5.20615 41.9453 5.03125 41.7704 5.03125 41.5547V37.6484C5.03125 37.4327 5.20615 37.2578 5.42188 37.2578H15.1875C15.4032 37.2578 15.5781 37.4327 15.5781 37.6484V41.5547C15.5781 41.7704 15.4032 41.9453 15.1875 41.9453ZM5.8125 41.1641H14.7969V38.0391H5.8125V41.1641Z" fill="#35373B"/>
+                                            <path d="M41.5547 38.0391H19.0938C18.878 38.0391 18.7031 37.8642 18.7031 37.6484C18.7031 37.4327 18.878 37.2578 19.0938 37.2578H41.5547C41.7704 37.2578 41.9453 37.4327 41.9453 37.6484C41.9453 37.8642 41.7704 38.0391 41.5547 38.0391Z" fill="#35373B"/>
+                                            <path d="M41.5547 41.9453H19.0938C18.878 41.9453 18.7031 41.7704 18.7031 41.5547C18.7031 41.339 18.878 41.1641 19.0938 41.1641H41.5547C41.7704 41.1641 41.9453 41.339 41.9453 41.5547C41.9453 41.7704 41.7704 41.9453 41.5547 41.9453Z" fill="#35373B"/>
+                                            <path d="M5.42188 3.46875H3.46875V5.42188H5.42188V3.46875Z" fill="#35373B"/>
+                                            <path d="M8.35156 3.46875H6.39844V5.42188H8.35156V3.46875Z" fill="#35373B"/>
+                                            <path d="M11.2812 3.46875H9.32812V5.42188H11.2812V3.46875Z" fill="#35373B"/>
+                                        </svg>                                                                       
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-2 t-4 t-sm-3 t-md-4 t-bold t-solid">2518</span>
+                                        <span class="c-gray-6">
+                                            Сайтов
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4 col-xl-4">
+                                <div class="d-flex px-5 px-sm-0 px-md-3 px-lg-5">
+                                    <span class="mr-4 mr-sm-3 mr-md-3 pt-2">
+                                        <svg width="50" height="43" viewBox="0 0 50 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M24.2402 21.1992H16.7871V20.1602L20.7246 15.7852C21.3079 15.1237 21.709 14.5872 21.9277 14.1758C22.1517 13.7591 22.2637 13.3294 22.2637 12.8867C22.2637 12.293 22.084 11.806 21.7246 11.4258C21.3652 11.0456 20.8861 10.8555 20.2871 10.8555C19.5684 10.8555 19.0085 11.0612 18.6074 11.4727C18.2116 11.8789 18.0137 12.4466 18.0137 13.1758H16.5684C16.5684 12.1289 16.9043 11.2826 17.5762 10.6367C18.2533 9.99089 19.1569 9.66797 20.2871 9.66797C21.3444 9.66797 22.1803 9.94661 22.7949 10.5039C23.4095 11.056 23.7168 11.793 23.7168 12.7148C23.7168 13.8346 23.0033 15.168 21.5762 16.7148L18.5293 20.0195H24.2402V21.1992ZM31.873 17.3789H33.4512V18.5586H31.873V21.1992H30.4199V18.5586H25.2402V17.707L30.334 9.82422H31.873V17.3789ZM26.8809 17.3789H30.4199V11.8008L30.248 12.1133L26.8809 17.3789Z" fill="#35373B"/>
+                                            <path d="M49.4912 0H0.508792C0.227939 0 0 0.227939 0 0.508792V33.2536C0 33.5345 0.227939 33.7624 0.508792 33.7624H24.4912V41.9753H12.1988C11.9179 41.9753 11.69 42.2033 11.69 42.4841C11.69 42.765 11.9179 42.9929 12.1988 42.9929H37.8012C38.0821 42.9929 38.31 42.765 38.31 42.4841C38.31 42.2033 38.0821 41.9753 37.8012 41.9753H25.5088V33.7624H49.4912C49.7721 33.7624 50 33.5345 50 33.2536V0.508792C50 0.227939 49.7731 0 49.4912 0ZM48.9824 32.7448H1.01758V1.01758H48.9824V32.7448Z" fill="#35373B"/>
+                                            <path d="M23.8208 30.7988H26.1785C26.4594 30.7988 26.6873 30.5709 26.6873 30.29C26.6873 30.0092 26.4594 29.7812 26.1785 29.7812H23.8208C23.54 29.7812 23.312 30.0092 23.312 30.29C23.312 30.5709 23.54 30.7988 23.8208 30.7988Z" fill="#35373B"/>
+                                        </svg>                                                                            
+                                    </span>
+                                    <div class="d-flex flex-column">
+                                        <span class="pb-2 t-4 t-sm-3 t-md-4 t-bold t-solid">126</span>
+                                        <span class="c-gray-6">
+                                            Битрикс24
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Наши компетенции -->
+                <section class="py-4 py-md-4 py-lg-5 bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-xl-12">
+                                <h2 class="t-2 mb-4 t-bold t-center">Наши компетенции и сертификаты</h2>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-7 col-lg-6 col-xl-7 mb-4 mb-lg-0">
+                                <div class="row">
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4">
+                                        <a href="https://simai.ru/upload/iblock/214/1c.png_thumbnail0.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/1c.png" alt="Сертификат на присвоение компетенции «Интеграция с 1С»">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4">
+                                        <a href="https://simai.ru/upload/iblock/015/corportal.png_thumbnail0.jpg" data-fancybox class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/portal.png" alt="Сертификат на присвоение компетенции «Корпоративный портал»">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4">
+                                        <a href="https://simai.ru/upload/iblock/571/page1.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/med.png" alt="Сертификат на присвоение компетенции «Решения для медицины»">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4">
+                                        <a href="https://simai.ru/upload/iblock/f30/kompozit.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/bigV.png" alt="Крупные">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4 mb-xl-0">
+                                        <a href="https://simai.ru/upload/iblock/d7e/bitrix24.png_thumbnail0.jpg" data-fancybox="" class="bg-white d-flex align-items-center r-2 h-100 h-md-auto">
+                                            <img class="w-100 lazyload" data-src="./image/b24.png" alt="Сертификат на присвоение компетенции «Битрикс24»">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3 mb-4 mb-xl-0">
+                                        <a href="https://simai.ru/upload/iblock/be2/page1_1.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/comp.png" alt="Композитный">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4 col-xl-3">
+                                        <a href="https://simai.ru/upload/iblock/be2/page1_1.jpg" data-fancybox="" class="bg-white d-flex align-items-center h-100 r-2">
+                                            <img class="w-100 lazyload" data-src="./image/gos.png" alt="Сертификат на присвоение компетенции «Решения для государственных организаций»">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-1 col-xl-1 d-none d-sm-none d-md-none d-lg-flex justify-content-center">
+                                <div class="br-1 b-gray-5"></div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 d-flex flex-column">
+                                <div class="row">
+                                    <div class="col-6 col-sm-4 col-md-6 col-xl-6 mb-4 mb-lg-0">
+                                        <a href="https://simai.ru/upload/iblock/1d5/gold.png" data-fancybox="" class="h-auto bg-white d-flex align-items-center r-2">
+                                            <img class="w-100 lazyload" data-src="./image/gold.png" alt="Золотой сертифицированный партнер «1С-Битрикс»">
+                                        </a>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-6 col-xl-6">
+                                        <a href="https://simai.ru/upload/iblock/0e5/kachestvo.jpg" data-fancybox="" class="h-auto bg-white d-flex align-items-center r-2">
+                                            <img class="w-100 lazyload" data-src="./image/qc_sm.png" alt="Сертификат участника программы качества «1C-Битрикс»">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>                   
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Горизонтальная линия -->
+                <section class="w-100">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="w-100 bt-1 b-gray-5"></div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Наши решения -->
+                <section class="w-100 sf-tab py-4 py-md-4 py-lg-5 bg-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold t-center">Наши решения</h2>
+                            </div>
+                            <div class="col-12 mb-4">
+                                <nav class="sf-tab-nav simaiSolutionTab">
+                                    <ul class="sf-tab-nav-wrap d-flex flex-nowrap flex-md-wrap justify-content-center t--1 overflow-auto">
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Государственным организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Медицинским организациям</a>
+                                        </li>
+                                        <li class="active mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Образовательным учреждениям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Учреждениям культуры</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="slinkTab bg-white px-4 py-2 r-2 c-black">Некоммерческим организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Коммерческим организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Корпоративные решения</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Научным организациям</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Интернет-магазин</a>
+                                        </li>
+                                        <li class="mr-2 mb-2 d-flex">
+                                            <a href="javascript:void(0)" class="linkTab bg-white px-4 py-2 r-2 c-black">Все</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-12">
+                                <div class="sf-tab-content">
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap active">
+                                        <div class="swiper-container simai--solution">
+                                            <div class="swiper-wrapper h-auto">
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-3x4 w-100 bg-cover bg-position-cc" data-background="./image/nii.jpg"></div>
+                                                        <div class="py-3">
+                                                            <h4 class="t-1 t-medium mb-0">
+                                                                Сайт научно-<br>исследовательского интситута
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-3x4 w-100 bg-cover bg-position-cc" data-background="./image/medBox.jpg"></div>
+                                                        <div class="py-3">
+                                                            <h4 class="t-1 t-medium mb-0">
+                                                                Сайт медицинской<br>организацииа
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-3x4 w-100 bg-cover bg-position-cc" data-background="./image/comBox.jpg"></div>
+                                                        <div class="py-3">
+                                                            <h4 class="t-1 t-medium mb-0">
+                                                                Сайт компании
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-3x4 w-100 bg-cover bg-position-cc" data-background="./image/shool.jpg"></div>
+                                                        <div class="py-3">
+                                                            <h4 class="t-1 t-medium mb-0">
+                                                                Сайт школы
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <a href="" class="d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                                        <div class="swiper-lazy aspect-ratio-3x4 w-100 bg-cover bg-position-cc" data-background="./image/comBox.jpg"></div>
+                                                        <div class="py-3">
+                                                            <h4 class="t-1 t-medium mb-0">
+                                                                Сайт компании
+                                                            </h4>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="w-100 position-absolute ar-0 ab--3 ab-lg--4 al-0">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex justify-content-center">
+                                                        <div class="swiper-pagination bulletsSimaiMainSlider paginationSimaiSolution position-relative"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+
+                                        <div class="btnSimaiSolution btnSimaiSolutionPrev simai--solutionPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                            <i class="fas fa-angle-left"></i>                                                
+                                        </div>
+
+                                        <div class="btnSimaiSolution btnSimaiSolutionNext simai--solutionNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                            <i class="fas fa-angle-right"></i>                                              
+                                        </div>
+
+                                    </section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                    <section class="sf-tab-content-wrap"></section>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener("DOMContentLoaded", function(e) {
+                        var simaiSolution = new Swiper(
+                            ".simai--solution",
+                            {
+                                lazy: true,
+                                navigation: {
+                                    nextEl: ".simai--solutionNext",
+                                    prevEl: ".simai--solutionPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                pagination: {
+                                    el: ".paginationSimaiSolution",
+                                    clickable: true,
+                                },
+                                //autoHeight : true,
+                                slidesPerView: 4,
+                                spaceBetween: 32,
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    576: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    768: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Мы в цифрах -->
+                <section class="w-100 py-4 py-md-4 py-lg-5 bg-secondary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
+                                <div class="d-flex">
+                                    <span class="mr-3">
+                                        <svg width="50" height="63" viewBox="0 0 50 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M42.8638 5H7.10303C5.94336 5 5 5.94336 5 7.10303V34.6475C5 35.5498 5.73438 36.2842 6.63672 36.2842H19.7166C19.5589 38.899 17.6854 40.3747 17.2863 40.6592H13.1953C11.6133 40.6592 10.3262 41.9463 10.3262 43.5283V44.5C10.3262 44.7764 10.5498 45 10.8262 45H39.1411C39.4175 45 39.6411 44.7764 39.6411 44.5V43.5283C39.6411 41.9463 38.354 40.6592 36.772 40.6592H32.6814C32.2966 40.3818 30.4104 38.8854 30.2506 36.2842H43.3301C44.2329 36.2842 44.9673 35.5498 44.9673 34.6475V7.10303C44.9673 5.94336 44.0234 5 42.8638 5ZM6 9.375H43.9673V28.7583H6V9.375ZM7.10303 6H42.8638C43.4722 6 43.9673 6.49463 43.9673 7.10303V8.375H6V7.10303C6 6.49463 6.49463 6 7.10303 6ZM38.6411 43.5283V44H11.3262V43.5283C11.3262 42.4976 12.1646 41.6592 13.1953 41.6592H36.772C37.8027 41.6592 38.6411 42.4976 38.6411 43.5283ZM31.1771 40.6592H18.7897C19.6049 39.8069 20.6112 38.3434 20.7166 36.2842H29.2502C29.3556 38.3434 30.3618 39.8069 31.1771 40.6592ZM43.3301 35.2842H6.63672C6.28564 35.2842 6 34.9985 6 34.6475V29.7583H43.9673V34.6475C43.9673 34.9985 43.6816 35.2842 43.3301 35.2842Z" fill="#35373B"/>
+                                        </svg>                                                                                                                  
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-2 t-3 t-bold t-solid">5000+</span>
+                                        <span class="c-gray-6 t--2">
+                                            Сайтов уже<br>используют SIMAI<br>FRAMEWORK 4
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
+                                <div class="d-flex">
+                                    <span class="mr-3">
+                                        <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25 9.27195e-05C20.0555 8.49216e-05 15.222 1.4663 11.1108 4.21333C6.99953 6.96036 3.79521 10.8648 1.90302 15.433C0.010831 20.0011 -0.484252 25.0278 0.480381 29.8773C1.44501 34.7268 3.82603 39.1814 7.32235 42.6777C12.0108 47.3661 18.3696 50 25 50C31.6304 50 37.9893 47.3661 42.6777 42.6777C47.3661 37.9893 50 31.6304 50 25C50 18.3696 47.3661 12.0108 42.6777 7.32239C40.3616 4.99365 37.6067 3.14741 34.5723 1.89054C31.5379 0.633664 28.2844 -0.00888137 25 9.27195e-05ZM8.16737 8.1674C9.77996 6.55224 11.6156 5.17638 13.6184 4.08176L16.481 6.23444C16.7334 6.42385 16.9963 6.5987 17.2686 6.75814C18.1548 7.27843 18.9176 7.98474 19.5044 8.82836L21.16 11.2158C21.4035 11.5652 21.5291 11.9832 21.5184 12.409C21.5076 12.8347 21.3611 13.2459 21.1002 13.5825L20.3324 14.5785C20.2075 14.7397 20.0429 14.8656 19.8546 14.9438C19.6663 15.022 19.4609 15.0499 19.2586 15.0246L18.3873 14.9131C17.6565 14.8191 16.9142 14.9429 16.2535 15.2691C15.5928 15.5953 15.0432 16.1092 14.6734 16.7466C14.5524 16.9466 14.3752 17.1064 14.1638 17.2062C13.9524 17.306 13.7163 17.3412 13.485 17.3074L11.4922 17.0543C10.7831 16.9619 10.0623 17.069 9.41066 17.3635C8.75905 17.658 8.20244 18.1283 7.80333 18.7217C7.42254 19.2837 7.21413 19.9446 7.20367 20.6234C7.19321 21.3022 7.38117 21.9692 7.74446 22.5427L9.07314 24.6407C9.51928 25.3396 10.2123 25.8448 11.0142 26.0557C11.8161 26.2667 12.668 26.1678 13.4003 25.7788L14.7682 25.0459C15.0607 24.8903 15.3885 24.8127 15.7198 24.8207C16.0512 24.8288 16.3748 24.9222 16.6595 25.0919L19.2556 26.6496C19.4568 26.7705 19.6883 26.8315 19.9229 26.8252C20.8846 26.7984 21.8302 27.3041 22.454 28.1737L23.724 29.9441C23.8227 30.0816 23.9282 30.2165 24.0375 30.3451L25.6991 32.2999C25.7235 32.3282 25.7414 32.3615 25.7513 32.3975C25.7612 32.4335 25.763 32.4712 25.7565 32.508C25.7403 32.5799 25.6979 32.6432 25.6375 32.6855L23.1416 34.602C22.375 35.1885 21.8109 35.9999 21.5281 36.9227L20.6893 39.6444C20.6461 39.785 20.5754 39.9155 20.4813 40.0285L19.6646 41.0105C18.9769 41.8238 18.5535 42.8275 18.4508 43.8876C18.4395 44.0142 18.3938 44.1353 18.3186 44.2379C18.2435 44.3404 18.1418 44.4205 18.0245 44.4695C18.0149 44.4737 18.0043 44.4751 17.9939 44.4733C17.9835 44.4715 17.9739 44.4667 17.9663 44.4595C17.9553 44.4445 17.9484 44.4269 17.9463 44.4085L17.1813 39.8133C17.0693 39.1453 16.7964 38.5145 16.3861 37.9755L13.5681 34.2803C13.3603 34.0085 13.2067 33.6993 13.1157 33.3695L12.1856 30.014C11.9935 29.328 11.6273 28.7034 11.1225 28.2007C10.6177 27.6981 9.9915 27.3346 9.30472 27.1454L9.10213 27.0901C8.78584 27.0036 8.49552 26.841 8.25651 26.6166L6.52136 24.9836C6.28839 24.7644 6.08819 24.5128 5.92693 24.2366C5.47437 23.4588 4.79743 22.8358 3.98479 22.4493C3.17215 22.0628 2.26171 21.9308 1.37276 22.0706C2.01261 16.8048 4.40592 11.9076 8.16737 8.1674ZM41.8327 41.8327C38.5035 45.1619 34.2619 47.4291 29.6442 48.3476C25.0265 49.2662 20.2401 48.7948 15.8903 46.993C11.5405 45.1913 7.82269 42.1401 5.207 38.2254C2.5913 34.3107 1.19521 29.7082 1.19527 25C1.19527 24.4329 1.21519 23.8692 1.25503 23.3088L1.44507 23.2713C2.11171 23.1419 2.80208 23.2234 3.4203 23.5043C4.03852 23.7853 4.5539 24.2518 4.89486 24.8391C5.11389 25.2144 5.3858 25.5562 5.70223 25.854L7.43709 27.4868C7.81869 27.8453 8.2822 28.1049 8.78719 28.2432L8.98978 28.2984C9.47702 28.4326 9.92127 28.6905 10.2794 29.0471C10.6375 29.4037 10.8973 29.8468 11.0335 30.3335L11.9636 33.6891C12.0952 34.1657 12.3171 34.6126 12.6174 35.0055L15.4355 38.7007C15.7278 39.0847 15.9222 39.534 16.002 40.01L16.768 44.6055C16.8123 44.9017 16.9617 45.1722 17.1888 45.3674C17.416 45.5627 17.7058 45.6698 18.0054 45.6691C18.1709 45.6691 18.3348 45.6361 18.4874 45.5721C18.8049 45.4394 19.0802 45.2225 19.2836 44.9448C19.487 44.6672 19.6107 44.3393 19.6415 43.9965C19.7226 43.1776 20.0513 42.4028 20.5839 41.7754L21.4006 40.7934C21.5956 40.5592 21.7421 40.2886 21.8316 39.9973L22.6705 37.2756C22.8807 36.5896 23.2999 35.9865 23.8697 35.5505L26.3655 33.6341C26.6691 33.4066 26.8737 33.0712 26.937 32.6972C26.9703 32.4901 26.9584 32.2781 26.902 32.076C26.8455 31.8739 26.7459 31.6864 26.6101 31.5265L24.9482 29.5717C24.86 29.468 24.7749 29.3591 24.6953 29.2481L23.4252 27.4777C22.5702 26.2859 21.2493 25.5953 19.8919 25.6311C19.8844 25.6312 19.877 25.6293 19.8705 25.6254L17.2743 24.0677C16.8121 23.7921 16.2867 23.6405 15.7487 23.6275C15.2108 23.6144 14.6786 23.7404 14.2036 23.9932L12.8359 24.7259C12.37 24.9734 11.828 25.0363 11.3178 24.9021C10.8076 24.7679 10.3667 24.4465 10.0828 24.0018L8.75412 21.9038C8.51537 21.5269 8.39186 21.0885 8.39876 20.6425C8.40566 20.1964 8.54267 19.762 8.79296 19.3927C9.06863 18.9827 9.45313 18.6578 9.90328 18.4543C10.3534 18.2508 10.8514 18.1768 11.3413 18.2407L13.3344 18.4938C13.7986 18.5573 14.2713 18.4826 14.6932 18.2788C15.1152 18.0751 15.4677 17.7514 15.7066 17.3484C15.9585 16.9142 16.3329 16.5641 16.783 16.342C17.233 16.1198 17.7387 16.0355 18.2365 16.0996L19.1078 16.211C19.5169 16.2621 19.9322 16.2058 20.3129 16.0476C20.6936 15.8895 21.0266 15.6349 21.2791 15.309L22.0469 14.313C22.4633 13.7757 22.6971 13.1195 22.7143 12.44C22.7314 11.7604 22.531 11.0932 22.1422 10.5356L20.4866 8.14748C19.8004 7.16122 18.9085 6.33548 17.8723 5.72717C17.6394 5.59072 17.4145 5.44107 17.1987 5.27896L14.8024 3.47668C18.8007 1.59028 23.2444 0.85169 27.6379 1.3433C32.0314 1.83491 36.202 3.53738 39.6845 6.26083L39.0625 7.12856C37.5541 8.77469 36.2248 10.5764 35.0971 12.5034L34.1935 14.0483C34.0103 14.3723 33.9325 14.7453 33.971 15.1155C34.0095 15.4858 34.1624 15.8348 34.4084 16.1142C34.8486 16.6178 35.4592 16.9414 36.1232 17.0229L36.5572 17.0762C37.2717 17.1645 37.9452 17.4582 38.4961 17.9217C39.0469 18.3852 39.4515 18.9986 39.6606 19.6875C39.861 20.3528 39.8667 21.0617 39.677 21.7301C39.4872 22.3986 39.11 22.9988 38.5899 23.4596L34.3127 27.2568C34.0428 27.4993 33.8276 27.7965 33.6816 28.1287C33.5356 28.4609 33.4622 28.8204 33.4661 29.1833V30.1912C33.4612 30.5307 33.5422 30.8659 33.7018 31.1656C33.8613 31.4654 34.094 31.7198 34.3784 31.9054C34.8207 32.1906 35.1925 32.5726 35.4657 33.0225C35.7388 33.4724 35.9063 33.9785 35.9553 34.5025L36.0504 35.4845C36.0925 35.918 36.296 36.3198 36.6206 36.6101C36.9453 36.9005 37.3672 37.0581 37.8027 37.0518H40.3192C41.0616 37.0566 41.7892 36.8444 42.4128 36.4415C43.0363 36.0385 43.5286 35.4622 43.8292 34.7834L43.9804 34.4509C44.243 33.8478 44.6703 33.331 45.2132 32.9596C45.7561 32.5882 46.3927 32.3773 47.05 32.3511L47.642 32.3273L47.6603 32.3261C46.5016 35.9134 44.5037 39.1724 41.8327 41.8327ZM48.0195 31.0966L47.7257 31.1265C47.6793 31.1312 47.6326 31.1345 47.5872 31.1365L46.9959 31.1633C46.1152 31.1999 45.2627 31.4838 44.5359 31.9823C43.809 32.4809 43.2373 33.1741 42.886 33.9825L42.7348 34.3031C42.5275 34.7694 42.1884 35.1649 41.7592 35.4409C41.33 35.7169 40.8295 35.8614 40.3192 35.8566H37.8027C37.6633 35.8622 37.5271 35.8146 37.4215 35.7235C37.316 35.6324 37.249 35.5045 37.2343 35.3658L37.1337 34.3718C37.0692 33.6704 36.846 32.9929 36.4809 32.3905C36.1158 31.7882 35.6184 31.2769 35.0264 30.8952C34.9104 30.8189 34.8159 30.7142 34.752 30.5909C34.6881 30.4677 34.6569 30.3301 34.6614 30.1914V29.1833C34.6574 28.9898 34.6948 28.7976 34.7713 28.6198C34.8477 28.442 34.9613 28.2826 35.1045 28.1523L39.3924 24.3553C40.0831 23.7423 40.5837 22.9442 40.835 22.0555C41.0862 21.1668 41.0776 20.2247 40.8101 19.3408C40.5332 18.4303 39.9981 17.6197 39.2698 17.0072C38.5414 16.3948 37.651 16.0067 36.7066 15.89L36.2713 15.8366C35.8988 15.791 35.5563 15.6096 35.3092 15.3271C35.2282 15.2353 35.1771 15.1208 35.1629 14.9992C35.1487 14.8775 35.1719 14.7544 35.2295 14.6463L36.1297 13.1069C37.2205 11.243 38.5072 9.50091 39.9681 7.91033C39.9845 7.89253 39.9998 7.87373 40.0138 7.85406L40.6079 7.02518C41.0267 7.39031 41.435 7.77106 41.8327 8.1674C44.05 10.3728 45.808 12.996 47.0047 15.8854C48.2015 18.7747 48.8133 21.8727 48.8048 25C48.8061 27.0575 48.5421 29.1066 48.0194 31.0965L48.0195 31.0966Z" fill="#35373B"/>
+                                        </svg>                                                                                                                          
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-2 t-3 t-bold t-solid">15</span>
+                                        <span class="c-gray-6 t--2">
+                                            Стран<br>
+                                            Европы,<br>
+                                            СНГ, Азии
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
+                                <div class="d-flex">
+                                    <span class="mr-3">
+                                        <svg width="50" height="53" viewBox="0 0 50 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M38.3824 18.9642C38.3824 11.5658 32.3785 5.54688 24.9988 5.54688C17.6196 5.54688 11.6162 11.5658 11.6162 18.9642C11.6162 26.3626 17.6196 32.3815 24.9988 32.3815C32.3785 32.3815 38.3824 26.3626 38.3824 18.9642ZM24.9988 31.3125C18.2092 31.3125 12.6852 25.7731 12.6852 18.9642C12.6852 12.1553 18.2086 6.61586 24.9988 6.61586C31.789 6.61586 37.3135 12.1553 37.3135 18.9642C37.3135 25.7731 31.789 31.3125 24.9988 31.3125Z" fill="black"/>
+                                            <path d="M39.1995 29.266L42.4706 27.39L41.764 22.7912L44.3857 18.9541L41.764 15.117L42.4701 10.5182L38.4427 8.20764L37.0883 3.75747L32.4612 3.42074L29.3141 0.000534452L24.9997 1.71732L20.6853 0L17.5393 3.42021L12.9112 3.75693L11.5573 8.2071L7.52883 10.5177L8.23543 15.1165L5.61375 18.9536L8.23543 22.7907L7.52937 27.3894L10.8005 29.266L0 45.6268L7.84098 45.4328L10.4092 52.5859L20.3427 37.5362L20.6859 37.9088L24.9997 36.1914L29.3141 37.9088L29.6567 37.5367L39.5908 52.5853L42.1596 45.4328L50 45.6268L39.1995 29.266ZM10.693 50.2138L8.58606 44.3451L2.01984 44.5081L11.6316 29.947L12.9112 34.1502L17.5388 34.488L19.5971 36.7259L10.693 50.2138ZM24.9997 35.0412L20.9739 36.6436L18.0385 33.4522L13.7198 33.1374L12.4558 28.9838L8.6967 26.8266L9.35573 22.5363L6.90776 18.9541L9.35573 15.372L8.6967 11.0811L12.4563 8.92439L13.7198 4.77086L18.0391 4.45658L20.9739 1.26567L24.9997 2.86754L29.026 1.26514L31.9609 4.45605L36.2791 4.77033L37.5437 8.92386L41.3017 11.08L40.6437 15.3714L43.0912 18.9536L40.6437 22.5357L41.3022 26.8266L37.5426 28.9833L36.2791 33.1368L31.9609 33.4511L29.026 36.6425L24.9997 35.0412ZM41.4139 44.3451L39.307 50.2143L30.4024 36.7254L32.4612 34.4875L37.0883 34.1502L38.3679 29.9464L47.9796 44.5076L41.4139 44.3451Z" fill="black"/>
+                                        </svg>                                                                                                                                                                                                       
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-2 t-3 t-bold t-solid">10</span>
+                                        <span class="c-gray-6 t--2">
+                                            Лет<br>
+                                            на рынке<br>
+                                            веб-разработки
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 mb-4 mb-lg-4 mb-xl-0">
+                                <div class="d-flex">
+                                    <span class="mr-3">
+                                        <svg width="46" height="41" viewBox="0 0 46 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M35.7501 15.2524C38.2501 13.9196 40.0001 11.3035 40.0001 8.2924C40.0001 3.94857 36.4001 0.394531 32.0001 0.394531C27.6001 0.394531 24.0001 3.94857 24.0001 8.2924C24.0001 8.48985 24.0001 8.73666 24.0501 8.9341C23.7001 8.88474 23.4001 8.88474 23.0501 8.88474C22.7001 8.88474 22.4001 8.9341 22.0501 8.9341C22.0501 8.73666 22.1001 8.48985 22.1001 8.2924C22.1001 3.94857 18.5001 0.394531 14.1001 0.394531C9.7001 0.394531 6.1001 3.94857 6.1001 8.2924C6.1001 11.3035 7.8001 13.9196 10.3501 15.2524C4.8001 16.832 0.850098 21.8175 0.850098 27.6915V31.7392C0.850098 32.1341 1.2001 32.4796 1.6001 32.4796C2.0001 32.4796 2.3501 32.1341 2.3501 31.7392V27.6915C2.3501 21.3239 7.6001 16.1409 14.0501 16.1409C14.4001 16.1409 14.7001 16.1409 15.0501 16.1903C15.0501 16.3877 15.0001 16.5358 15.0001 16.7333C15.0001 19.7443 16.7001 22.3605 19.2501 23.6933C13.8001 25.3222 9.8501 30.2584 9.8501 36.1818V40.2294C9.8501 40.6243 10.2001 40.9698 10.6001 40.9698C11.0001 40.9698 11.3501 40.6243 11.3501 40.2294V36.1818C11.3501 31.1962 14.5501 26.9511 19.0501 25.3222C19.6001 25.1247 20.1001 24.9767 20.7001 24.8779C21.4501 24.7298 22.2501 24.6311 23.0501 24.6311C23.8501 24.6311 24.6501 24.7298 25.4001 24.8779C25.9501 24.9767 26.5001 25.1247 27.0501 25.3222C31.5501 26.9511 34.7501 31.1962 34.7501 36.1818V40.2294C34.7501 40.6243 35.1001 40.9698 35.5001 40.9698C35.9001 40.9698 36.2501 40.6243 36.2501 40.2294V36.1818C36.2501 30.3077 32.3001 25.3222 26.8501 23.6933C29.3501 22.3605 31.1001 19.7443 31.1001 16.7333C31.1001 16.5358 31.1001 16.3877 31.0501 16.1903C31.4001 16.1409 31.7001 16.1409 32.0501 16.1409C38.5001 16.1409 43.7501 21.3239 43.7501 27.6915V31.7392C43.7501 32.1341 44.1001 32.4796 44.5001 32.4796C44.9001 32.4796 45.2501 32.1341 45.2501 31.7392V27.6915C45.1501 21.8175 41.2001 16.832 35.7501 15.2524ZM25.4501 8.24304C25.4501 4.689 28.3501 1.82602 31.9501 1.82602C35.5501 1.82602 38.4501 4.689 38.4501 8.24304C38.4501 11.7971 35.5501 14.6601 31.9501 14.6601C31.5001 14.6601 31.1001 14.6107 30.6501 14.512C29.9001 12.0439 28.0001 10.0201 25.5001 9.23028C25.5001 8.9341 25.4501 8.58857 25.4501 8.24304ZM7.5001 8.24304C7.5001 4.689 10.4001 1.82602 14.0001 1.82602C17.6001 1.82602 20.5001 4.689 20.5001 8.24304C20.5001 8.58857 20.4501 8.9341 20.4001 9.23028C17.9001 10.0694 16.0001 12.0439 15.2501 14.512C14.8501 14.6107 14.4001 14.6601 13.9501 14.6601C10.4001 14.7094 7.5001 11.7971 7.5001 8.24304ZM29.5001 16.7826C29.5001 19.2507 28.1001 21.3733 26.0501 22.4592C25.6001 22.706 25.1501 22.8541 24.6501 23.0022C24.1001 23.1503 23.5501 23.1996 23.0001 23.1996C22.4501 23.1996 21.8501 23.1009 21.3501 23.0022C20.8501 22.8541 20.4001 22.706 19.9501 22.4592C17.9001 21.3733 16.5001 19.2013 16.5001 16.7826C16.5001 16.6839 16.5001 16.5852 16.5001 16.4371C16.5001 16.1903 16.5501 15.9928 16.5501 15.746C16.6001 15.4992 16.6501 15.203 16.7001 14.9562C16.8001 14.5613 16.9501 14.2158 17.1501 13.8703C17.7501 12.735 18.6501 11.7477 19.8001 11.106C20.4001 10.8098 21.0001 10.563 21.7001 10.415C22.1001 10.3162 22.5501 10.2669 23.0001 10.2669C23.4501 10.2669 23.8501 10.3162 24.3001 10.415C24.9501 10.563 25.6001 10.7605 26.2001 11.106C27.3501 11.7477 28.2501 12.6856 28.8501 13.8703C29.0501 14.2158 29.2001 14.5613 29.3001 14.9562C29.3501 15.203 29.4501 15.4498 29.4501 15.746C29.5001 15.9928 29.5001 16.1903 29.5001 16.4371C29.5001 16.5358 29.5001 16.6345 29.5001 16.7826Z" fill="#35373B"/>
+                                        </svg>                                                                                                                                                                                                                                      
+                                    </span>
+                                    <div class="d-flex flex-column w-100">
+                                        <span class="pb-2 t-3 t-bold t-solid">34 000</span>
+                                        <span class="c-gray-6 t--2">
+                                            Обращений пользователей<br>за год
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!-- -->
+
+            <!-- Наши проекты -->
+                <section class="simai--project w-100 py-4 py-md-4 py-lg-5 bg-51556F c-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold t-center">Наши проекты</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid overflow-hidden">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="swiper-container container overflow-visible project--sliderFull px-0">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block r-2 w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-3x2 bg-cover bg-position-cc w-100 lazyload" data-bg="./image/project-ugra.jpg"></div>
+                                                <div class="pt-4">
+                                                    <h4 class="t--1 t-normal mb-0">
+                                                        Ассоциация «Совет муниципальных образований Ханты-Мансийского автономного округа - Югры»
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block r-2 w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-3x2 bg-cover bg-position-cc w-100 lazyload" data-bg="./image/project-sma.jpg"></div>
+                                                <div class="pt-4">
+                                                    <h4 class="t--1 t-normal mb-0">
+                                                        Благотворительный фонд помощи больным спинальной мышечной атрофией «#СМАФОНД»
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block r-2 w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-3x2 bg-cover bg-position-cc w-100 lazyload" data-bg="./image/project-ford.jpg"></div>
+                                                <div class="pt-4">
+                                                    <h4 class="t--1 mb-0">
+                                                        Благотворительный фонд помощи детям с заболеваниями психоневрологического спектра...
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="" class="d-block r-2 w-100 h-100 overflow-hidden">
+                                                <div class="swiper-lazy aspect-ratio-3x2 bg-cover bg-position-cc w-100 lazyload" data-bg="./image/project-ford.jpg"></div>
+                                                <div class="pt-4">
+                                                    <h4 class="t--1 t-normal mb-0">
+                                                        Благотворительный фонд помощи детям с заболеваниями психоневрологического спектра...
+                                                    </h4>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-100 position-absolute ar-0 ab--4 al-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center">
+                                                <div class="swiper-pagination bulletsSimaiMainSlider paginationSimaiProject position-relative"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--projectPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                    <i class="fas fa-angle-left"></i>                                            
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--projectNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                    <i class="fas fa-angle-right"></i>                                               
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiSolution = new Swiper(
+                            ".project--sliderFull",
+                            {
+                                lazy: true,
+                                navigation: {
+                                    nextEl: ".simai--projectNext",
+                                    prevEl: ".simai--projectPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                pagination: {
+                                    el: ".paginationSimaiProject",
+                                    clickable: true,
+                                },
+                                loop:true,
+                                autoHeight : true,
+                                slidesPerView: 3,
+                                slideVisibleClass : 'swiper-slide-visible',
+                                slideToClickedSlide : true,
+                                //slidesPerGroup: 3,
+                                //loopFillGroupWithBlank: true,
+                                
+                                spaceBetween: 32,
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 0
+                                    },
+                                    576: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!-- -->
+
+            <!-- Новости -->
+                <section class="w-100 py-4 py-md-4 py-lg-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold t-center">Новости</h2>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-sale40.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                11.10.2020 в 12:45
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Скидки на 40% на продукты<br>
+                                            “1C-Битрикс: Управление<br>
+                                            сайтом” ...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-bx24.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                25.10.2020 в 15:52
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Акция «Великолепная<br>
+                                            восьмерка» - скидки до<br>
+                                            40% на Битрикс24
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/tarig-hostin.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                30.10.2020 в 11:27
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Изменение тарифов<br>
+                                            виртуального хостинга с<br>
+                                            11 июля 2019 года
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/sectetSale.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                01.11.2020 в 18:10
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Секретная распродажа:<br>
+                                            Скидка 50% на продление<br>
+                                            «1С-Битрикс: Управле...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-lg-0">
+                                <a href="" class="simai--newsList d-block c-black  r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/sectetSale.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                15.11.2020 в 15:05
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Черная пятница продаж:<br>
+                                            Скидки до 50% на Битрикс<br>
+                                            только 1 день!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-lg-0">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/newsShool.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                24.11.2020 в 13:40
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Хватай Симай, пока май!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/8mart.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                29.11.2020 в 17:00
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            С праздником 8 марта!<br>
+                                            Скидки до 18% на готовые<br>
+                                            решения SIMAI!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                                <a href="" class="simai--newsList d-block c-black r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/news-sale40.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                02.12.2020 в 12:35
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Приходите на бесплатную<br>
+                                            конференцию “Бизнес24” в<br>
+                                            Уфе 5 апреля!
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Отзывы -->
+                <section class="simai--review w-100 py-4 py-sm-5 py-lg-5 bg-cover bg-position-cc bg-secondary">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="swiper-container simai--reviewSlider">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-7 py-3 py-sm-4 px-3 px-md-5 r-2">
+                                                <span class="mr-4 mt-2 d-none d-sm-block">
+                                                    <svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.54297 25.1582L0.416016 21.6426C3.47591 17.3783 5.07096 12.9837 5.20117 8.45898V0.304688H14.0391V7.38477C14.0391 10.6725 13.2253 13.9603 11.5977 17.248C10.0026 20.5358 7.98438 23.1725 5.54297 25.1582Z" fill="#C0C0C0"/>
+                                                        <path d="M25.1719 25.1582L20.0449 21.6426C23.1048 17.3783 24.6999 12.9837 24.8301 8.45898V0.304688H33.668V7.38477C33.668 10.6725 32.8542 13.9603 31.2266 17.248C29.6315 20.5358 27.6133 23.1725 25.1719 25.1582Z" fill="#C0C0C0"/>
+                                                    </svg>                                                                                                                                                                             
+                                                </span>
+                                                <div class="d-flex flex-column w-100">
+                                                    <span class="t--1 t-lg-0">
+                                                        Нам срочно требовалась разработка сайта для нашего образовательного центра и время очень сильно поджимало.
+                                                        Однако сам сайт требовался с весьма насыщенным функционалом. В сети нашел данную студию, созвонился и был удивлен,
+                                                        что есть эффектные и функциональные решения именно для нашей сферы деятельности. Выражаю огромную благодарность
+                                                        данной студии SIMAI и отдельно Натальи за подробные консультации и помощь на всех этапах работы. Теперь буду всегда
+                                                        рекомендовать вашу компанию для решения подобных задач ... 
+                                                    </span>
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 t--1">
+                                                        <span class="t-bold t-solid mb-3 mb-sm-3 mb-md-3 mb-lg-0">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
+                                                        <a href="/" class="bb-1 c-gray-6 b-gray-6">Читать весь отзыв</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                            <div class="d-flex flex-column flex-sm-row bg-white col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-7 py-3 py-sm-4 px-3 px-md-5 r-2">
+                                                <span class="mr-4 mt-2 d-none d-sm-block">
+                                                    <svg width="34" height="26" viewBox="0 0 34 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5.54297 25.1582L0.416016 21.6426C3.47591 17.3783 5.07096 12.9837 5.20117 8.45898V0.304688H14.0391V7.38477C14.0391 10.6725 13.2253 13.9603 11.5977 17.248C10.0026 20.5358 7.98438 23.1725 5.54297 25.1582Z" fill="#C0C0C0"/>
+                                                        <path d="M25.1719 25.1582L20.0449 21.6426C23.1048 17.3783 24.6999 12.9837 24.8301 8.45898V0.304688H33.668V7.38477C33.668 10.6725 32.8542 13.9603 31.2266 17.248C29.6315 20.5358 27.6133 23.1725 25.1719 25.1582Z" fill="#C0C0C0"/>
+                                                    </svg>                                                                                                                                                                             
+                                                </span>
+                                                <div class="d-flex flex-column w-100">
+                                                    <span class="t--1 t-lg-0">
+                                                        Нам срочно требовалась разработка сайта для нашего образовательного центра и время очень сильно поджимало.
+                                                        Однако сам сайт требовался с весьма насыщенным функционалом. В сети нашел данную студию, созвонился и был удивлен,
+                                                        что есть эффектные и функциональные решения именно для нашей сферы деятельности. Выражаю огромную благодарность
+                                                        данной студии SIMAI и отдельно Натальи за подробные консультации и помощь на всех этапах работы. Теперь буду всегда
+                                                        рекомендовать вашу компанию для решения подобных задач ... 
+                                                    </span>
+                                                    <div class="d-flex flex-wrap justify-content-between align-items-center mt-4 t--1">
+                                                        <span class="t-bold t-solid mb-3 mb-sm-3 mb-md-3 mb-lg-0">- Николай Галустян / Заместитель директора МОАУ СОШ №33 -</span>
+                                                        <a href="/" class="bb-1 c-gray-6 b-gray-6">Читать весь отзыв</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="w-100 position-absolute ar-0 ab--3 ab-sm--4 al-0">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 d-flex justify-content-center">
+                                                <div class="swiper-pagination bulletsSimaiMainSlider paginationSimaiReviewSlider position-relative"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--reviewSliderPrev position-aboslute c-6778D3 al-3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex z-1">
+                                    <i class="fas fa-angle-left"></i>                                               
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--reviewSliderNext position-aboslute c-6778D3 ar-3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex z-1">
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiReviewSlider = new Swiper(
+                            ".simai--reviewSlider", {
+                            pagination: {
+                                el: ".paginationSimaiReviewSlider",
+                                clickable: true,
+                            },
+                            navigation: {
+                                nextEl: ".simai--reviewSliderNext",
+                                prevEl: ".simai--reviewSliderPrev",
+                                disabledClass : 'c-DBDFE3'
+                            },
+                        });
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Клиенты -->
+                <section class="w-100 py-4 py-md-4 py-lg-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold">Наши клиенты</h2>
+                            </div>
+                            <div class="col-12">
+                                <div class="swiper-container simai--clientSlider">
+                                    <div class="swiper-wrapper h-auto">
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/bashneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/transneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/rosneft.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/bash-g.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/peton.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/ikea.jpg"></div>
+                                        </div>
+                                        <div class="swiper-slide bg-white p-2">
+                                            <div class="swiper-lazy aspect-ratio-1x1 bg-cover bg-position-cc w-100" data-background="./image/ikea.jpg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionPrev simai--clientSliderPrev position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                    <i class="fas fa-angle-left"></i>
+                                </div>
+
+                                <div class="btnSimaiSolution btnSimaiSolutionNext simai--clientSliderNext position-aboslute c-6778D3 t-3 d-none d-sm-none d-md-none d-lg-none d-xl-flex">
+                                    <i class="fas fa-angle-right"></i>                                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <script>
+                    window.addEventListener('DOMContentLoaded', function(e) {
+                        var simaiReviewSlider = new Swiper(
+                            ".simai--clientSlider",
+                            {
+                                lazy: true,
+                                autoHeight : true,
+                                slidesPerView: 6,
+                                spaceBetween: 32,
+                                navigation: {
+                                    nextEl: ".simai--clientSliderNext",
+                                    prevEl: ".simai--clientSliderPrev",
+                                    disabledClass : 'c-DBDFE3'
+                                },
+                                breakpoints: {
+                                    320: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 32
+                                    },
+                                    576: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 32
+                                    },
+                                    768: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 32
+                                    },
+                                    992: {
+                                        slidesPerView: 5,
+                                        spaceBetween: 32
+                                    },
+                                    1200: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 32
+                                    },
+                                    1320: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 32
+                                    }
+                                }
+                            }
+                        );
+                    })
+                </script>
+            <!--  -->
+
+            <!-- Горизонтальная линия -->
+                <section class="w-100">
+                    <div class="container">
+                        <div class="position-relative">
+                            <div class="w-100 bt-1 b-gray-5"></div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Статьи -->
+                <section class="w-100 py-4 py-md-4 py-lg-5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="t-2 mb-4 t-bold t-center">Статьи</h2>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-1.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Что выбрать среднему<br>
+                                            специальному учебному<br>
+                                            заведению? Сравне...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="ccol-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-2.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Как бесплатно создать<br>
+                                            персональный сайт<br>
+                                            учителя?
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-3.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            7 причин, почему<br>
+                                            учителю нужен<br>
+                                            персональный сайт
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-4.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Новое решение SIMAI для<br>
+                                            учебных и тренинговых<br>
+                                            центров – всё для... 
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-xl-0">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-5.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Как быстро привести<br>
+                                            сайт медицинской<br>
+                                            организации в...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-xl-0">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-6.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="mr-2 c-primary date--icon">
+                                                <i class="fal fa-calendar-alt"></i>
+                                            </span>
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Как быстро привести<br>
+                                            сайт образовательной<br>
+                                            организации в...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-4 mb-md-0">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-7.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            Сравнение решений<br>
+                                            «SIMAI: Сайт<br>
+                                            медицинской ...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                                <a href="" class="simai--arcticleList c-black d-block r-2 bg-white w-100 h-100 overflow-hidden">
+                                    <div class="newsList--image aspect-ratio-4x3 w-100 bg-cover bg-position-cc lazyload" data-bg="./image/article-8.jpg"></div>
+                                    <div class="newsList--content py-3">
+                                        <div class="content--date d-flex w-100 o-6 t--1 align-items-center mb-2">
+                                            <span class="date--text t--2">
+                                                08 Октября 2019
+                                            </span>
+                                        </div>
+                                        <h4 class="content--text t-0 t-medium mb-0 hover:c-primary transition">
+                                            3 секрета создания<br>
+                                            правильного сайта<br>
+                                            благотворительного...
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+            <!-- Карта -->
+                <section class="w-100">
+                    <div class="w-100 simai--map" style="height:560px" id="simai--map"></div>
+                    <script data-scip-moving="true" src="https://api-maps.yandex.ru/2.1/?lang=ru-RU&load=package.full"></script>
+					<script>
+						ymaps.load(initYMap_10);
+						function initYMap_10() {
+
+                            if(window.innerWidth >=768)
+                            {
+                                document.querySelector('#simai--map').style.height = '560px'
+                            } else {
+                                document.querySelector('#simai--map').style.height = '400px'
+                            }
+
+							var map_10 = new ymaps.Map('simai--map', {
+								center: [51.955384, 85.948165],
+								zoom: 16,
+								controls: ['zoomControl'],
+							});
+
+							map_10.setType('yandex#map');
+							map_10.behaviors
+								.disable('scrollZoom');
+
+                                	
+                            var placemark_10 = new ymaps.Placemark(
+                                [51.955384, 85.948165],
+                                {
+                                    balloonContent:
+                                        '<div class="p-1  r-3" style="max-width:320px">' +
+                                            '<div class="row">' +
+                                                '<div class="col-5">' +
+                                                    '<div class="aspect-ratio-4x3 bg-cover bg-position-cc lazyload r-3" data-bg="./image/bg-solution.jpg"></div>' +
+                                                '</div>' +
+                                                '<div class="col-7 pl-0">' +
+                                                    '<div class="d-flex flex-column">' +
+                                                        '<h3 class="mb-2 t--1 t-bold">Министерство образования Республики Алтай</h3>' +
+                                                        '<span class="t--3 o-3">Государство</span>' +
+                                                        '<p class="mb-0 t--2">SIMAI: Портал образовательных организаций</p>' +
+                                                    '</div>' +
+                                                '</div>' +
+                                            '</div>' +
+                                        '</div>',
+                                },
+                                {
+                                    iconLayout: 'default#image',
+                                    //iconImageClipRect: [[0,0], [26, 46]],
+                                    iconImageHref: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTI1NiwwQzE2MS44OTYsMCw4NS4zMzMsNzYuNTYzLDg1LjMzMywxNzAuNjY3YzAsMjguMjUsNy4wNjMsNTYuMjYsMjAuNDksODEuMTA0TDI0Ni42NjcsNTA2LjUgICAgYzEuODc1LDMuMzk2LDUuNDQ4LDUuNSw5LjMzMyw1LjVzNy40NTgtMi4xMDQsOS4zMzMtNS41bDE0MC44OTYtMjU0LjgxM2MxMy4zNzUtMjQuNzYsMjAuNDM4LTUyLjc3MSwyMC40MzgtODEuMDIxICAgIEM0MjYuNjY3LDc2LjU2MywzNTAuMTA0LDAsMjU2LDB6IE0yNTYsMjU2Yy00Ny4wNTIsMC04NS4zMzMtMzguMjgxLTg1LjMzMy04NS4zMzNjMC00Ny4wNTIsMzguMjgxLTg1LjMzMyw4NS4zMzMtODUuMzMzICAgIHM4NS4zMzMsMzguMjgxLDg1LjMzMyw4NS4zMzNDMzQxLjMzMywyMTcuNzE5LDMwMy4wNTIsMjU2LDI1NiwyNTZ6IiBmaWxsPSIjZmY2NTY4IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+Cgk8L2c+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==',
+                                    iconImageSize: [40, 40],
+                                    iconImageOffset: [0, 0],
+                                }
+                            );
+							map_10.geoObjects.add(placemark_10);
+
+
+						}
+					</script>
+                </section>
+            <!--  -->
+
+            <!-- Меню футера -->
+                <section class="simai--footerMenu w-100 py-4 py-md-4 py-lg-5 c-white t-normal bg-51556F">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-lg-3 col-xl-3 mb-4 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">О нас</h4>
+                                <div class="t--1 t-solid">
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon mr-2"><i class="fas fa-map-marker-alt"></i></span>
+                                        <span class="prefooter--text">г. Уфа, ул. Чернышевского, д. 82</span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon mr-2"><i class="fas fa-phone"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="" href="tel:+7 (800) 200-0865">+7 (800) 200-0865 (РФ)</a>
+                                        </span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center mb-3">
+                                        <span class="prefooter--icon mr-2"><i class="fas fa-phone"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="" href="tel:+7 (347) 246-8500">+7 (347) 246-8500 (Уфа)</a>
+                                        </span>
+                                    </div>
+                                    <div class="prefooter--content d-flex align-items-center">
+                                        <span class="prefooter--icon mr-2"><i class="fas fa-envelope"></i></span>
+                                        <span class="prefooter--text">
+                                            <a class="" href="mailto:sale@simai.ru">sale@simai.ru</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="mt-4 mt-lg-5 d-flex simai--footerSocial">
+                                    <a href="" class="social--item bg-vk align-items-center d-flex justify-content-center mr-2 p-2 r-7 t--3 t-solid">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a href="" class="social--item bg-ok align-items-center d-flex justify-content-center mr-2 p-2 r-7 t--3 t-solid">
+                                        <i class="fab fa-odnoklassniki"></i>
+                                    </a>
+                                    <a href="" class="social--item bg-fb align-items-center d-flex justify-content-center mr-2 p-2 r-7 t--3 t-solid">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="" class="social--item bg-tw align-items-center d-flex justify-content-center mr-2 p-2 r-7 t--3 t-solid">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="social--item bg-yt align-items-center d-flex justify-content-center p-2 r-7 t--3 t-solid">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3 col-xl-3 mb-4 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Готовые решения</h4>
+                                <ul class="t-list m-0 p-0 t--1">
+                                    <li class="mb-3">
+                                        <a class="" href="/">Государственным организациям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Медицинским организациям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Образовательным учреждениям</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Учреждениям культуры</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Научным организациям</a>
+                                    </li>
+                                    <li class="">
+                                        <a class="" href="/">Некоммерческим организациям</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Услуги</h4>
+                                <ul class="t-list m-0 p-0 t--1">
+                                    <li class="mb-3">
+                                        <a class="" href="/">Интернет-проекты</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Корпоративный портал</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Хостинг и домены</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Создание панорам</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-3 col-xl-3 d-flex flex-column">
+                                <h4 class="mb-0 pb-3 t-1 t-medium">Поддержка</h4>
+                                <ul class="t-list m-0 p-0 t--1">
+                                    <li class="mb-3">
+                                        <a class="" href="/">Оставить заявку</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">База знаний</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Учебные курсы</a>
+                                    </li>
+                                    <li class="mb-3">
+                                        <a class="" href="/">Регламент техподдержки</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+
+        </main>
+
+        <footer class="">
+            <!-- Футер -->
+                <section class="w-100 py-4 t-medium">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xl-6 d-flex flex-wrap justify-content-start mb-3 mb-lg-0">
+                                <a class="c-black t--2 mr-3 o-5" href="/">Конфиденциальность</a>
+                                <a class="c-black t--2 o-5" href="/">Публичная оферта</a>
+                                <span class="ml-sm-5 ml-lg-3 ml-xl-5 c-black t--2 o-5">© 2007 - 2020, Компания SIMAI</span>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-2 col-xl-2 d-flex justify-content-start justify-content-sm-start justify-content-md-start justify-content-lg-center align-items-center mb-3 mb-lg-0">
+                                <span class="footer--icon mr-3">
+                                    <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.149404 12.1245C0.0669862 12.1245 0 12.1909 0 12.2729V13.9243C0 14.0067 0.0669862 14.0727 0.149404 14.0727H9.59149C9.67414 14.0727 9.74078 14.0067 9.74078 13.9243V12.2729C9.74078 12.1909 9.67414 12.1245 9.59149 12.1245H0.149404Z" fill="#F25241"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.82585 0C5.84953 0 6.17143 0.735943 6.44021 1.47234C6.55438 1.78438 9.21396 9.09346 9.29358 9.31263C9.31555 9.37356 9.30128 9.47485 9.20671 9.51043C9.11247 9.54635 7.73064 10.0857 7.65475 10.1147C7.57807 10.1432 7.4921 10.1005 7.4639 10.0247C7.43536 9.94899 6.86292 8.35547 6.7979 8.17666H2.85776C2.79274 8.35547 2.2143 9.95172 2.18779 10.0247C2.16095 10.0977 2.07793 10.1466 1.99728 10.1147C1.91675 10.0823 0.528349 9.54203 0.444647 9.51043C0.366041 9.48019 0.330815 9.38959 0.358452 9.31263C0.455973 9.03856 3.07511 1.84725 3.20888 1.47234C3.46837 0.747198 3.80182 0 4.82585 0ZM4.81756 2.38688L3.48488 6.40195H6.17107L4.83443 2.38688H4.81756Z" fill="#F25241"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="13" height="16" viewBox="0 0 13 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.740891 7.5802C0.740891 6.72207 0.814567 6.17757 2.63345 4.85103C4.13935 3.75285 8.96611 0 8.96611 0V6.26471H12.6368V15.2812H1.88742C1.25684 15.2812 0.740723 14.7769 0.740723 14.1609L0.740891 7.5802Z" fill="#F9C637"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.96626 6.26416V9.89415L2.22119 14.3833L10.7492 11.6725V6.26416H8.96626Z" fill="#C8A332"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.8837 6.07784C6.27812 5.61866 6.85414 5.45652 7.17049 5.71586C7.48679 5.9752 7.42357 6.55778 7.0291 7.0169C6.63485 7.47602 6.05867 7.63794 5.74231 7.3786C5.42601 7.11932 5.4894 6.53696 5.8837 6.07784Z" fill="#000106"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8609 0H1.41252C0.985919 0 0.636719 0.34905 0.636719 0.7758C0.636719 1.2027 0.985919 1.55175 1.41252 1.55175V0.7758H14.8609V1.55175C15.2875 1.55175 15.6367 1.2027 15.6367 0.7758C15.6367 0.34905 15.2875 0 14.8609 0Z" fill="#3D465B"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.9298 13.1899L3.48155 14.7415L5.0333 13.1899L6.58505 14.7415L8.1368 13.1899L9.68855 14.7415L11.2403 13.1899L12.792 14.7415L14.3438 13.1899L14.861 13.707V0.775635H1.4126V13.7071L1.9298 13.1899Z" fill="#F0EDE0"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7572 10.6039H7.87789C7.73509 10.6039 7.61914 10.4884 7.61914 10.3452C7.61914 10.2022 7.73524 10.0866 7.87804 10.0866H11.7573C11.8998 10.0866 12.0159 10.2024 12.0159 10.3453C12.0159 10.4884 11.9 10.6041 11.7573 10.6041L11.7572 10.6039ZM13.0502 10.6039C12.983 10.6039 12.9158 10.5754 12.8667 10.5289C12.8202 10.4797 12.7917 10.4125 12.7917 10.3452C12.7917 10.2753 12.8202 10.2105 12.8667 10.1616C12.965 10.066 13.1355 10.066 13.2338 10.1616C13.2803 10.2106 13.3088 10.2756 13.3088 10.3453C13.3088 10.4128 13.2803 10.4799 13.2338 10.5291C13.1849 10.5756 13.1175 10.6041 13.0502 10.6041V10.6039ZM13.0502 6.98292H9.17089C9.02839 6.98292 8.91229 6.86742 8.91229 6.72462C8.91229 6.58152 9.02824 6.46602 9.17089 6.46602H13.0502C13.193 6.46602 13.3088 6.58152 13.3088 6.72462C13.3088 6.86757 13.193 6.98307 13.0502 6.98307V6.98292ZM13.0502 8.79342H10.4642C10.3212 8.79342 10.2054 8.67792 10.2054 8.53497C10.2054 8.39202 10.3212 8.27622 10.464 8.27622H13.05C13.193 8.27622 13.3088 8.39202 13.3088 8.53497C13.3088 8.67792 13.193 8.79357 13.0502 8.79357V8.79342ZM8.39509 8.79342H7.87789C7.73509 8.79342 7.61914 8.67792 7.61914 8.53497C7.61914 8.39202 7.73524 8.27622 7.87804 8.27622H8.39524C8.53804 8.27622 8.65399 8.39202 8.65399 8.53497C8.65399 8.67792 8.53789 8.79357 8.39509 8.79357V8.79342ZM11.7572 5.17287H7.87789C7.73509 5.17287 7.61914 5.05737 7.61914 4.91427C7.61914 4.77102 7.73524 4.65552 7.87804 4.65552H11.7573C11.8998 4.65552 12.0159 4.77102 12.0159 4.91412C12.0159 5.05707 11.9 5.17257 11.7573 5.17257L11.7572 5.17287ZM13.0502 5.17287C12.983 5.17287 12.9158 5.14437 12.8667 5.09787C12.8202 5.04867 12.7917 4.98147 12.7917 4.91427C12.7917 4.84407 12.8202 4.77927 12.8667 4.73052C12.9624 4.63452 13.1382 4.63452 13.2338 4.73052C13.2803 4.77927 13.3088 4.84692 13.3088 4.91412C13.3088 4.98117 13.2803 5.04837 13.2338 5.09757C13.1849 5.14407 13.1201 5.17257 13.0502 5.17257V5.17287ZM8.13649 6.98292C8.06899 6.98292 8.00194 6.95472 7.95289 6.90792C7.90639 6.85917 7.87789 6.79437 7.87789 6.72462C7.87789 6.65457 7.90639 6.58992 7.95289 6.54102C8.05114 6.44532 8.22439 6.44532 8.32009 6.54102C8.36659 6.58992 8.39509 6.65457 8.39509 6.72462C8.39509 6.79437 8.36659 6.85917 8.32009 6.90807C8.27089 6.95487 8.20384 6.98307 8.13649 6.98307V6.98292ZM9.42949 8.79342C9.36229 8.79342 9.29509 8.76492 9.24589 8.71842C9.19939 8.66937 9.17089 8.60217 9.17089 8.53497C9.17089 8.46747 9.19939 8.40027 9.24589 8.35122C9.34414 8.25567 9.51739 8.25567 9.61339 8.35122C9.65989 8.39772 9.68839 8.46477 9.68839 8.53497C9.68839 8.60487 9.65989 8.66937 9.61339 8.71857C9.56389 8.76507 9.49669 8.79357 9.42964 8.79357L9.42949 8.79342Z" fill="#D4C3A5"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.18829 2.8442C2.12109 2.8442 2.05374 2.8157 2.00469 2.7692C1.95819 2.72015 1.92969 2.65295 1.92969 2.5856C1.92969 2.5187 1.95819 2.45105 2.00469 2.4023C2.10309 2.3066 2.27619 2.3066 2.37219 2.4023C2.41869 2.45105 2.44719 2.5187 2.44719 2.58575C2.44719 2.65325 2.41869 2.72045 2.37219 2.7695C2.32299 2.816 2.25564 2.8445 2.18844 2.8445L2.18829 2.8442ZM12.8356 2.58545C12.8356 2.4434 12.9496 2.32715 13.0943 2.32715C13.2364 2.32715 13.3529 2.4434 13.3529 2.5856C13.3529 2.7281 13.2364 2.84435 13.0943 2.84435C12.9494 2.84435 12.8356 2.7281 12.8356 2.58575V2.58545ZM11.8426 2.58545C11.8426 2.4434 11.9588 2.32715 12.1012 2.32715C12.2462 2.32715 12.3599 2.4434 12.3599 2.5856C12.3599 2.7281 12.2462 2.84435 12.1013 2.84435C11.9591 2.84435 11.8429 2.7281 11.8429 2.58575L11.8426 2.58545ZM10.852 2.58545C10.852 2.4434 10.9684 2.32715 11.1106 2.32715C11.2531 2.32715 11.3693 2.4434 11.3693 2.5856C11.3693 2.7281 11.2529 2.84435 11.1106 2.84435C10.9684 2.84435 10.852 2.7281 10.852 2.58575V2.58545ZM9.86154 2.58545C9.86154 2.4434 9.97554 2.32715 10.1201 2.32715C10.2623 2.32715 10.3787 2.4434 10.3787 2.5856C10.3787 2.7281 10.2623 2.84435 10.1201 2.84435C9.97539 2.84435 9.86154 2.7281 9.86154 2.58575V2.58545ZM8.86854 2.58545C8.86854 2.4434 8.98479 2.32715 9.12714 2.32715C9.27174 2.32715 9.38559 2.4434 9.38559 2.5856C9.38559 2.7281 9.27159 2.84435 9.12714 2.84435C8.98464 2.84435 8.86839 2.7281 8.86839 2.58575L8.86854 2.58545ZM7.87794 2.58545C7.87794 2.4434 7.99419 2.32715 8.13654 2.32715C8.27904 2.32715 8.39514 2.4434 8.39514 2.5856C8.39514 2.7281 8.27889 2.84435 8.13654 2.84435C7.99404 2.84435 7.87794 2.7281 7.87794 2.58575V2.58545ZM6.88749 2.58545C6.88749 2.4434 7.00119 2.32715 7.14594 2.32715C7.28844 2.32715 7.40469 2.4434 7.40469 2.5856C7.40469 2.7281 7.28844 2.84435 7.14609 2.84435C7.00134 2.84435 6.88764 2.7281 6.88764 2.58575L6.88749 2.58545ZM5.89449 2.58545C5.89449 2.4434 6.01074 2.32715 6.15294 2.32715C6.29769 2.32715 6.41154 2.4434 6.41154 2.5856C6.41154 2.7281 6.29754 2.84435 6.15294 2.84435C6.01074 2.84435 5.89434 2.7281 5.89434 2.58575L5.89449 2.58545ZM4.90374 2.58545C4.90374 2.4434 5.02014 2.32715 5.16249 2.32715C5.30454 2.32715 5.42109 2.4434 5.42109 2.5856C5.42109 2.7281 5.30454 2.84435 5.16249 2.84435C5.01999 2.84435 4.90374 2.7281 4.90374 2.58575V2.58545ZM3.91314 2.58545C3.91314 2.4434 4.02714 2.32715 4.17189 2.32715C4.31409 2.32715 4.43034 2.4434 4.43034 2.5856C4.43034 2.7281 4.31409 2.84435 4.17174 2.84435C4.02669 2.84435 3.91284 2.7281 3.91284 2.58575L3.91314 2.58545ZM2.92014 2.58545C2.92014 2.4434 3.03654 2.32715 3.17874 2.32715C3.32364 2.32715 3.43734 2.4434 3.43734 2.5856C3.43734 2.7281 3.32364 2.84435 3.17874 2.84435C3.03654 2.84435 2.92014 2.7281 2.92014 2.58575V2.58545ZM14.0848 2.8442C14.015 2.8442 13.9502 2.8157 13.9012 2.76665C13.8547 2.72015 13.8262 2.65295 13.8262 2.5856C13.8262 2.5187 13.8547 2.45105 13.9012 2.4023C13.9945 2.3066 14.1703 2.3066 14.2687 2.4023C14.3152 2.45105 14.3437 2.5187 14.3437 2.58575C14.3437 2.65325 14.3152 2.72045 14.2687 2.7695C14.2195 2.816 14.1521 2.8445 14.0849 2.8445L14.0848 2.8442Z" fill="#A5A5A4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.0781 7.77625H3.6679V8.28175C3.6679 8.3065 3.6757 8.32675 3.6916 8.34235C3.70735 8.35825 3.7276 8.36635 3.75205 8.36635H4.192C4.21495 8.36635 4.2346 8.35825 4.2514 8.34235C4.2679 8.3266 4.27615 8.30635 4.27615 8.2819V7.7764H5.60605C5.6308 7.7764 5.65105 7.7683 5.6668 7.7527C5.68255 7.7368 5.6905 7.7167 5.6905 7.6921V7.3549C5.6905 7.3303 5.68255 7.3099 5.6668 7.2943C5.65105 7.27855 5.6308 7.2706 5.6062 7.2706H4.27645V6.9601H5.17195C5.52295 6.9601 5.80945 6.85285 6.03145 6.6385C6.25345 6.4246 6.36475 6.148 6.36475 5.809C6.36475 5.47045 6.25375 5.194 6.03175 4.9795C5.80945 4.7656 5.52295 4.6582 5.1718 4.6582H3.75205C3.7276 4.6582 3.7075 4.66615 3.69175 4.6822C3.67585 4.6978 3.66775 4.7182 3.66775 4.7425V6.3991H3.07825C3.0535 6.3991 3.03325 6.4072 3.0175 6.424C3.0016 6.4405 2.9938 6.46045 2.9938 6.4834V6.87565C2.9938 6.9001 3.0016 6.9202 3.0175 6.93595C3.0334 6.952 3.0535 6.95995 3.0781 6.95995H3.6679V7.27045H3.07795C3.05335 7.27045 3.03325 7.2784 3.01735 7.29415C3.00145 7.3099 2.99365 7.33015 2.99365 7.35475V7.6918C2.99365 7.7167 3.00145 7.7368 3.01735 7.7527C3.03325 7.7683 3.05335 7.77625 3.07795 7.77625H3.0781ZM4.2763 5.2192H5.11885C5.30485 5.2192 5.45485 5.27365 5.5693 5.3827C5.6833 5.49145 5.7403 5.63365 5.7403 5.80915C5.7403 5.98465 5.6833 6.12685 5.5693 6.2356C5.455 6.3445 5.305 6.3991 5.11885 6.3991H4.2763V5.21905V5.2192Z" fill="#24AE5F"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon mr-3">
+                                    <svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.0217 10.7201L13.2949 10.7003L13.5628 10.666L13.8287 10.6189L14.0874 10.5592L14.3426 10.4868L14.5922 10.4018L14.8365 10.3059L15.0752 10.1974L15.3069 10.0797L15.5313 9.94942L15.7502 9.81012L15.96 9.66L16.1627 9.50078L16.3581 9.33246L16.5444 9.15341L16.7236 8.96698L16.8918 8.77154L17.051 8.56892L17.2011 8.35912L17.3404 8.14012L17.4708 7.91575L17.5884 7.6842L17.6969 7.44527L17.7928 7.20117L17.8779 6.95132L17.9503 6.6963L18.01 6.43754L18.057 6.1716L18.0913 5.90384L18.1113 5.63061L18.1185 5.35375L18.1113 5.0787L18.0913 4.80739L18.057 4.53953L18.01 4.27723L17.9503 4.01847L17.8779 3.76517L17.7928 3.51552L17.6969 3.27304L17.5884 3.03603L17.4708 2.80448L17.3404 2.58193L17.2011 2.36293L17.051 2.15303L16.8918 1.95223L16.7236 1.7569L16.5444 1.57047L16.3581 1.39314L16.1627 1.22491L15.96 1.06569L15.7502 0.915475L15.5313 0.77618L15.3069 0.647711L15.0752 0.530163L14.8365 0.421525L14.5922 0.325724L14.3426 0.240652L14.0874 0.168227L13.8287 0.108543L13.5628 0.0615043L13.2949 0.0271117L13.0217 0.00728088L12.7449 0L12.4699 0.00728088L12.1966 0.0271117L11.9289 0.0615043L11.6647 0.108543L11.406 0.168227L11.1509 0.240652L10.903 0.325724L10.6588 0.421525L10.4218 0.530163L10.1919 0.647711L9.96766 0.77618L9.75048 0.915475L9.54058 1.06569L9.33797 1.22491L9.14435 1.39314L8.95802 1.57047L8.7807 1.7569L8.61247 1.95223L8.45325 2.15303L8.30486 2.36293L8.16547 2.58193L8.03709 2.80448L7.91773 3.03603L7.81091 3.27304L7.71501 3.51552L7.63186 3.76517L7.55943 4.01847L7.49975 4.27723L7.45271 4.53953L7.41832 4.80739L7.39839 5.0787L7.39111 5.35375L7.39839 5.63061L7.41832 5.90384L7.45271 6.1716L7.49975 6.43754L7.55943 6.6963L7.63186 6.95132L7.71501 7.20117L7.81091 7.44527L7.91773 7.6842L8.03709 7.91575L8.16547 8.14012L8.30486 8.35912L8.45325 8.56892L8.61247 8.77154L8.7807 8.96698L8.95802 9.15341L9.14435 9.33246L9.33797 9.50078L9.54058 9.66L9.75048 9.81012L9.96766 9.94942L10.1919 10.0797L10.4218 10.1974L10.6588 10.3059L10.903 10.4018L11.1509 10.4868L11.406 10.5592L11.6647 10.6189L11.9289 10.666L12.1966 10.7003L12.4699 10.7201L12.7449 10.7274L13.0217 10.7201Z" fill="#F2AD3D"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.01039 10.7282L6.28544 10.7209L6.55866 10.701L6.82642 10.6667L7.09055 10.6196L7.34931 10.5599L7.60443 10.4875L7.85226 10.4025L8.09656 10.3066L8.33357 10.1981L8.5633 10.0804L8.78776 9.95015L9.00484 9.81086L9.21475 9.66074L9.41736 9.50151L9.61088 9.33319L9.79731 9.15414L9.97464 8.96771L10.1429 8.77228L10.3021 8.56966L10.4505 8.35985L10.5898 8.14085L10.7182 7.91649L10.8376 7.68494L10.9443 7.44601L11.0403 7.20191L11.1235 6.95206L11.1958 6.69703L11.2556 6.43828L11.3026 6.17233L11.337 5.90457L11.357 5.63134L11.3641 5.35448L11.357 5.07943L11.337 4.80813L11.3026 4.54027L11.2556 4.27796L11.1958 4.0192L11.1235 3.76591L11.0403 3.51625L10.9443 3.27378L10.8376 3.03676L10.7182 2.80521L10.5898 2.58267L10.4505 2.36367L10.3021 2.15377L10.1429 1.95297L9.97464 1.75763L9.79731 1.5712L9.61088 1.39387L9.41736 1.22564L9.21475 1.06642L9.00484 0.916207L8.78776 0.776913L8.5633 0.648443L8.33357 0.530895L8.09656 0.422257L7.85226 0.326456L7.60443 0.241385L7.34931 0.168959L7.09055 0.109275L6.82642 0.0622367L6.55866 0.0278441L6.28544 0.0080133L6.01039 0.000732422L5.73362 0.0080133L5.4604 0.0278441L5.19254 0.0622367L4.92659 0.109275L4.66793 0.168959L4.41281 0.241385L4.16306 0.326456L3.91877 0.422257L3.68003 0.530895L3.44838 0.648443L3.22402 0.776913L3.00511 0.916207L2.79521 1.06642L2.59259 1.22564L2.39716 1.39387L2.21083 1.5712L2.03168 1.75763L1.86345 1.95297L1.70423 2.15377L1.55401 2.36367L1.41472 2.58267L1.28443 2.80521L1.16679 3.03676L1.05834 3.27378L0.962442 3.51625L0.877371 3.76591L0.804945 4.0192L0.745261 4.27796L0.698223 4.54027L0.66383 4.80813L0.643904 5.07943L0.636719 5.35448L0.643904 5.63134L0.66383 5.90457L0.698223 6.17233L0.745261 6.43828L0.804945 6.69703L0.877371 6.95206L0.962442 7.20191L1.05834 7.44601L1.16679 7.68494L1.28443 7.91649L1.41472 8.14085L1.55401 8.35985L1.70423 8.56966L1.86345 8.77228L2.03168 8.96771L2.21083 9.15414L2.39716 9.33319L2.59259 9.50151L2.79521 9.66074L3.00511 9.81086L3.22402 9.95015L3.44838 10.0804L3.68003 10.1981L3.91877 10.3066L4.16306 10.4025L4.41281 10.4875L4.66793 10.5599L4.92659 10.6196L5.19254 10.6667L5.4604 10.701L5.73362 10.7209L6.01039 10.7282Z" fill="#D82331"/>
+                                        <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M9.37626 9.52963C9.38274 9.52963 11.3642 8.12406 11.3642 5.36351C11.3642 2.60297 9.38274 1.19214 9.38274 1.19214C8.16785 2.17547 7.39111 3.67878 7.39111 5.36351C7.39111 7.04525 8.16509 8.54621 9.37626 9.52963Z" fill="url(#paint0_linear)"/>
+                                    </svg>                                        
+                                </span>
+                                <span class="footer--icon">
+                                    <svg width="15" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.09254 0.0263672C8.18762 0.0263672 9.22474 0.281167 10.1482 0.733927C10.2934 0.802947 10.438 0.878687 10.5829 0.962127L9.94112 1.53697L8.97652 0.539607L7.34832 1.99169L6.38162 0.936087L3.34922 3.66973L5.29298 5.81243L4.52914 6.48415L6.44406 8.62979L5.68484 9.30039L8.42086 12.3459L10.0453 10.8507L11.4495 12.4529C11.1702 12.6699 10.866 12.8743 10.5307 13.063C9.51524 13.6422 8.34148 13.9737 7.09254 13.9737C3.25164 13.974 0.119141 10.8408 0.119141 7.00019C0.118861 3.15915 3.2515 0.0265072 7.09226 0.0265072L7.09254 0.0263672Z" fill="#006AB4"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.82161 6.55978L7.48005 5.0664L8.97343 6.72512L7.31485 8.21808L5.82175 6.55978H5.82161ZM7.00083 9.4253L8.65927 7.9322L10.1527 9.5905L8.49449 11.0843L7.00083 9.4253ZM4.63525 3.72786L6.29355 2.2349L7.78637 3.89306L6.12807 5.3863L4.63525 3.72786ZM7.67815 2.92412L8.92177 1.80454L10.0418 3.0483L8.79801 4.1683L7.67801 2.92412H7.67815ZM9.88805 8.05358L11.1321 6.93358L12.2521 8.17762L11.0083 9.29734L9.88805 8.05358ZM10.9823 10.5656L12.2255 9.4456L13.3455 10.6892L12.1019 11.8089L10.9823 10.5657V10.5656ZM11.4832 4.80782L12.312 4.06134L13.0588 4.89056L12.23 5.63676L11.4832 4.80768V4.80782ZM10.4237 2.34438L11.2529 1.5979L11.9994 2.4267L11.17 3.17346L10.4236 2.34438H10.4237ZM12.5433 7.2714L13.3724 6.52478L14.1189 7.354L13.2898 8.10048L12.5433 7.2714ZM8.82461 5.4255L10.0684 4.30522L11.1881 5.54898L9.94489 6.66898L8.82461 5.4255Z" fill="#006AB4"/>
+                                    </svg>                                        
+                                </span>
+                            </div>
+                            <div class="col-12 col-sm-6 col-lg-4 col-xl-4 d-flex justify-content-end">
+                                <a class="c-black t--2 o-5" href="/">Разработан на платформе SIMAI SF4</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            <!--  -->
+        </footer>
+
+        <script src="./asset/swiper/js/swiper.min.js"></script>
+        <script src="./asset/lazysizes/js/lazysizes.min.js"></script>
+        <script src="./asset/lazysizes/js/lazysizes-umd.min.js"></script>
+        <script src="./asset/tab/js/tabs.js"></script>
+        <script defer>
+            var btnSSNext = document.querySelectorAll('.btnSimaiSolutionNext');
+            var btnSSPrev = document.querySelectorAll('.btnSimaiSolutionPrev');
+            for(var k = 0; k < btnSSNext.length; k++) {
+                btnSSNext[k].addEventListener('click', function(e) {
+                    simaiSolution.slideNext();
+                });
+                btnSSPrev[k].addEventListener('click', function(e) {
+                    simaiSolution.slidePrev();
+                })
+            }
+
+            document.addEventListener('lazybeforeunveil', function(e){
+                var bg = e.target.getAttribute('data-bg');
+                if(bg){
+                    e.target.style.backgroundImage = 'url(' + bg + ')';
+                }
+            });
+
+        </script>
+    </body>
+</html>

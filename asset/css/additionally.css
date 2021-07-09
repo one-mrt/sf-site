@@ -233,3 +233,30 @@
     width:150px;
     height:150px;
 }
+
+.input-search:focus{box-shadow:none!important}
+
+.result--search {
+    max-height:400px
+}
+
+@media(min-width:576px) {
+    .result--search {
+        max-height:400px
+    }
+}
+@media(min-width:768px) {
+    .result--search {
+        max-height:500px
+    }
+}
+@media(min-width:992px) {
+    .result--search {
+        max-height:500px
+    }
+}
+@media(min-width:1200px) {
+    .result--search {
+        max-height:400px
+    }
+}
