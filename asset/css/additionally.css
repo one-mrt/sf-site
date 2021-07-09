@@ -17,6 +17,7 @@
 .b-51556E{border-color:#51556E!important}
 .bg-1A2B58{background-color:#1A2B58!important}
 .bg-005896{background-color:#005896!important}
+.bg-595D7A{background-color:#595D7A!important}
 .b-005896{border-color:#005896!important}
 .b-EFF310{border-color:#EFF310!important}
 .b-A1A1A1{border-color:#A1A1A1!important}
@@ -226,4 +227,9 @@
 
 .buy--btnDisable.btn:before {
     content:none!important;
+}
+
+.buy--icon {
+    width:150px;
+    height:150px;
 }
