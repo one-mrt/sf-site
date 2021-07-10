@@ -195,3 +195,17 @@
 .sidebar--tab.active{
     background-color:#F2F4F6!important
 }
+
+.training--header[aria-expanded="false"] svg line.line--vertical {
+    display: block;
+}
+
+.training--header[aria-expanded="true"] svg line.line--vertical {
+    display:none;
+}
+
+.training--content {
+    display:none
+}
+
+.training--content.show{display:block}
