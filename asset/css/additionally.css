@@ -183,3 +183,22 @@
     width:2.5rem;
     height:2.5rem;
 }
+
+.filter--list.dropdown{
+    min-width:240px;
+    position:relative;
+}
+.filter--list button[aria-expanded="true"] {
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    border-bottom:none!important;
+}
+.filter--list .dropdown-menu{
+    max-width:100%;
+    max-height:15rem;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    overflow-x:hidden;
+}
+
+.overflow-x-hidden{overflow-x:hidden}
