@@ -206,7 +206,6 @@
     background-color:#F2F4F6!important
 }
 
-
 .buy--tab.active > a {
     background-color:#F44236!important;
     border-color:#F44236!important;
@@ -335,3 +334,16 @@
 }
 
 .overflow-x-hidden{overflow-x:hidden}
+.training--header[aria-expanded="false"] svg line.line--vertical {
+    display: block;
+}
+
+.training--header[aria-expanded="true"] svg line.line--vertical {
+    display:none;
+}
+
+.training--content {
+    display:none
+}
+
+.training--content.show{display:block}
