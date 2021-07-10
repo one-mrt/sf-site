@@ -81,12 +81,13 @@
                     <div class="simaiNavigationFixed navigation-container no-fixed sf-nav-fixed theme-light vertical-submenu">
                         <div class="container-wrap w-100">
                             <div class="container nav-container">
-                                <nav class="sf-nav w-100 m-0 p-0 d-flex align-items-streach justify-content-between flex-row flex-wrap theme-light">
+                                <nav data-nav id="sf-nav-3wvjKR" class="sf-nav w-100 m-0 p-0 d-flex align-items-streach justify-content-between flex-row flex-wrap theme-light">
                                     <section class="left-section d-flex align-items-streach justify-content-between flex-row flex-wrap">
                                         
                                     </section>
-                                    <section class="center-section align-items-streach justify-content-start mobile-level sf-scroll">
+                                    <section class="center-section bg-212121 bg-xl-transparent c-fff c-xl-000 align-items-streach justify-content-start mobile-level sf-scroll">
                                         <button class="mobile-close sf-close" style="display:none"></button>
+                                        <h3 class="mobile-header m-0" style="display:none">Меню</h3>
                                         <ul class="nav-items d-inline-flex align-items-streach justify-content-start m-0 p-0">
                                             <li class="nav-item">
                                                 <a class="p-3 t--1 blackout item-link" href="/">
@@ -112,7 +113,7 @@
                                                         <h3 class="mobile-header m-0" style="display:none">Решения</h3>
                                                         <a class="nav-back w-100 align-items-center justify-content-start pt-3 pb-3" href="javascript:void(0)">
                                                             <span class="back-icon mr-2">
-                                                                <i class="fas fa-caret-lef"></i>
+                                                                <i class="fas fa-caret-left"></i>
                                                             </span>
                                                             <span class="back-text">
                                                                 Назад
@@ -359,6 +360,9 @@
                                         </ul>
                                     </section>
                                     <section class="right-section d-inline-flex align-items-streach justify-content-end flex-row flex-wrap t-1 c-black">
+                                        <button class="btn-mobile b-0 p-3 d-flex d-xl-none align-items-center justify-content-center t-solid"> 
+                                            <i class="far fa-bars fa-lg t-0" aria-hidden="true"></i>
+                                        </button>
                                         <a href="/" class="nav-btnBasket p-3 d-flex align-items-center justify-content-center">
                                             <i class="fal fa-shopping-cart"></i>
                                         </a>
@@ -1033,7 +1037,10 @@
         <script src="./asset/lazysizes/js/lazysizes.min.js"></script>
         <script src="./asset/lazysizes/js/lazysizes-umd.min.js"></script>
         <script src="./asset/tab/js/tabs.js"></script>
+        <script src="./asset/jquery/jquery-3.6.0.min.js"></script>
+        <script src="./asset/navigation/js/sf-nav.min.js"></script>
         <script defer>
+
             var btnSSNext = document.querySelectorAll('.btnSimaiSolutionNext');
             var btnSSPrev = document.querySelectorAll('.btnSimaiSolutionPrev');
             for(var k = 0; k < btnSSNext.length; k++) {
@@ -1050,6 +1057,30 @@
                 if(bg){
                     e.target.style.backgroundImage = 'url(' + bg + ')';
                 }
+            });
+    
+            window.addEventListener('DOMContentLoaded', function() {
+
+                $('#sf-nav-3wvjKR').sfNavMulti({
+                    searchContainer: false,
+                    horizontalSubmenu: false,
+                    transferHeadingItem: false,
+                    fixedFlag: false,
+                    fixedId: "#sf-fixed-id-3wvjKR",
+                    fixedClass: 'nav-fixed-3wvjKR nav-fixed',
+                    fullScreenFlag: false,
+                    transformFlag: false,
+                    transformPaddingOne: 'p-4 t-0',
+                    transformPaddingLower: ' t--1',
+                    transformEffectHover: 'blackout',
+                    transformTheme: 'theme-light child-color-submenu-3wvjKR', 
+                    mobileFlag: true,
+                });
+                setTimeout(() => {
+                    document.querySelectorAll('.sf-menu-loading.sf-menu-hidden').forEach((el) => {
+                        el.classList.remove('sf-menu-hidden');
+                    });
+                }, 100);
             });
 
         </script>
