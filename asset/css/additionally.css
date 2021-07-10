@@ -297,7 +297,7 @@
 }
 
 
-.sf-scroll::-webkit-scrollbar{width:1.5rem!important;height:auto!important;}
+.sf-scroll::-webkit-scrollbar{width:1.5rem!important;height:auto!important;background-color: inherit;}
 .sf-scroll::-webkit-scrollbar-thumb{
     height:.1875rem!important;
     border:.625rem solid transparent!important;
